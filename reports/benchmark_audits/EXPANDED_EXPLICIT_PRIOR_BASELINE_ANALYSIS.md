@@ -1,0 +1,57 @@
+# Expanded Explicit Prior Baseline Analysis
+
+## Purpose
+
+This analysis quantifies how much apparent predictive performance can be obtained from simple source, dataset, chemistry, or form-factor target priors without using cell-level early-cycle degradation features.
+
+## Summary
+
+        validation_mode                 target_variant                baseline_name  n_evaluations  mean_mae  median_mae    mean_r2  median_r2  mean_global_median_mae  mean_improvement_vs_global_train_median  median_improvement_vs_global_train_median
+  leave_one_dataset_out   target_dataset_mean_centered chemistry_form_factor_median             12  0.072019    0.048794  -2.111404  -0.017431                0.069294                                -0.002725                                   0.000000
+  leave_one_dataset_out   target_dataset_mean_centered             chemistry_median             12  0.074925    0.052054  -2.659874  -0.020535                0.069294                                -0.005631                                  -0.000319
+  leave_one_dataset_out   target_dataset_mean_centered            dataset_id_median             12  0.069294    0.048162  -0.316352  -0.033194                0.069294                                 0.000000                                   0.000000
+  leave_one_dataset_out   target_dataset_mean_centered           form_factor_median             12  0.069201    0.048226  -0.431074  -0.033661                0.069294                                 0.000093                                   0.000000
+  leave_one_dataset_out   target_dataset_mean_centered          global_train_median             12  0.069294    0.048162  -0.316352  -0.033194                0.069294                                 0.000000                                   0.000000
+  leave_one_dataset_out   target_dataset_mean_centered      source_chemistry_median             12  0.074925    0.052054  -2.659874  -0.020535                0.069294                                -0.005631                                  -0.000319
+  leave_one_dataset_out   target_dataset_mean_centered         source_family_median             12  0.069715    0.048274  -0.426156  -0.074327                0.069294                                -0.000421                                  -0.000331
+  leave_one_dataset_out target_dataset_median_centered chemistry_form_factor_median             12  0.065953    0.043866  -0.087855  -0.076071                0.065953                                 0.000000                                   0.000000
+  leave_one_dataset_out target_dataset_median_centered             chemistry_median             12  0.066207    0.043866  -0.091815  -0.076245                0.065953                                -0.000254                                   0.000000
+  leave_one_dataset_out target_dataset_median_centered            dataset_id_median             12  0.065953    0.043866  -0.087855  -0.076071                0.065953                                 0.000000                                   0.000000
+  leave_one_dataset_out target_dataset_median_centered           form_factor_median             12  0.065953    0.043866  -0.087855  -0.076071                0.065953                                 0.000000                                   0.000000
+  leave_one_dataset_out target_dataset_median_centered          global_train_median             12  0.065953    0.043866  -0.087855  -0.076071                0.065953                                 0.000000                                   0.000000
+  leave_one_dataset_out target_dataset_median_centered      source_chemistry_median             12  0.066207    0.043866  -0.091815  -0.076245                0.065953                                -0.000254                                   0.000000
+  leave_one_dataset_out target_dataset_median_centered         source_family_median             12  0.065953    0.043866  -0.087855  -0.076071                0.065953                                 0.000000                                   0.000000
+  leave_one_dataset_out                target_original chemistry_form_factor_median             12  0.298515    0.315594 -90.901481 -15.756983                0.232742                                -0.065774                                   0.000000
+  leave_one_dataset_out                target_original             chemistry_median             12  0.294392    0.315594 -89.424210  -8.395753                0.232742                                -0.061651                                  -0.000602
+  leave_one_dataset_out                target_original            dataset_id_median             12  0.232742    0.162897 -29.592726 -15.841808                0.232742                                 0.000000                                   0.000000
+  leave_one_dataset_out                target_original           form_factor_median             12  0.284282    0.283465 -71.895648 -10.089649                0.232742                                -0.051540                                  -0.002350
+  leave_one_dataset_out                target_original          global_train_median             12  0.232742    0.162897 -29.592726 -15.841808                0.232742                                 0.000000                                   0.000000
+  leave_one_dataset_out                target_original      source_chemistry_median             12  0.294392    0.315594 -89.424210  -8.395753                0.232742                                -0.061651                                  -0.000602
+  leave_one_dataset_out                target_original         source_family_median             12  0.223572    0.128424 -26.177477  -6.122782                0.232742                                 0.009169                                   0.017223
+random_stratified_split   target_dataset_mean_centered chemistry_form_factor_median            100  0.064595    0.064225  -0.043313  -0.034713                0.064820                                 0.000225                                   0.000442
+random_stratified_split   target_dataset_mean_centered             chemistry_median            100  0.065295    0.065114  -0.043806  -0.035711                0.064820                                -0.000475                                  -0.000362
+random_stratified_split   target_dataset_mean_centered            dataset_id_median            100  0.065041    0.065039  -0.164181  -0.154704                0.064820                                -0.000222                                   0.000157
+random_stratified_split   target_dataset_mean_centered           form_factor_median            100  0.065317    0.065025  -0.037235  -0.037974                0.064820                                -0.000497                                  -0.000402
+random_stratified_split   target_dataset_mean_centered          global_train_median            100  0.064820    0.064632  -0.011498  -0.008251                0.064820                                 0.000000                                   0.000000
+random_stratified_split   target_dataset_mean_centered      source_chemistry_median            100  0.065295    0.065114  -0.043806  -0.035711                0.064820                                -0.000475                                  -0.000362
+random_stratified_split   target_dataset_mean_centered         source_family_median            100  0.064808    0.064471  -0.017592  -0.013704                0.064820                                 0.000012                                   0.000135
+random_stratified_split target_dataset_median_centered chemistry_form_factor_median            100  0.063254    0.063076  -0.044027  -0.033964                0.061967                                -0.001287                                  -0.000989
+random_stratified_split target_dataset_median_centered             chemistry_median            100  0.063273    0.063134  -0.042529  -0.033084                0.061967                                -0.001306                                  -0.000926
+random_stratified_split target_dataset_median_centered            dataset_id_median            100  0.065041    0.065039  -0.109637  -0.093926                0.061967                                -0.003075                                  -0.002805
+random_stratified_split target_dataset_median_centered           form_factor_median            100  0.062868    0.062688  -0.053926  -0.046346                0.061967                                -0.000901                                  -0.000539
+random_stratified_split target_dataset_median_centered          global_train_median            100  0.061967    0.061970  -0.035378  -0.032312                0.061967                                 0.000000                                   0.000000
+random_stratified_split target_dataset_median_centered      source_chemistry_median            100  0.063273    0.063134  -0.042529  -0.033084                0.061967                                -0.001306                                  -0.000926
+random_stratified_split target_dataset_median_centered         source_family_median            100  0.062023    0.061977  -0.035725  -0.032145                0.061967                                -0.000056                                  -0.000022
+random_stratified_split                target_original chemistry_form_factor_median            100  0.076867    0.076626   0.671741   0.677348                0.168614                                 0.091747                                   0.092042
+random_stratified_split                target_original             chemistry_median            100  0.077302    0.077040   0.670509   0.676296                0.168614                                 0.091312                                   0.091405
+random_stratified_split                target_original            dataset_id_median            100  0.065041    0.065039   0.769141   0.771014                0.168614                                 0.103573                                   0.104054
+random_stratified_split                target_original           form_factor_median            100  0.140581    0.139960   0.167352   0.168127                0.168614                                 0.028033                                   0.028324
+random_stratified_split                target_original          global_train_median            100  0.168614    0.167963  -0.097993  -0.098437                0.168614                                 0.000000                                   0.000000
+random_stratified_split                target_original      source_chemistry_median            100  0.077302    0.077040   0.670509   0.676296                0.168614                                 0.091312                                   0.091405
+random_stratified_split                target_original         source_family_median            100  0.160578    0.160026  -0.134475  -0.130714                0.168614                                 0.008036                                   0.008205
+
+## Interpretation guide
+
+- Strong random-split performance from dataset or source priors indicates target-distribution leakage.
+- LODO evaluation should weaken dataset-id priors because the held-out dataset is unseen during training.
+- If centered targets remove the prior advantage, the raw-retention gain is mainly distribution-level rather than cell-level.

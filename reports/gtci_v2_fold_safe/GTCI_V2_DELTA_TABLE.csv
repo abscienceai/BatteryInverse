@@ -1,0 +1,7 @@
+family,validation,delta_mae_plus_xi_minus_clean,ci_low,ci_high,interpretation
+absolute,random_split,-0.001636895819760876,-0.006056134694967116,0.0023893032803491607,negative means xi improves apparent MAE
+absolute,leave_one_dataset_out,0.012638708864941705,-0.16284444717942279,0.3602610071398642,negative means xi improves apparent MAE
+normalized,random_split,-0.021611787154569545,-0.029327663238791588,-0.01410391705348637,negative means xi improves apparent MAE
+normalized,leave_one_dataset_out,0.01996854334167659,-0.11121403971712364,0.2910454602429384,negative means xi improves apparent MAE
+all,random_split,-0.0009204272355069704,-0.0025260633501696626,0.000800700158337972,negative means xi improves apparent MAE
+all,leave_one_dataset_out,-0.02026379100419951,-0.23498381338235264,0.17301277035053364,negative means xi improves apparent MAE

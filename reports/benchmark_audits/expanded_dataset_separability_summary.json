@@ -1,0 +1,72 @@
+[
+  {
+    "feature_set": "absolute_capacity_only",
+    "n_splits": 30,
+    "mean_accuracy": 0.9743137255,
+    "std_accuracy": 0.0112973429,
+    "mean_balanced_accuracy": 0.9624085099,
+    "std_balanced_accuracy": 0.0191499161,
+    "mean_macro_f1": 0.966400883,
+    "std_macro_f1": 0.0161102545,
+    "mean_weighted_f1": 0.9736374057,
+    "majority_class_accuracy": 0.3185840708,
+    "n_classes": 11.0,
+    "n_total": 565.0
+  },
+  {
+    "feature_set": "absolute_plus_normalized_capacity",
+    "n_splits": 30,
+    "mean_accuracy": 0.9807843137,
+    "std_accuracy": 0.0089987117,
+    "mean_balanced_accuracy": 0.9687146702,
+    "std_balanced_accuracy": 0.0161889126,
+    "mean_macro_f1": 0.9722734369,
+    "std_macro_f1": 0.0137411775,
+    "mean_weighted_f1": 0.9803815756,
+    "majority_class_accuracy": 0.3185840708,
+    "n_classes": 11.0,
+    "n_total": 565.0
+  },
+  {
+    "feature_set": "all_non_dataset_features",
+    "n_splits": 30,
+    "mean_accuracy": 1.0,
+    "std_accuracy": 0.0,
+    "mean_balanced_accuracy": 1.0,
+    "std_balanced_accuracy": 0.0,
+    "mean_macro_f1": 1.0,
+    "std_macro_f1": 0.0,
+    "mean_weighted_f1": 1.0,
+    "majority_class_accuracy": 0.3185840708,
+    "n_classes": 11.0,
+    "n_total": 565.0
+  },
+  {
+    "feature_set": "metadata_only",
+    "n_splits": 30,
+    "mean_accuracy": 1.0,
+    "std_accuracy": 0.0,
+    "mean_balanced_accuracy": 1.0,
+    "std_balanced_accuracy": 0.0,
+    "mean_macro_f1": 1.0,
+    "std_macro_f1": 0.0,
+    "mean_weighted_f1": 1.0,
+    "majority_class_accuracy": 0.3185840708,
+    "n_classes": 11.0,
+    "n_total": 565.0
+  },
+  {
+    "feature_set": "normalized_capacity_only",
+    "n_splits": 30,
+    "mean_accuracy": 0.8805882353,
+    "std_accuracy": 0.0170731562,
+    "mean_balanced_accuracy": 0.8087987958,
+    "std_balanced_accuracy": 0.0383816724,
+    "mean_macro_f1": 0.8156225076,
+    "std_macro_f1": 0.0341189246,
+    "mean_weighted_f1": 0.8769096284,
+    "majority_class_accuracy": 0.3185840708,
+    "n_classes": 11.0,
+    "n_total": 565.0
+  }
+]

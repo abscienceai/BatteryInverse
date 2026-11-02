@@ -1,0 +1,137 @@
+{
+  "domain_col": "dataset_id",
+  "target_col": "final_capacity_retention",
+  "n_rows": 565,
+  "n_domains": 11,
+  "n_features": 50,
+  "summary": [
+    {
+      "method": "dann",
+      "mean_lodo_mae": 0.26060285157105467,
+      "median_lodo_mae": 0.20522320770832414,
+      "mean_baseline_mae": 0.24269715122554955,
+      "median_baseline_mae": 0.1722812742622778,
+      "mean_improvement": -0.017905700345505118,
+      "median_improvement": -0.010274907405523101,
+      "mean_representation_dataset_ba": 0.9560769980506822,
+      "median_representation_dataset_ba": 0.9571491228070176,
+      "n_folds": 11
+    },
+    {
+      "method": "erm",
+      "mean_lodo_mae": 0.25880567855873643,
+      "median_lodo_mae": 0.18290129707862274,
+      "mean_baseline_mae": 0.24269715122554955,
+      "median_baseline_mae": 0.1722812742622778,
+      "mean_improvement": -0.016108527333186847,
+      "median_improvement": -0.045697502377738286,
+      "mean_representation_dataset_ba": 0.9678961666102814,
+      "median_representation_dataset_ba": 0.9668726741095162,
+      "n_folds": 11
+    },
+    {
+      "method": "irm",
+      "mean_lodo_mae": 0.24435237079076352,
+      "median_lodo_mae": 0.16600772164864722,
+      "mean_baseline_mae": 0.24269715122554955,
+      "median_baseline_mae": 0.1722812742622778,
+      "mean_improvement": -0.0016552195652139521,
+      "median_improvement": -0.004613311551843746,
+      "mean_representation_dataset_ba": 0.9644410512622236,
+      "median_representation_dataset_ba": 0.9632859294701399,
+      "n_folds": 11
+    }
+  ],
+  "intervals": [
+    {
+      "method": "dann",
+      "quantity": "model_mae",
+      "mean": 0.26060285157105467,
+      "median": 0.20522320770832414,
+      "p2p5": 0.027512417116551138,
+      "p97p5": 0.654389071668265,
+      "n": 11,
+      "interval_type": "empirical_heldout_dataset_interval"
+    },
+    {
+      "method": "dann",
+      "quantity": "mae_improvement_baseline_minus_model",
+      "mean": -0.017905700345505118,
+      "median": -0.010274907405523101,
+      "p2p5": -0.2974378121537795,
+      "p97p5": 0.1821330149324262,
+      "n": 11,
+      "interval_type": "empirical_heldout_dataset_interval"
+    },
+    {
+      "method": "dann",
+      "quantity": "representation_dataset_balanced_accuracy_mean",
+      "mean": 0.9560769980506822,
+      "median": 0.9571491228070176,
+      "p2p5": 0.9467176266107187,
+      "p97p5": 0.9626885355750486,
+      "n": 11,
+      "interval_type": "empirical_heldout_dataset_interval"
+    },
+    {
+      "method": "erm",
+      "quantity": "model_mae",
+      "mean": 0.25880567855873643,
+      "median": 0.18290129707862274,
+      "p2p5": 0.028542510715320338,
+      "p97p5": 0.6467501800061045,
+      "n": 11,
+      "interval_type": "empirical_heldout_dataset_interval"
+    },
+    {
+      "method": "erm",
+      "quantity": "mae_improvement_baseline_minus_model",
+      "mean": -0.016108527333186847,
+      "median": -0.045697502377738286,
+      "p2p5": -0.2881072977078786,
+      "p97p5": 0.20868594712813293,
+      "n": 11,
+      "interval_type": "empirical_heldout_dataset_interval"
+    },
+    {
+      "method": "erm",
+      "quantity": "representation_dataset_balanced_accuracy_mean",
+      "mean": 0.9678961666102815,
+      "median": 0.9668726741095162,
+      "p2p5": 0.9606674198121568,
+      "p97p5": 0.976706788277512,
+      "n": 11,
+      "interval_type": "empirical_heldout_dataset_interval"
+    },
+    {
+      "method": "irm",
+      "quantity": "model_mae",
+      "mean": 0.24435237079076352,
+      "median": 0.16600772164864722,
+      "p2p5": 0.02886369310588109,
+      "p97p5": 0.6340141395281531,
+      "n": 11,
+      "interval_type": "empirical_heldout_dataset_interval"
+    },
+    {
+      "method": "irm",
+      "quantity": "mae_improvement_baseline_minus_model",
+      "mean": -0.0016552195652139521,
+      "median": -0.004613311551843746,
+      "p2p5": -0.27211248162069224,
+      "p97p5": 0.2309280173091899,
+      "n": 11,
+      "interval_type": "empirical_heldout_dataset_interval"
+    },
+    {
+      "method": "irm",
+      "quantity": "representation_dataset_balanced_accuracy_mean",
+      "mean": 0.9644410512622237,
+      "median": 0.9632859294701399,
+      "p2p5": 0.9573789429381534,
+      "p97p5": 0.973470837763601,
+      "n": 11,
+      "interval_type": "empirical_heldout_dataset_interval"
+    }
+  ]
+}

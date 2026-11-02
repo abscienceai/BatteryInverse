@@ -1,0 +1,6 @@
+condition,validation,metric,value,mean_improvement
+clean,random_split,MAE,0.049 [0.043--0.056],0.119 [0.112--0.130]
+clean,leave_one_dataset_out,MAE,0.262 [0.046--0.601],-0.029 [-0.253--0.183]
+gtci_contaminated,random_split,MAE,0.049 [0.043--0.057],0.120 [0.112--0.129]
+gtci_contaminated,leave_one_dataset_out,MAE,0.268 [0.045--0.607],-0.035 [-0.277--0.181]
+gtci_contaminated,permutation_importance,Permutation importance of injected confound,0.0040 [0.0027--0.0054],0.004 [0.003--0.005]

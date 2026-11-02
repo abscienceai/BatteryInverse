@@ -1,0 +1,3 @@
+source_family,n,source_family_q90,source_family_q80,coverage90_source_family,coverage80_source_family,rank_safe_source_family_q90_le_0p10
+BatteryLife_selected,249,0.6570022723907278,0.4090720758878171,0.9036144578313253,0.8032128514056225,False
+BatteryML_main,318,0.3475235608642738,0.258484590836283,0.9056603773584906,0.8050314465408805,False
