@@ -1,0 +1,5 @@
+# Install only for the corresponding analyses; see docs/REPRODUCIBILITY.md.
+# Deep-learning domain-generalization and learned mitigation:
+torch>=2.2,<3
+# ESOL molecule structure / Morgan fingerprint experiments:
+rdkit>=2024.3

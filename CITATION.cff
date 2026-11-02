@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+title: "BatteryInverse: dataset-prior shortcut diagnostics for battery degradation machine learning"
+message: "If you use this code or the reported evidence, please cite the associated research article when available and acknowledge the BatteryInverse repository."
+type: software
+authors:
+  - family-names: "Bingöl"
+    given-names: "Alper"
+    email: "alper1ton@gmail.com"
+    affiliation: "Department of Physics, Inonu University, Malatya, Türkiye"
+repository-code: "https://github.com/abscienceai/BatteryInverse"
+abstract: "BatteryInverse is a reproducible diagnostic framework for detecting dataset-prior shortcut learning in scientific machine learning for battery degradation."
+keywords:
+  - battery degradation
+  - scientific machine learning
+  - shortcut learning
+  - dataset shift
+  - battery lifetime prediction
+  - transfer learning
+  - conformal prediction
+license: MIT
