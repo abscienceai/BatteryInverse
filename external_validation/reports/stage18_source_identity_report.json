@@ -1,0 +1,63 @@
+{
+  "analysis": "Matched-split source identification",
+  "source_dataset_sha256": "8bc5296425fbb0735faceb56fe1cf52c6d0292bec2e361be8870fc1626aa5c7c",
+  "original_classifier_code_sha256": "8f024c7f89942309b2986d53e33657e28f44f03e616c9f9293f03b5647f2c487",
+  "n_original": 567,
+  "n_scored": 565,
+  "n_datasets": 11,
+  "harmonized_source_rows": 318,
+  "original_baseline_max_abs_difference": 4.96269692007445e-13,
+  "results": [
+    {
+      "feature_family": "normalized_capacity_only",
+      "condition": "original",
+      "n_splits": 30,
+      "n_cells": 565,
+      "n_datasets": 11,
+      "mean_balanced_accuracy": 0.8087987957743867,
+      "sd_balanced_accuracy": 0.0383816723564263,
+      "split_quantile_025": 0.732281619452672,
+      "split_quantile_975": 0.8652074472798156,
+      "mean_paired_delta_vs_original": 0.0,
+      "paired_delta_quantile_025": 0.0,
+      "paired_delta_quantile_975": 0.0
+    },
+    {
+      "feature_family": "normalized_capacity_only",
+      "condition": "harmonized",
+      "n_splits": 30,
+      "n_cells": 565,
+      "n_datasets": 11,
+      "mean_balanced_accuracy": 0.7559639950410354,
+      "sd_balanced_accuracy": 0.03403740404047736,
+      "split_quantile_025": 0.7036935553640359,
+      "split_quantile_975": 0.8273898700142979,
+      "mean_paired_delta_vs_original": -0.052834800733351464,
+      "paired_delta_quantile_025": -0.11511497025942102,
+      "paired_delta_quantile_975": -0.008228335991493835
+    },
+    {
+      "feature_family": "normalized_capacity_only",
+      "condition": "no_fade",
+      "n_splits": 30,
+      "n_cells": 565,
+      "n_datasets": 11,
+      "mean_balanced_accuracy": 0.76445091557029,
+      "sd_balanced_accuracy": 0.03755758485928892,
+      "split_quantile_025": 0.7053926262736331,
+      "split_quantile_975": 0.8439329893134242,
+      "mean_paired_delta_vs_original": -0.04434788020409684,
+      "paired_delta_quantile_025": -0.10841120491721183,
+      "paired_delta_quantile_975": -0.0038524499379762904
+    }
+  ],
+  "protocol": {
+    "split_count": 30,
+    "test_size": 0.3,
+    "split_seed": 42,
+    "trees": 700,
+    "model_seed": "42+split_id",
+    "class_weight": "balanced_subsample"
+  },
+  "limitation": "Descriptive split percentiles, not prospective or causal inference"
+}
