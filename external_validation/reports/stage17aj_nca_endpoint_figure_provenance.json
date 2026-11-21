@@ -1,0 +1,42 @@
+{
+  "stage": "17AJ_POSTOUTCOME_NCA_ENDPOINT_VISUAL_EVIDENCE",
+  "all_archive_physical_cells": 66,
+  "preoutcome_selected_cells": 30,
+  "all_archive_last_q_at_or_above_2500": true,
+  "all_archive_within_25mAh_above_2500": 42,
+  "selected30_within_25mAh_above_2500": 17,
+  "selected30_last_ratio_median": 0.7704722549796237,
+  "selected30_2500_over_Q1_median": 0.7634584778001202,
+  "selected30_postoutcome_floor_proxy_absolute_gap_mean": 0.025141409443009872,
+  "program_counts_all66": {
+    "CY25-025_1": 7,
+    "CY25-05_1": 19,
+    "CY25-1_1": 9,
+    "CY35-05_1": 3,
+    "CY45-05_1": 28
+  },
+  "program_counts_selected30": {
+    "CY25-025_1": 2,
+    "CY25-05_1": 16,
+    "CY45-05_1": 12
+  },
+  "published_2500mAh_window_edge_is_not_per_cell_verified_stop_rule": true,
+  "2500_over_Q1_is_postoutcome_algebraic_diagnostic_not_forecast": true,
+  "last_recorded_capacity_not_physical_EOL": true,
+  "figure_created": false,
+  "figure_warning": "No module named 'matplotlib'",
+  "original_model_retrained": false,
+  "new_model_predictions_generated": false,
+  "prism_updated": false,
+  "locked_predictions_sha256": "cf34a8085d57924f1e6f7e9377b2707092452e0c383b680d82d4e5a27a588757",
+  "inputs_sha256": {
+    "external_validation/reports/stage17ah_nca_absolute_endpoint_and_censoring_report.json": "0aa41c4a713fcd308408d4894c9a43d351087441a9b5092a3e75dcb50e827e48",
+    "external_validation/reports/stage17ah_nca_66cell_absolute_last_capacity_audit.csv": "63f1859533e5c77e59ceb9d91d525525216b48ed5144fdd0ab6e6832e548276b",
+    "external_validation/reports/stage17ai_nca_2500mAh_endpoint_interpretation.json": "d9a056a4c38098bd7a435dba207fa3862950b4d43d27e07db99d8d35ff35c84c",
+    "external_validation/reports/stage17ai_nca_nominal_floor_mechanistic_decomposition_30.csv": "8003af5d677b8b3616f14c7e54ce48aa46fa61f86ad24201269ccef42df7fee1",
+    "external_validation/reports/stage17ae_nca_30cell_PREOUTCOME_dual_sign_predictions.csv": "cf34a8085d57924f1e6f7e9377b2707092452e0c383b680d82d4e5a27a588757"
+  },
+  "outputs_sha256": {
+    "external_validation/reports/stage17aj_nca_66cell_publication_figure_source.csv": "6ae78874066fe81f577f44f8e3c7324d1eef3692f4d9a011e5d086208e109a1f"
+  }
+}

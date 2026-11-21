@@ -1,0 +1,32 @@
+{
+  "stage": "17Z_NCA_RAW_CYCLE_STRUCTURAL_SCREEN",
+  "raw_archive_sha256": "0d58f6f09f4ada76c2c3ab038ce98926ebdba7d18aaa31a9d7bebdccc9a834ac",
+  "protocol_lock_sha256": "cd21983c842c73ca54fdc64cec2430c5c7dd6abce0764b802a03a41027c1f6bd",
+  "stage17y_sha256": "e0d32bcd0da6881b23e8ec0b10b34a7b3b8297a3a4cf5a5b5e0aed05312e1f86",
+  "training_sha256": "8bc5296425fbb0735faceb56fe1cf52c6d0292bec2e361be8870fc1626aa5c7c",
+  "original_model_code_sha256": "537b148602a6c191b1964ee93cd4fee697156772ce43f61d6803808078e29e61",
+  "cells_in_archive": 66,
+  "raw_totals": {
+    "contiguous_cycle_segments": 22916,
+    "unique_instrument_cycles": 22914,
+    "raw_rows": 19235196,
+    "malformed_width_rows": 0,
+    "invalid_cycle_number_rows": 0,
+    "cycle_number_revisited_blocks": 2,
+    "cycle_number_backward_transitions": 1,
+    "within_cycle_time_backward_steps": 1,
+    "within_cycle_q_drop_over100mAh": 6
+  },
+  "cells_with_unique_positive_cycle_1_10_50_100": 54,
+  "cells_with_recording_ambiguity": 8,
+  "cells_below_100_distinct_cycle_ids": 10,
+  "source_code_capacity_method": "per-instrument-cycle max Q discharge/mA.h; diagnostic only",
+  "NOTE": "Structural screen only: positive Q and cycle presence do not prove a full discharge or a comparable target.",
+  "physically_eligible_cells_NOT_YET_CERTIFIED": true,
+  "outcome_based_filtering": false,
+  "target_equivalence_certified": false,
+  "models_fitted": false,
+  "predictions_produced": false,
+  "prism_updated": false,
+  "output_cycle_rows": 22916
+}

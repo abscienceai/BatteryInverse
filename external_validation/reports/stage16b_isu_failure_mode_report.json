@@ -1,0 +1,356 @@
+{
+  "experiment": "STAGE16B_DESCRIPTIVE_FAILURE_MODE_AUDIT",
+  "source_stage16a_report_sha256": "7bd1a814073c7e8804c7c3f2227c65ec13d59385c2d29a5b4afa92b882a71ea5",
+  "source_stage16a_predictions_sha256": "4d1b3ea4d20fa1289a7f8ad4f8f7099153fba2eae4a9920c490c01f492ca3cef",
+  "source_training_sha256": "8bc5296425fbb0735faceb56fe1cf52c6d0292bec2e361be8870fc1626aa5c7c",
+  "cells": 242,
+  "protocol_group_count": 62,
+  "ISU_cells_outside_training_full_feature_range_any": 67,
+  "ISU_cells_inside_training_full_feature_range_all": 175,
+  "statistics_by_candidate_target_and_subgroup": {
+    "C5": {
+      "all_242": {
+        "median_prior": {
+          "n_cells": 242,
+          "observed_mean": 0.487797609876033,
+          "observed_median": 0.46948172499999996,
+          "predicted_mean": 0.7711666216879999,
+          "predicted_median": 0.771166621688,
+          "mae": 0.28350808923603305,
+          "rmse": 0.30344057779414174,
+          "signed_bias_pred_minus_observed": 0.283369011811967,
+          "centered_residual_rmse_DESCRIPTIVE_ONLY": 0.10852735782627305,
+          "overprediction_count": 241,
+          "underprediction_count": 1,
+          "pearson": null,
+          "spearman": null
+        },
+        "random_forest": {
+          "n_cells": 242,
+          "observed_mean": 0.487797609876033,
+          "observed_median": 0.46948172499999996,
+          "predicted_mean": 0.8057033406242211,
+          "predicted_median": 0.8381171186705647,
+          "mae": 0.3338793635660667,
+          "rmse": 0.36044115918082437,
+          "signed_bias_pred_minus_observed": 0.31790573074818806,
+          "centered_residual_rmse_DESCRIPTIVE_ONLY": 0.16986399144338082,
+          "overprediction_count": 228,
+          "underprediction_count": 14,
+          "pearson": -0.02039037967973545,
+          "spearman": -0.08379834460856389
+        },
+        "extra_trees": {
+          "n_cells": 242,
+          "observed_mean": 0.487797609876033,
+          "observed_median": 0.46948172499999996,
+          "predicted_mean": 0.819805272892459,
+          "predicted_median": 0.8286337075659447,
+          "mae": 0.3321547315000978,
+          "rmse": 0.3579448177173,
+          "signed_bias_pred_minus_observed": 0.33200766301642587,
+          "centered_residual_rmse_DESCRIPTIVE_ONLY": 0.1337737052975754,
+          "overprediction_count": 241,
+          "underprediction_count": 1,
+          "pearson": -0.10977549528491048,
+          "spearman": -0.14821292263766803
+        }
+      },
+      "in_training_minmax_175": {
+        "median_prior": {
+          "n_cells": 175,
+          "observed_mean": 0.4889896323428572,
+          "observed_median": 0.47232573,
+          "predicted_mean": 0.7711666216879998,
+          "predicted_median": 0.771166621688,
+          "mae": 0.2823693135544228,
+          "rmse": 0.3026773227852956,
+          "signed_bias_pred_minus_observed": 0.28217698934514285,
+          "centered_residual_rmse_DESCRIPTIVE_ONLY": 0.1094975269701793,
+          "overprediction_count": 174,
+          "underprediction_count": 1,
+          "pearson": null,
+          "spearman": null
+        },
+        "random_forest": {
+          "n_cells": 175,
+          "observed_mean": 0.4889896323428572,
+          "observed_median": 0.47232573,
+          "predicted_mean": 0.8395627194160293,
+          "predicted_median": 0.8490293361946043,
+          "mae": 0.35057308707317214,
+          "rmse": 0.37278079167470585,
+          "signed_bias_pred_minus_observed": 0.35057308707317214,
+          "centered_residual_rmse_DESCRIPTIVE_ONLY": 0.12674395157800025,
+          "overprediction_count": 175,
+          "underprediction_count": 0,
+          "pearson": -0.01568868482293016,
+          "spearman": -0.12772279444693238
+        },
+        "extra_trees": {
+          "n_cells": 175,
+          "observed_mean": 0.4889896323428572,
+          "observed_median": 0.47232573,
+          "predicted_mean": 0.8234565116369376,
+          "predicted_median": 0.8314292520496117,
+          "mae": 0.3344668792940804,
+          "rmse": 0.3580453531277874,
+          "signed_bias_pred_minus_observed": 0.3344668792940804,
+          "centered_residual_rmse_DESCRIPTIVE_ONLY": 0.12778255574091887,
+          "overprediction_count": 175,
+          "underprediction_count": 0,
+          "pearson": -0.01781063304200704,
+          "spearman": -0.10526869682042096
+        }
+      },
+      "outside_training_minmax_67": {
+        "median_prior": {
+          "n_cells": 67,
+          "observed_mean": 0.48468411835820896,
+          "observed_median": 0.46243359,
+          "predicted_mean": 0.771166621688,
+          "predicted_median": 0.771166621688,
+          "mae": 0.286482503329791,
+          "rmse": 0.30542515722243396,
+          "signed_bias_pred_minus_observed": 0.286482503329791,
+          "centered_residual_rmse_DESCRIPTIVE_ONLY": 0.105888157743181,
+          "overprediction_count": 67,
+          "underprediction_count": 0,
+          "pearson": null,
+          "spearman": null
+        },
+        "random_forest": {
+          "n_cells": 67,
+          "observed_mean": 0.48468411835820896,
+          "observed_median": 0.46243359,
+          "predicted_mean": 0.7172646646754682,
+          "predicted_median": 0.7928328419871641,
+          "mae": 0.29027635440571653,
+          "rmse": 0.32601503746491145,
+          "signed_bias_pred_minus_observed": 0.2325805463172594,
+          "centered_residual_rmse_DESCRIPTIVE_ONLY": 0.22845589098995195,
+          "overprediction_count": 53,
+          "underprediction_count": 14,
+          "pearson": -0.05417865407288629,
+          "spearman": -0.09121112656112626
+        },
+        "extra_trees": {
+          "n_cells": 67,
+          "observed_mean": 0.48468411835820896,
+          "observed_median": 0.46243359,
+          "predicted_mean": 0.8102684552762832,
+          "predicted_median": 0.8149735321503645,
+          "mae": 0.3261155395008893,
+          "rmse": 0.3576820919319792,
+          "signed_bias_pred_minus_observed": 0.3255843369180743,
+          "centered_residual_rmse_DESCRIPTIVE_ONLY": 0.14809226327683242,
+          "overprediction_count": 66,
+          "underprediction_count": 1,
+          "pearson": -0.3318441164969471,
+          "spearman": -0.29746986990182783
+        }
+      }
+    },
+    "C2": {
+      "all_242": {
+        "median_prior": {
+          "n_cells": 242,
+          "observed_mean": 0.4089663233884298,
+          "observed_median": 0.390295645,
+          "predicted_mean": 0.7711666216879999,
+          "predicted_median": 0.771166621688,
+          "mae": 0.36223107059966936,
+          "rmse": 0.3915449195816715,
+          "signed_bias_pred_minus_observed": 0.36220029829957023,
+          "centered_residual_rmse_DESCRIPTIVE_ONLY": 0.14872245278343116,
+          "overprediction_count": 241,
+          "underprediction_count": 1,
+          "pearson": null,
+          "spearman": null
+        },
+        "random_forest": {
+          "n_cells": 242,
+          "observed_mean": 0.4089663233884298,
+          "observed_median": 0.390295645,
+          "predicted_mean": 0.8057033406242211,
+          "predicted_median": 0.8381171186705647,
+          "mae": 0.4039294465909499,
+          "rmse": 0.44088042000436783,
+          "signed_bias_pred_minus_observed": 0.39673701723579136,
+          "centered_residual_rmse_DESCRIPTIVE_ONLY": 0.19228958343622027,
+          "overprediction_count": 232,
+          "underprediction_count": 10,
+          "pearson": 0.043177307263395165,
+          "spearman": -0.061806756406922674
+        },
+        "extra_trees": {
+          "n_cells": 242,
+          "observed_mean": 0.4089663233884298,
+          "observed_median": 0.390295645,
+          "predicted_mean": 0.819805272892459,
+          "predicted_median": 0.8286337075659447,
+          "mae": 0.4110207178224118,
+          "rmse": 0.44558621435677626,
+          "signed_bias_pred_minus_observed": 0.41083894950402916,
+          "centered_residual_rmse_DESCRIPTIVE_ONLY": 0.17250632450791115,
+          "overprediction_count": 241,
+          "underprediction_count": 1,
+          "pearson": -0.15629218950721682,
+          "spearman": -0.1801801916224147
+        }
+      },
+      "in_training_minmax_175": {
+        "median_prior": {
+          "n_cells": 175,
+          "observed_mean": 0.41903767742857145,
+          "observed_median": 0.39862067,
+          "predicted_mean": 0.7711666216879998,
+          "predicted_median": 0.771166621688,
+          "mae": 0.3521714979544229,
+          "rmse": 0.37956979503789146,
+          "signed_bias_pred_minus_observed": 0.35212894425942864,
+          "centered_residual_rmse_DESCRIPTIVE_ONLY": 0.14169839773210985,
+          "overprediction_count": 174,
+          "underprediction_count": 1,
+          "pearson": null,
+          "spearman": null
+        },
+        "random_forest": {
+          "n_cells": 175,
+          "observed_mean": 0.41903767742857145,
+          "observed_median": 0.39862067,
+          "predicted_mean": 0.8395627194160293,
+          "predicted_median": 0.8490293361946043,
+          "mae": 0.42052504198745794,
+          "rmse": 0.4489703659579934,
+          "signed_bias_pred_minus_observed": 0.42052504198745794,
+          "centered_residual_rmse_DESCRIPTIVE_ONLY": 0.15726753819495407,
+          "overprediction_count": 175,
+          "underprediction_count": 0,
+          "pearson": -0.04507933727129527,
+          "spearman": -0.1362360053739364
+        },
+        "extra_trees": {
+          "n_cells": 175,
+          "observed_mean": 0.41903767742857145,
+          "observed_median": 0.39862067,
+          "predicted_mean": 0.8234565116369376,
+          "predicted_median": 0.8314292520496117,
+          "mae": 0.40441883420836605,
+          "rmse": 0.4345078777368686,
+          "signed_bias_pred_minus_observed": 0.40441883420836605,
+          "centered_residual_rmse_DESCRIPTIVE_ONLY": 0.15887889209376943,
+          "overprediction_count": 175,
+          "underprediction_count": 0,
+          "pearson": -0.05930853735009187,
+          "spearman": -0.13300940438871475
+        }
+      },
+      "outside_training_minmax_67": {
+        "median_prior": {
+          "n_cells": 67,
+          "observed_mean": 0.38266054791044773,
+          "observed_median": 0.34513546,
+          "predicted_mean": 0.771166621688,
+          "predicted_median": 0.771166621688,
+          "mae": 0.38850607377755225,
+          "rmse": 0.4212203573300296,
+          "signed_bias_pred_minus_observed": 0.38850607377755225,
+          "centered_residual_rmse_DESCRIPTIVE_ONLY": 0.16275632112821,
+          "overprediction_count": 67,
+          "underprediction_count": 0,
+          "pearson": null,
+          "spearman": null
+        },
+        "random_forest": {
+          "n_cells": 67,
+          "observed_mean": 0.38266054791044773,
+          "observed_median": 0.34513546,
+          "predicted_mean": 0.7172646646754682,
+          "predicted_median": 0.7928328419871641,
+          "mae": 0.36058274219708597,
+          "rmse": 0.4190138327051178,
+          "signed_bias_pred_minus_observed": 0.33460411676502066,
+          "centered_residual_rmse_DESCRIPTIVE_ONLY": 0.25221553687695936,
+          "overprediction_count": 57,
+          "underprediction_count": 10,
+          "pearson": 0.024962353611188804,
+          "spearman": -0.04687266162592115
+        },
+        "extra_trees": {
+          "n_cells": 67,
+          "observed_mean": 0.38266054791044773,
+          "observed_median": 0.34513546,
+          "predicted_mean": 0.8102684552762832,
+          "predicted_median": 0.8149735321503645,
+          "mae": 0.4282644436799937,
+          "rmse": 0.4733005772913177,
+          "signed_bias_pred_minus_observed": 0.42760790736583554,
+          "centered_residual_rmse_DESCRIPTIVE_ONLY": 0.20289138479123664,
+          "overprediction_count": 66,
+          "underprediction_count": 1,
+          "pearson": -0.37970761217252774,
+          "spearman": -0.3264027456301381
+        }
+      }
+    }
+  },
+  "paired_group_bootstrap_MAE_difference": {
+    "C5": {
+      "random_forest": {
+        "point_delta_mae_model_minus_prior": 0.050371274330033654,
+        "group_bootstrap_95pct_interval": [
+          0.0363872876102098,
+          0.06393779142526829
+        ],
+        "groups": 62,
+        "resamples": 3000,
+        "method": "Descriptive G-group cluster bootstrap; no model tuning"
+      },
+      "extra_trees": {
+        "point_delta_mae_model_minus_prior": 0.0486466422640647,
+        "group_bootstrap_95pct_interval": [
+          0.036172282527572736,
+          0.060971590847191344
+        ],
+        "groups": 62,
+        "resamples": 3000,
+        "method": "Descriptive G-group cluster bootstrap; no model tuning"
+      }
+    },
+    "C2": {
+      "random_forest": {
+        "point_delta_mae_model_minus_prior": 0.04169837599128053,
+        "group_bootstrap_95pct_interval": [
+          0.0224000150741531,
+          0.05958758478612337
+        ],
+        "groups": 62,
+        "resamples": 3000,
+        "method": "Descriptive G-group cluster bootstrap; no model tuning"
+      },
+      "extra_trees": {
+        "point_delta_mae_model_minus_prior": 0.04878964722274239,
+        "group_bootstrap_95pct_interval": [
+          0.03638061357787643,
+          0.06107845734534216
+        ],
+        "groups": 62,
+        "resamples": 3000,
+        "method": "Descriptive G-group cluster bootstrap; no model tuning"
+      }
+    }
+  },
+  "interpretation_limitations": [
+    "C5/C2 remain unfinalized candidate endpoints.",
+    "OOD subgroups are post-hoc descriptive.",
+    "Do not remove OOD cells to inflate performance.",
+    "Centered residual RMSE is not a recalibrated score.",
+    "G-prefix bootstrap assumes independent groups.",
+    "Capacity units, DoD, and horizon not fully harmonized."
+  ],
+  "external_labels_used_for_training_or_tuning": false,
+  "predictions_recomputed": false,
+  "model_training": false,
+  "source_files_modified": false
+}

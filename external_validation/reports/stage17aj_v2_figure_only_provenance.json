@@ -1,0 +1,22 @@
+{
+  "stage": "17AJ_V2_FIGURE_ONLY_REPAIR",
+  "prior_figure_created": false,
+  "archive_cells": 66,
+  "selected_cells": 30,
+  "within25mAh_all66": 42,
+  "within25mAh_selected30": 17,
+  "input_sha256": {
+    "external_validation/reports/stage17aj_nca_66cell_publication_figure_source.csv": "6ae78874066fe81f577f44f8e3c7324d1eef3692f4d9a011e5d086208e109a1f",
+    "external_validation/reports/stage17ae_nca_30cell_PREOUTCOME_dual_sign_predictions.csv": "cf34a8085d57924f1e6f7e9377b2707092452e0c383b680d82d4e5a27a588757",
+    "external_validation/reports/stage17aj_nca_endpoint_figure_provenance.json": "13a3e0c2c88f3f8138b67ea9be91ed722f4e669a8701ca74b6d79ce93c0f83c7"
+  },
+  "figure_sha256": {
+    "external_validation/reports/stage17aj_v2_nca_endpoint_window_publication.pdf": "6580c6eafbcce69c4bb32975e1dda45965f5287829026dbfa0d7b83ee2b0a977",
+    "external_validation/reports/stage17aj_v2_nca_endpoint_window_publication.png": "d19759838e2eb609cd0b65c67f9ca45242f2d248872cfe66dbe2f0ceac83d29e"
+  },
+  "endpoint_caveat": "2500 mAh is a post-outcome diagnostic reference, not a predictive baseline or per-cell stop rule.",
+  "model_fit": false,
+  "new_inference": false,
+  "prism_updated": false,
+  "matplotlib_version": "3.11.2"
+}

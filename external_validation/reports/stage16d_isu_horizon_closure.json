@@ -1,0 +1,138 @@
+{
+  "stage": "16D_ISU_DESCRIPTIVE_HORIZON_CLOSURE",
+  "n_cells": 242,
+  "n_G_groups": 62,
+  "source_stage16c_sha256": "987c90fa332d85726203cf7ec2696e08e750d4ad4b9de7643af3dacb6329878f",
+  "source_stage16c_report_sha256": "62496f5cc6baa7e156df3984189d6742bb4c5d7a2ce89ce431f24de2e296ff10",
+  "training_sha256": "8bc5296425fbb0735faceb56fe1cf52c6d0292bec2e361be8870fc1626aa5c7c",
+  "rpt_index_gap": {
+    "n": 242,
+    "min": 0.0,
+    "p05": 4.050000000000001,
+    "median": 16.0,
+    "p95": 35.0,
+    "max": 78.0
+  },
+  "paired_capacity_drop_percentage_points": {
+    "n": 242,
+    "min": 0.0,
+    "p05": 20.847271950000003,
+    "median": 48.252514000000005,
+    "p95": 63.0163578,
+    "max": 82.808076
+  },
+  "gap_vs_capacity_drop_spearman": 0.13611600026171397,
+  "gap_strata": {
+    "same_RPT_index": {
+      "n_cells": 2,
+      "median_first_minus_terminal_pp": 0.0,
+      "median_first_ratio": 0.6953924300000001,
+      "median_terminal_ratio": 0.6953924300000001
+    },
+    "gap_1_to_8": {
+      "n_cells": 26,
+      "median_first_minus_terminal_pp": 34.103855499999995,
+      "median_first_ratio": 0.881859325,
+      "median_terminal_ratio": 0.543606275
+    },
+    "gap_9_to_16": {
+      "n_cells": 98,
+      "median_first_minus_terminal_pp": 49.573673500000005,
+      "median_first_ratio": 0.95386555,
+      "median_terminal_ratio": 0.460653055
+    },
+    "gap_17_to_32": {
+      "n_cells": 91,
+      "median_first_minus_terminal_pp": 48.712946,
+      "median_first_ratio": 0.97080809,
+      "median_terminal_ratio": 0.46364458
+    },
+    "gap_33_plus": {
+      "n_cells": 25,
+      "median_first_minus_terminal_pp": 46.606776,
+      "median_first_ratio": 0.9953812,
+      "median_terminal_ratio": 0.51512922
+    }
+  },
+  "frozen_model_horizon_diagnostics": {
+    "median_prior": {
+      "first_RPT": {
+        "mae": 0.17371179382234714,
+        "signed_bias": -0.17203268046076037,
+        "spearman": null
+      },
+      "terminal_RPT": {
+        "mae": 0.28350808923603305,
+        "signed_bias": 0.283369011811967,
+        "spearman": null
+      },
+      "underpredict_first_and_overpredict_terminal_cells": 237,
+      "MAE_horizon_difference": {
+        "delta_mae_terminal_minus_first": 0.10979629541368593,
+        "G_group_bootstrap_95pct_interval": [
+          0.0868383311640459,
+          0.13397612062453745
+        ],
+        "n_G_groups": 62,
+        "bootstrap_replicates": 4000,
+        "note": "Descriptive; provisional endpoints"
+      }
+    },
+    "random_forest": {
+      "first_RPT": {
+        "mae": 0.1381763871994903,
+        "signed_bias": -0.1374959615245392,
+        "spearman": 0.104978769406714
+      },
+      "terminal_RPT": {
+        "mae": 0.3338793635660667,
+        "signed_bias": 0.31790573074818806,
+        "spearman": -0.08379834460856389
+      },
+      "underpredict_first_and_overpredict_terminal_cells": 223,
+      "MAE_horizon_difference": {
+        "delta_mae_terminal_minus_first": 0.19570297636657644,
+        "G_group_bootstrap_95pct_interval": [
+          0.15357548160268286,
+          0.23598065268642576
+        ],
+        "n_G_groups": 62,
+        "bootstrap_replicates": 4000,
+        "note": "Descriptive; provisional endpoints"
+      }
+    },
+    "extra_trees": {
+      "first_RPT": {
+        "mae": 0.12391247363127801,
+        "signed_bias": -0.12339402925630141,
+        "spearman": 0.19695636104538405
+      },
+      "terminal_RPT": {
+        "mae": 0.3321547315000978,
+        "signed_bias": 0.33200766301642587,
+        "spearman": -0.14821292263766803
+      },
+      "underpredict_first_and_overpredict_terminal_cells": 237,
+      "MAE_horizon_difference": {
+        "delta_mae_terminal_minus_first": 0.20824225786881972,
+        "G_group_bootstrap_95pct_interval": [
+          0.1742368558882997,
+          0.24097673794873095
+        ],
+        "n_G_groups": 62,
+        "bootstrap_replicates": 4000,
+        "note": "Descriptive; provisional endpoints"
+      }
+    }
+  },
+  "cautions": [
+    "First post-100 RPT endpoint is post-hoc.",
+    "RPT index gap is not elapsed time.",
+    "Bootstrap assumes independent G groups.",
+    "Cross-dataset target equivalence unconfirmed.",
+    "These results do not prove causality."
+  ],
+  "model_training": false,
+  "predictions_recomputed": false,
+  "external_target_approved": false
+}

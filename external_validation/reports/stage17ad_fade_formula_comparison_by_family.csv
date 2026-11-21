@@ -1,0 +1,15 @@
+source_family,candidate_equation,matched_rows,matching_at_1e_8,median_abs_error,max_abs_error
+BatteryML_main,stored_raw_fade_divided_by_Q1,318,318,5.917141776556889e-15,3.7720521151030084e-13
+BatteryML_main,one_minus_Q100_divided_by_Q1,318,0,0.009948840380721649,0.19512768983004988
+BatteryML_main,Q100_divided_by_Q1_minus_one,318,318,6.407634839389331e-15,8.659496730789584e-12
+BatteryML_main,absolute_normalized_Q1_Q100_change,318,188,1.8473955004649767e-12,0.19512768983004988
+BatteryML_main,negative_stored_raw_fade_divided_by_Q1,318,0,0.009948840380721547,0.1951276898300499
+BatteryML_main,Q1_minus_Q100_absolute,318,0,0.010323420190360047,0.20215916491499994
+BatteryML_main,Q100_minus_Q1_absolute,318,0,0.00038149093261001955,0.02636745666300011
+BatteryLife_selected,stored_raw_fade_divided_by_Q1,249,249,1.926583892419842e-14,3.336775300510908e-13
+BatteryLife_selected,one_minus_Q100_divided_by_Q1,249,249,2.0670964939739633e-14,7.678961633228454e-13
+BatteryLife_selected,Q100_divided_by_Q1_minus_one,249,7,0.054157662555805335,0.34185901434804866
+BatteryLife_selected,absolute_normalized_Q1_Q100_change,249,245,2.1135870831301418e-14,0.04714538083864518
+BatteryLife_selected,negative_stored_raw_fade_divided_by_Q1,249,7,0.05415766255580526,0.34185901434804866
+BatteryLife_selected,Q1_minus_Q100_absolute,249,7,0.013245971162010131,4.7871687622748995
+BatteryLife_selected,Q100_minus_Q1_absolute,249,7,0.09276923076920006,4.981271237725099

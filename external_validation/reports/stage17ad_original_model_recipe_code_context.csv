@@ -1,0 +1,183 @@
+line,call,code_context
+126,median,"L120:         ""rmse"": float(
+L121:             math.sqrt(mean_squared_error(y, p))
+L122:         ),
+L123:         ""r2"": float(r2_score(y, p)),
+L124:         ""signed_bias_pred_minus_true"":
+L125:             float(np.mean(p - y)),
+L126:         ""pred_median"": float(np.median(p)),
+L127:     }
+L128: 
+L129: 
+L130: def make_pipeline(estimator):
+L131:     preprocessing = ColumnTransformer([
+L132:         ("
+134,Pipeline,"L128: 
+L129: 
+L130: def make_pipeline(estimator):
+L131:     preprocessing = ColumnTransformer([
+L132:         (
+L133:             ""num"",
+L134:             Pipeline([
+L135:                 (
+L136:                     ""imputer"",
+L137:                     SimpleImputer(strategy=""median"")
+L138:                 ),
+L139:                 (""scaler"", StandardScaler()),
+L140:             ]),"
+137,SimpleImputer,"L131:     preprocessing = ColumnTransformer([
+L132:         (
+L133:             ""num"",
+L134:             Pipeline([
+L135:                 (
+L136:                     ""imputer"",
+L137:                     SimpleImputer(strategy=""median"")
+L138:                 ),
+L139:                 (""scaler"", StandardScaler()),
+L140:             ]),
+L141:             FEATURES,
+L142:         )
+L143:     ], remainder=""drop"")"
+139,StandardScaler,"L133:             ""num"",
+L134:             Pipeline([
+L135:                 (
+L136:                     ""imputer"",
+L137:                     SimpleImputer(strategy=""median"")
+L138:                 ),
+L139:                 (""scaler"", StandardScaler()),
+L140:             ]),
+L141:             FEATURES,
+L142:         )
+L143:     ], remainder=""drop"")
+L144: 
+L145:     return Pipeline(["
+145,Pipeline,"L139:                 (""scaler"", StandardScaler()),
+L140:             ]),
+L141:             FEATURES,
+L142:         )
+L143:     ], remainder=""drop"")
+L144: 
+L145:     return Pipeline([
+L146:         (""preprocessor"", preprocessing),
+L147:         (""model"", estimator),
+L148:     ])
+L149: 
+L150: 
+L151: def main():"
+327,median,"L321:     ] = labels[C5]
+L322: 
+L323:     predictions[
+L324:         ""c2_reference_candidate_NOT_FINAL""
+L325:     ] = labels[C2]
+L326: 
+L327:     prior = float(np.median(ytrain))
+L328: 
+L329:     predictions[
+L330:         ""training_median_prior_prediction""
+L331:     ] = prior
+L332: 
+L333:     models = {"
+334,RandomForestRegressor,"L328: 
+L329:     predictions[
+L330:         ""training_median_prior_prediction""
+L331:     ] = prior
+L332: 
+L333:     models = {
+L334:         ""random_forest"": RandomForestRegressor(
+L335:             n_estimators=700,
+L336:             min_samples_leaf=2,
+L337:             random_state=42,
+L338:             n_jobs=-1,
+L339:         ),
+L340:         ""extra_trees"": ExtraTreesRegressor("
+340,ExtraTreesRegressor,"L334:         ""random_forest"": RandomForestRegressor(
+L335:             n_estimators=700,
+L336:             min_samples_leaf=2,
+L337:             random_state=42,
+L338:             n_jobs=-1,
+L339:         ),
+L340:         ""extra_trees"": ExtraTreesRegressor(
+L341:             n_estimators=700,
+L342:             min_samples_leaf=2,
+L343:             random_state=42,
+L344:             n_jobs=-1,
+L345:         ),
+L346:     }"
+352,fit,"L346:     }
+L347: 
+L348:     for name, estimator in models.items():
+L349:         model = make_pipeline(estimator)
+L350: 
+L351:         # Fit exclusively on the original 567 cells.
+L352:         model.fit(Xtrain, ytrain)
+L353: 
+L354:         p = model.predict(Xtest)
+L355: 
+L356:         require(
+L357:             np.isfinite(p).all(),
+L358:             f""Invalid predictions: {name}"""
+354,predict,"L348:     for name, estimator in models.items():
+L349:         model = make_pipeline(estimator)
+L350: 
+L351:         # Fit exclusively on the original 567 cells.
+L352:         model.fit(Xtrain, ytrain)
+L353: 
+L354:         p = model.predict(Xtest)
+L355: 
+L356:         require(
+L357:             np.isfinite(p).all(),
+L358:             f""Invalid predictions: {name}""
+L359:         )
+L360: "
+422,median,"L416:         )
+L417: 
+L418:         outside_any |= outside_full
+L419: 
+L420:         ood[col] = {
+L421:             ""training_median"":
+L422:                 float(np.median(x)),
+L423:             ""ISU_median"":
+L424:                 float(np.median(v)),
+L425:             ""ISU_outside_training_5th_95th"":
+L426:                 int(outside_90.sum()),
+L427:             ""ISU_outside_training_min_max"":
+L428:                 int(outside_full.sum()),"
+424,median,"L418:         outside_any |= outside_full
+L419: 
+L420:         ood[col] = {
+L421:             ""training_median"":
+L422:                 float(np.median(x)),
+L423:             ""ISU_median"":
+L424:                 float(np.median(v)),
+L425:             ""ISU_outside_training_5th_95th"":
+L426:                 int(outside_90.sum()),
+L427:             ""ISU_outside_training_min_max"":
+L428:                 int(outside_full.sum()),
+L429:         }
+L430: "
+468,median,"L462:         ""training_target"": {
+L463:             ""median"": prior,
+L464:             ""min"": float(ytrain.min()),
+L465:             ""max"": float(ytrain.max()),
+L466:         },
+L467:         ""ISU_candidate_target_medians"": {
+L468:             ""C5"": float(np.median(labels[C5])),
+L469:             ""C2"": float(np.median(labels[C2])),
+L470:         },
+L471:         ""ISU_outside_training_full_feature_range_any"":
+L472:             int(outside_any.sum()),
+L473:         ""feature_distribution_diagnostics"": ood,
+L474:         ""scores"": scores,"
+469,median,"L463:             ""median"": prior,
+L464:             ""min"": float(ytrain.min()),
+L465:             ""max"": float(ytrain.max()),
+L466:         },
+L467:         ""ISU_candidate_target_medians"": {
+L468:             ""C5"": float(np.median(labels[C5])),
+L469:             ""C2"": float(np.median(labels[C2])),
+L470:         },
+L471:         ""ISU_outside_training_full_feature_range_any"":
+L472:             int(outside_any.sum()),
+L473:         ""feature_distribution_diagnostics"": ood,
+L474:         ""scores"": scores,
+L475:         ""interpretation"":"

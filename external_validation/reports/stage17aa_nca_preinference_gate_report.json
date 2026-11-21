@@ -1,0 +1,31 @@
+{
+  "stage": "17AA_NCA_PREINFERENCE_RAW_GAP_GATE",
+  "source_doi": "10.5281/zenodo.6405084",
+  "physical_cells": 66,
+  "source_sha256": {
+    "external_validation/raw/tongji_zenodo6405084/Dataset_1_NCA_battery.zip": "0d58f6f09f4ada76c2c3ab038ce98926ebdba7d18aaa31a9d7bebdccc9a834ac",
+    "external_validation/reports/stage17y_nca_pre_extraction_protocol.json": "cd21983c842c73ca54fdc64cec2430c5c7dd6abce0764b802a03a41027c1f6bd",
+    "external_validation/reports/stage17y_tongji_nca_archive_inventory.json": "e0d32bcd0da6881b23e8ec0b10b34a7b3b8297a3a4cf5a5b5e0aed05312e1f86",
+    "external_validation/reports/stage17z_nca_raw_cycle_screen_report.json": "df90ac8e73f34424e4532423996fd715eb9d55c30c3698ca7599598f6ffdd18a",
+    "external_validation/reports/stage17z_nca_physical_cell_screen.csv": "6013eb887722274128156104e8849fdc04237fd1fe2c60096eb63c7aa7cebd96",
+    "external_validation/reports/stage17z_nca_observed_cycle_segments.csv": "6d023186549b6bd51e2279c99e4d6733e2ee855f3dad8196b27ebe07b50b2949",
+    "data/05_model_ready/aging/expanded_aging_features_with_batterylife.csv": "8bc5296425fbb0735faceb56fe1cf52c6d0292bec2e361be8870fc1626aa5c7c",
+    "external_validation/scripts/stage16a_isu_exploratory_transfer.py": "537b148602a6c191b1964ee93cd4fee697156772ce43f61d6803808078e29e61"
+  },
+  "quality_counts": {
+    "stage17z_four_cycles_no_ambiguity": 47,
+    "cells_with_100_unique_contiguous_cycles": 54,
+    "cells_with_100_positive_capacities": 53,
+    "strict_first100_gate_DIAGNOSTIC": 30,
+    "cells_with_active_gap_within_cycle_over_1h": 14,
+    "cells_with_active_gap_first100_over_1h": 0,
+    "cells_with_positive_unique_last_cycle": 56
+  },
+  "one_hour_gap_is_diagnostic_not_proof_of_incompleteness": true,
+  "no_external_target_used_for_model_selection": true,
+  "full_discharge_completeness_certified": false,
+  "target_equivalence_certified": false,
+  "models_fitted": false,
+  "inference": false,
+  "prism_updated": false
+}

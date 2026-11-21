@@ -1,0 +1,147 @@
+{
+  "stage": "17AG_POSTOUTCOME_STOPPING_HORIZON_DIAGNOSTIC",
+  "physical_cells": 30,
+  "input_sha256": {
+    "external_validation/reports/stage17af_nca_unsealed_outcome_evidence.json": "6281f0fcf3ac6e04a6383e39f1fe48c1d5c578af92c494a2c3ba30cdd8e6c2a7",
+    "external_validation/reports/stage17af_nca_30cell_last_cycle_diagnostic_and_locked_predictions.csv": "2f15505294ad054799be38ec87f5206ccf647f0c154a148228437484729a1ef4",
+    "external_validation/reports/stage17z_nca_observed_cycle_segments.csv": "6d023186549b6bd51e2279c99e4d6733e2ee855f3dad8196b27ebe07b50b2949",
+    "external_validation/reports/stage17ae_nca_preoutcome_model_lock_report.json": "99b028f134e41239174efbd849511caae603048e1917706b7edfcdb172011193",
+    "external_validation/reports/stage17ae_nca_30cell_PREOUTCOME_dual_sign_predictions.csv": "cf34a8085d57924f1e6f7e9377b2707092452e0c383b680d82d4e5a27a588757"
+  },
+  "summary": {
+    "last_recorded_retention": {
+      "n": 30,
+      "min": 0.7436974537174859,
+      "p05": 0.7439266355189599,
+      "median": 0.7704722549796237,
+      "mean": 0.783571077420288,
+      "p95": 0.8993151173875655,
+      "max": 0.9185615262876341
+    },
+    "last_recorded_instrument_cycle": {
+      "n": 30,
+      "min": 108.0,
+      "p05": 125.65,
+      "median": 201.0,
+      "mean": 373.0,
+      "p95": 720.8,
+      "max": 800.0
+    },
+    "cycle100_retention": {
+      "n": 30,
+      "min": 0.8521234116956427,
+      "p05": 0.8776063561226959,
+      "median": 0.9133992504897672,
+      "mean": 0.9100594220612684,
+      "p95": 0.9392388515883919,
+      "max": 0.9467049562494807
+    },
+    "count_last_retention_within_0p03_of_0p75": 21,
+    "count_last_retention_within_0p03_of_0p80": 11,
+    "count_last_retention_below_0p80": 23,
+    "threshold_crossing_counts": {
+      "70": {
+        "any_observed": 5,
+        "three_consecutive": 0
+      },
+      "75": {
+        "any_observed": 9,
+        "three_consecutive": 9
+      },
+      "80": {
+        "any_observed": 23,
+        "three_consecutive": 23
+      },
+      "85": {
+        "any_observed": 27,
+        "three_consecutive": 27
+      }
+    }
+  },
+  "program_groups": [
+    {
+      "program": "CY25-025_1",
+      "physical_cells": 2,
+      "last_retention": {
+        "n": 2,
+        "min": 0.7725744740178581,
+        "p05": 0.7778992375893339,
+        "median": 0.8258221097326166,
+        "mean": 0.8258221097326166,
+        "p95": 0.8737449818758994,
+        "max": 0.8790697454473753
+      },
+      "last_instrument_cycle": {
+        "n": 2,
+        "min": 235.0,
+        "p05": 247.65,
+        "median": 361.5,
+        "mean": 361.5,
+        "p95": 475.34999999999997,
+        "max": 488.0
+      },
+      "last_below_80pct": 1
+    },
+    {
+      "program": "CY25-05_1",
+      "physical_cells": 16,
+      "last_retention": {
+        "n": 16,
+        "min": 0.7669229950357334,
+        "p05": 0.768249144983725,
+        "median": 0.7814151194436135,
+        "mean": 0.803537460923456,
+        "p95": 0.9165500160304267,
+        "max": 0.9185615262876341
+      },
+      "last_instrument_cycle": {
+        "n": 16,
+        "min": 108.0,
+        "p05": 108.75,
+        "median": 190.5,
+        "mean": 175.125,
+        "p95": 197.5,
+        "max": 208.0
+      },
+      "last_below_80pct": 10
+    },
+    {
+      "program": "CY45-05_1",
+      "physical_cells": 12,
+      "last_retention": {
+        "n": 12,
+        "min": 0.7436974537174859,
+        "p05": 0.743759309858163,
+        "median": 0.7472778607420183,
+        "mean": 0.7499073940306759,
+        "p95": 0.7638657177498046,
+        "max": 0.7699130266283886
+      },
+      "last_instrument_cycle": {
+        "n": 12,
+        "min": 496.0,
+        "p05": 514.7,
+        "median": 644.0,
+        "mean": 638.75,
+        "p95": 760.4,
+        "max": 800.0
+      },
+      "last_below_80pct": 12
+    }
+  ],
+  "threshold_grid": [
+    0.7,
+    0.75,
+    0.8,
+    0.85
+  ],
+  "threshold_grid_is_postoutcome_diagnostic": true,
+  "first_crossing_requires_no_model_fitting": true,
+  "first_three_consecutive_crossing_is_observational": true,
+  "actual_experiment_stopping_rule_verified": false,
+  "physical_EOL_certified": false,
+  "training_endpoint_equivalence_certified": false,
+  "model_training": false,
+  "prediction_changes": false,
+  "prism_updated": false
+}

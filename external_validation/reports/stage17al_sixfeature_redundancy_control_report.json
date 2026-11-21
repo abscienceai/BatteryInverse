@@ -1,0 +1,114 @@
+{
+  "stage": "17AL_EXPLORATORY_SIXFEATURE_REDUNDANCY_CONTROL",
+  "scientific_question": "Does dropping the signed fade feature change transfer?",
+  "status": "POST_EXTERNAL_OUTCOME_EXPLORATORY",
+  "six_features": [
+    "cap_ratio_10_to_1",
+    "cap_ratio_50_to_1",
+    "cap_ratio_100_to_1",
+    "cap_mean_first_100_norm",
+    "cap_std_first_100_norm",
+    "cap_slope_first_100_norm"
+  ],
+  "dropped_feature": "cap_fade_fraction_1_to_100",
+  "harmonized7_duplicate_identity_max_abs_difference": 5.810035178660522e-12,
+  "training_rows": 567,
+  "folds": 14,
+  "new_models_fit": 28,
+  "existing_17AK_scores_reused_not_retrained": true,
+  "summary": {
+    "SOURCE_FAMILY_HOLDOUT:random_forest:ALL": {
+      "folds": 2,
+      "MAE_macro_original7": 0.29345831617487317,
+      "MAE_macro_harmonized7": 0.3022434073579501,
+      "MAE_macro_no_fade6": 0.3015243275080164,
+      "MAE_macro_prior": 0.19432377826956412,
+      "folds_6_better_than_orig7": 0,
+      "folds_6_better_than_harmonized7": 2,
+      "folds_6_better_than_prior": 0
+    },
+    "SOURCE_FAMILY_HOLDOUT:random_forest:EXCLUDE_UL_PUR_2CELL": {
+      "folds": 2,
+      "MAE_macro_original7": 0.29345831617487317,
+      "MAE_macro_harmonized7": 0.3022434073579501,
+      "MAE_macro_no_fade6": 0.3015243275080164,
+      "MAE_macro_prior": 0.19432377826956412,
+      "folds_6_better_than_orig7": 0,
+      "folds_6_better_than_harmonized7": 2,
+      "folds_6_better_than_prior": 0
+    },
+    "SOURCE_FAMILY_HOLDOUT:extra_trees:ALL": {
+      "folds": 2,
+      "MAE_macro_original7": 0.26796133871271544,
+      "MAE_macro_harmonized7": 0.28959373801105487,
+      "MAE_macro_no_fade6": 0.2930410094795421,
+      "MAE_macro_prior": 0.19432377826956412,
+      "folds_6_better_than_orig7": 0,
+      "folds_6_better_than_harmonized7": 0,
+      "folds_6_better_than_prior": 0
+    },
+    "SOURCE_FAMILY_HOLDOUT:extra_trees:EXCLUDE_UL_PUR_2CELL": {
+      "folds": 2,
+      "MAE_macro_original7": 0.26796133871271544,
+      "MAE_macro_harmonized7": 0.28959373801105487,
+      "MAE_macro_no_fade6": 0.2930410094795421,
+      "MAE_macro_prior": 0.19432377826956412,
+      "folds_6_better_than_orig7": 0,
+      "folds_6_better_than_harmonized7": 0,
+      "folds_6_better_than_prior": 0
+    },
+    "DATASET_LODO:random_forest:ALL": {
+      "folds": 12,
+      "MAE_macro_original7": 0.20908484562427967,
+      "MAE_macro_harmonized7": 0.27883717240300687,
+      "MAE_macro_no_fade6": 0.27902520366182554,
+      "MAE_macro_prior": 0.23274151057465453,
+      "folds_6_better_than_orig7": 5,
+      "folds_6_better_than_harmonized7": 6,
+      "folds_6_better_than_prior": 5
+    },
+    "DATASET_LODO:random_forest:EXCLUDE_UL_PUR_2CELL": {
+      "folds": 11,
+      "MAE_macro_original7": 0.21720678723365638,
+      "MAE_macro_harmonized7": 0.27147499894430244,
+      "MAE_macro_no_fade6": 0.2715880047286902,
+      "MAE_macro_prior": 0.24308470198962312,
+      "folds_6_better_than_orig7": 5,
+      "folds_6_better_than_harmonized7": 6,
+      "folds_6_better_than_prior": 5
+    },
+    "DATASET_LODO:extra_trees:ALL": {
+      "folds": 12,
+      "MAE_macro_original7": 0.20814730816213847,
+      "MAE_macro_harmonized7": 0.2769726241528053,
+      "MAE_macro_no_fade6": 0.2755702394318181,
+      "MAE_macro_prior": 0.23274151057465453,
+      "folds_6_better_than_orig7": 5,
+      "folds_6_better_than_harmonized7": 9,
+      "folds_6_better_than_prior": 4
+    },
+    "DATASET_LODO:extra_trees:EXCLUDE_UL_PUR_2CELL": {
+      "folds": 11,
+      "MAE_macro_original7": 0.21391333807561522,
+      "MAE_macro_harmonized7": 0.27374355870024203,
+      "MAE_macro_no_fade6": 0.27062685535664743,
+      "MAE_macro_prior": 0.24308470198962312,
+      "folds_6_better_than_orig7": 5,
+      "folds_6_better_than_harmonized7": 9,
+      "folds_6_better_than_prior": 4
+    }
+  },
+  "no_new_ISU_or_NCA_inference": true,
+  "does_not_identify_causal_reason_for_external_failure": true,
+  "frozen_NCA_prediction_sha256": "cf34a8085d57924f1e6f7e9377b2707092452e0c383b680d82d4e5a27a588757",
+  "original_training_table_modified": false,
+  "prism_updated": false,
+  "source_sha256": {
+    "data/05_model_ready/aging/expanded_aging_features_with_batterylife.csv": "8bc5296425fbb0735faceb56fe1cf52c6d0292bec2e361be8870fc1626aa5c7c",
+    "external_validation/scripts/stage16a_isu_exploratory_transfer.py": "537b148602a6c191b1964ee93cd4fee697156772ce43f61d6803808078e29e61",
+    "external_validation/reports/stage17ae_nca_preoutcome_model_lock_report.json": "99b028f134e41239174efbd849511caae603048e1917706b7edfcdb172011193",
+    "external_validation/reports/stage17ak_harmonization_ablation_report.json": "b01ce7c98f922e345280a57300f927697ea523123e2f4892d53273fe25baed67",
+    "external_validation/reports/stage17ak_harmonization_source_and_lodo_folds.csv": "1629a1a781cca459ee0930138545f63b1f76f0a56914705f8eff3c3fd2cc08fa",
+    "external_validation/reports/stage17ae_nca_30cell_PREOUTCOME_dual_sign_predictions.csv": "cf34a8085d57924f1e6f7e9377b2707092452e0c383b680d82d4e5a27a588757"
+  }
+}

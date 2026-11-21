@@ -1,0 +1,114 @@
+{
+  "study": "STAGE16C_EXPLORATORY_ENDPOINT_HORIZON_AUDIT",
+  "source_stage16b_report_sha256": "5160fee79667652d866242c0678c6d7c6cebc333dec0442427488afaccfdd897",
+  "source_predictions_sha256": "9c76980577ff7e3bc861d92b83249c9d52d454dfa4b5e7c5416898b121469165",
+  "source_v7_sha256": "1ce1c5459c983d85367924c2d783c96d5949625ef02536bb0ec2d19260db8a00",
+  "source_b0_sha256": "cd1dae351c3433fc3b289918d04f3d0faf4e04c671d90aa86af132986b757a52",
+  "results": {
+    "n_cells": 242,
+    "first_post100_c5_ratio": {
+      "n": 242,
+      "min": 0.68176865,
+      "p05": 0.8236811070000001,
+      "median": 0.95860005,
+      "p95": 0.9970164365,
+      "max": 1.01242465
+    },
+    "terminal_c5_ratio": {
+      "n": 242,
+      "min": 0.13067682,
+      "p05": 0.30392896399999997,
+      "median": 0.46948172499999996,
+      "p95": 0.6725627574999999,
+      "max": 0.78799499
+    },
+    "first_minus_terminal_pp": {
+      "n": 242,
+      "min": 0.0,
+      "p05": 20.847271950000003,
+      "median": 48.252514000000005,
+      "p95": 63.0163578,
+      "max": 82.808076
+    },
+    "count_first_ratio_greater_than_terminal": 240,
+    "count_first_ratio_less_than_terminal": 0,
+    "count_abs_difference_ge_3pp": 240,
+    "count_abs_difference_ge_5pp": 239,
+    "first_post100_target_hours": {
+      "n": 242,
+      "min": 0.4025,
+      "p05": 4.7612362,
+      "median": 55.898472,
+      "p95": 161.15866645,
+      "max": 166.767222
+    },
+    "rpt_index_gap": {
+      "n": 242,
+      "min": 0.0,
+      "p05": 4.050000000000001,
+      "median": 16.0,
+      "p95": 35.0,
+      "max": 78.0
+    },
+    "count_later_rpt_index_after_first_post100": 240,
+    "count_first_post100_same_as_terminal_index": 2,
+    "v7_to_b0_first_index_comparable": 242,
+    "v7_to_b0_first_index_match": 242,
+    "v7_to_v6_candidate_index_comparable": 242,
+    "v7_to_v6_candidate_index_match": 242,
+    "frozen_prediction_diagnostics": {
+      "median_prior": {
+        "against_first_post100_C5_POSTHOC_DIAGNOSTIC": {
+          "mae": 0.17371179382234714,
+          "rmse": 0.18001691038886092,
+          "signed_bias": -0.17203268046076037,
+          "spearman": null
+        },
+        "against_terminal_C5_STAGE16A": {
+          "mae": 0.28350808923603305,
+          "rmse": 0.30344057779414174,
+          "signed_bias": 0.283369011811967,
+          "spearman": null
+        }
+      },
+      "random_forest": {
+        "against_first_post100_C5_POSTHOC_DIAGNOSTIC": {
+          "mae": 0.1381763871994903,
+          "rmse": 0.19361899489633136,
+          "signed_bias": -0.1374959615245392,
+          "spearman": 0.104978769406714
+        },
+        "against_terminal_C5_STAGE16A": {
+          "mae": 0.3338793635660667,
+          "rmse": 0.36044115918082437,
+          "signed_bias": 0.31790573074818806,
+          "spearman": -0.08379834460856389
+        }
+      },
+      "extra_trees": {
+        "against_first_post100_C5_POSTHOC_DIAGNOSTIC": {
+          "mae": 0.12391247363127801,
+          "rmse": 0.14273677097802648,
+          "signed_bias": -0.12339402925630141,
+          "spearman": 0.19695636104538405
+        },
+        "against_terminal_C5_STAGE16A": {
+          "mae": 0.3321547315000978,
+          "rmse": 0.3579448177173,
+          "signed_bias": 0.33200766301642587,
+          "spearman": -0.14821292263766803
+        }
+      }
+    }
+  },
+  "limits": [
+    "The V7 post-100 RPT candidate remains provisional.",
+    "RPT index conventions require source verification.",
+    "hours_to_target concerns the first post-100 candidate, not terminal RPT.",
+    "This post-hoc comparison cannot replace the original target.",
+    "Capacity-unit and cross-dataset endpoint equivalence remain unconfirmed."
+  ],
+  "model_training": false,
+  "predictions_recomputed": false,
+  "new_target_approved": false
+}

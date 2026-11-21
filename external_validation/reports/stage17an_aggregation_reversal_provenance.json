@@ -1,0 +1,180 @@
+{
+  "stage": "17AN_DOMAIN_INFLUENCE_AND_AGGREGATION_REVERSAL_AUDIT",
+  "purpose": "Descriptive aggregation and domain influence audit",
+  "original_training_cells": 567,
+  "dataset_holdouts": 12,
+  "previous_model_fits_reused": 84,
+  "new_model_fits": 0,
+  "NCA_prediction_sha256": "cf34a8085d57924f1e6f7e9377b2707092452e0c383b680d82d4e5a27a588757",
+  "domain_resampling_draws": 10000,
+  "domain_resampling_caveat": "Resampling observed dataset domains is exploratory. Intervals are descriptive and conditional on the existing fitted fold models, dataset definitions and endpoints. They do not establish prospective performance or independent laboratory replication.",
+  "results": {
+    "ALL:random_forest": {
+      "original7": {
+        "macro": 0.02365666495037486,
+        "weighted": -0.022975363142730548,
+        "descriptive_macro_ci": [
+          -0.05594136470972923,
+          0.11937676133408817
+        ],
+        "descriptive_weighted_ci": [
+          -0.09946419636445043,
+          0.11939914788350163
+        ]
+      },
+      "harmonized7": {
+        "macro": -0.04609566182835236,
+        "weighted": -0.0752068149449438,
+        "descriptive_macro_ci": [
+          -0.10739828171188645,
+          0.011704207448722392
+        ],
+        "descriptive_weighted_ci": [
+          -0.11551656462947092,
+          -0.008241494216137008
+        ]
+      },
+      "no_fade6": {
+        "macro": -0.04628369308717103,
+        "weighted": -0.07545048368449062,
+        "descriptive_macro_ci": [
+          -0.1079608670812738,
+          0.011835156638533467
+        ],
+        "descriptive_weighted_ci": [
+          -0.11599941970108135,
+          -0.008379442185847498
+        ]
+      }
+    },
+    "ALL:extra_trees": {
+      "original7": {
+        "macro": 0.02459420241251606,
+        "weighted": -0.013373639595797931,
+        "descriptive_macro_ci": [
+          -0.05493731306527126,
+          0.1189057777979177
+        ],
+        "descriptive_weighted_ci": [
+          -0.08408168691946723,
+          0.1187994782846346
+        ]
+      },
+      "harmonized7": {
+        "macro": -0.0442311135781508,
+        "weighted": -0.06953599578922014,
+        "descriptive_macro_ci": [
+          -0.10097026162120076,
+          0.009890135484699442
+        ],
+        "descriptive_weighted_ci": [
+          -0.11254273513317359,
+          -0.00759780966191067
+        ]
+      },
+      "no_fade6": {
+        "macro": -0.042828728857163594,
+        "weighted": -0.06926516598443974,
+        "descriptive_macro_ci": [
+          -0.1018981465672992,
+          0.01267484037289002
+        ],
+        "descriptive_weighted_ci": [
+          -0.11183783295069576,
+          -0.005766748904859508
+        ]
+      }
+    },
+    "EXCLUDE_UL_PUR:random_forest": {
+      "original7": {
+        "macro": 0.025877914755966756,
+        "weighted": -0.023053941125851237,
+        "descriptive_macro_ci": [
+          -0.061920139560513704,
+          0.13062084463064244
+        ],
+        "descriptive_weighted_ci": [
+          -0.09909748829864684,
+          0.11994091330475815
+        ]
+      },
+      "harmonized7": {
+        "macro": -0.028390296954679303,
+        "weighted": -0.0746204508370011,
+        "descriptive_macro_ci": [
+          -0.08184661487907352,
+          0.024245705252048468
+        ],
+        "descriptive_weighted_ci": [
+          -0.11397562255536699,
+          -0.007282947040922535
+        ]
+      },
+      "no_fade6": {
+        "macro": -0.02850330273906715,
+        "weighted": -0.07486139517747531,
+        "descriptive_macro_ci": [
+          -0.08226179927538912,
+          0.024337487772060556
+        ],
+        "descriptive_weighted_ci": [
+          -0.1142276490496956,
+          -0.007211917504554913
+        ]
+      }
+    },
+    "EXCLUDE_UL_PUR:extra_trees": {
+      "original7": {
+        "macro": 0.029171363914007917,
+        "weighted": -0.013329813278955114,
+        "descriptive_macro_ci": [
+          -0.055757798420304434,
+          0.13139121407753376
+        ],
+        "descriptive_weighted_ci": [
+          -0.08276874314196896,
+          0.11693814579533554
+        ]
+      },
+      "harmonized7": {
+        "macro": -0.03065885671061889,
+        "weighted": -0.06909709333494835,
+        "descriptive_macro_ci": [
+          -0.08479186369073285,
+          0.019652820278707083
+        ],
+        "descriptive_weighted_ci": [
+          -0.1115807188562512,
+          -0.0071476648287472095
+        ]
+      },
+      "no_fade6": {
+        "macro": -0.027542153367024348,
+        "weighted": -0.06876351680474325,
+        "descriptive_macro_ci": [
+          -0.08220881449455242,
+          0.023511946700174282
+        ],
+        "descriptive_weighted_ci": [
+          -0.11025708862799313,
+          -0.004843470783190342
+        ]
+      }
+    }
+  },
+  "leave_one_domain_out_reversal_counts": {
+    "ALL:random_forest": 10,
+    "ALL:extra_trees": 10,
+    "EXCLUDE_UL_PUR:random_forest": 9,
+    "EXCLUDE_UL_PUR:extra_trees": 9
+  },
+  "new_external_predictions": false,
+  "manuscript_modified": false,
+  "input_sha256": {
+    "external_validation/reports/stage17am_three_condition_fold_score_evidence.csv": "54ad03ad852cf01e5bdb9280ba554108011c30f80b98c80799906c7921bee0c3",
+    "external_validation/reports/stage17am_macro_and_cell_weighted_results.csv": "4196cdd15b372ac5c1a12a24854d7566d91bc3e40d6167f94b9397358f7ac4b3",
+    "external_validation/reports/stage17am_exploratory_ablation_consolidated_evidence.json": "dcedd9d66dad91922ce200c013b55b6564d28f08158e5fbcd255034567510ac5",
+    "external_validation/reports/stage17ae_nca_30cell_PREOUTCOME_dual_sign_predictions.csv": "cf34a8085d57924f1e6f7e9377b2707092452e0c383b680d82d4e5a27a588757",
+    "data/05_model_ready/aging/expanded_aging_features_with_batterylife.csv": "8bc5296425fbb0735faceb56fe1cf52c6d0292bec2e361be8870fc1626aa5c7c"
+  }
+}

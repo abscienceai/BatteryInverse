@@ -1,0 +1,134 @@
+{
+  "stage": "17AK_ORIGINAL567_FEATURE_SIGN_HARMONIZATION_CONTROLLED_ABLATION",
+  "status": "POST_EXTERNAL_OUTCOME_EXPLORATORY_NOT_FROZEN_VALIDATION",
+  "hypothesis": "Source-family-dependent feature sign can affect transfer",
+  "intervention": "Flip only BatteryML_main cap_fade_fraction_1_to_100 to positive loss; leave all other inputs and target unchanged",
+  "positive_loss_formula": "1 - cap_ratio_100_to_1",
+  "feature_identity_max_abs_discrepancy": 5.810035178660522e-12,
+  "sign_changed_training_rows": 318,
+  "original_training_n": 567,
+  "source_family_n": {
+    "BatteryML_main": 318,
+    "BatteryLife_selected": 249
+  },
+  "dataset_ids": [
+    "CALB",
+    "CALCE",
+    "HNEI",
+    "HUST",
+    "MATR",
+    "MICH",
+    "MICH_EXP",
+    "NA-ion",
+    "RWTH",
+    "SNL",
+    "UL_PUR",
+    "XJTU"
+  ],
+  "split_grid": {
+    "source_family_holdouts": 2,
+    "dataset_LODO_holdouts": 12,
+    "estimators": 2,
+    "feature_conditions": 2,
+    "total_fits": 56
+  },
+  "source_family_holdout_results": [
+    {
+      "split_type": "SOURCE_FAMILY_HOLDOUT",
+      "heldout": "BatteryLife_selected",
+      "model": "random_forest",
+      "test_n": 249,
+      "MAE_original_mixed": 0.33531219622487346,
+      "MAE_harmonized": 0.3491503380303878,
+      "MAE_gain_original_minus_harmonized": -0.013838141805514383,
+      "RMSE_original_mixed": 0.3727719406702616,
+      "RMSE_harmonized": 0.39666831019739884,
+      "prior_MAE_same_holdout": 0.20863855497842573,
+      "cells_lower_absolute_error_after_harmonization": 79,
+      "cells_higher_absolute_error_after_harmonization": 170,
+      "positive_gain_means_harmonization_better": true
+    },
+    {
+      "split_type": "SOURCE_FAMILY_HOLDOUT",
+      "heldout": "BatteryLife_selected",
+      "model": "extra_trees",
+      "test_n": 249,
+      "MAE_original_mixed": 0.3181306995664159,
+      "MAE_harmonized": 0.34899619803162735,
+      "MAE_gain_original_minus_harmonized": -0.03086549846521145,
+      "RMSE_original_mixed": 0.3571665066006605,
+      "RMSE_harmonized": 0.39617331609453993,
+      "prior_MAE_same_holdout": 0.20863855497842573,
+      "cells_lower_absolute_error_after_harmonization": 56,
+      "cells_higher_absolute_error_after_harmonization": 193,
+      "positive_gain_means_harmonization_better": true
+    },
+    {
+      "split_type": "SOURCE_FAMILY_HOLDOUT",
+      "heldout": "BatteryML_main",
+      "model": "random_forest",
+      "test_n": 318,
+      "MAE_original_mixed": 0.2516044361248728,
+      "MAE_harmonized": 0.2553364766855123,
+      "MAE_gain_original_minus_harmonized": -0.0037320405606394687,
+      "RMSE_original_mixed": 0.3202250681006479,
+      "RMSE_harmonized": 0.32539386383619734,
+      "prior_MAE_same_holdout": 0.18000900156070251,
+      "cells_lower_absolute_error_after_harmonization": 32,
+      "cells_higher_absolute_error_after_harmonization": 279,
+      "positive_gain_means_harmonization_better": true
+    },
+    {
+      "split_type": "SOURCE_FAMILY_HOLDOUT",
+      "heldout": "BatteryML_main",
+      "model": "extra_trees",
+      "test_n": 318,
+      "MAE_original_mixed": 0.21779197785901502,
+      "MAE_harmonized": 0.23019127799048242,
+      "MAE_gain_original_minus_harmonized": -0.012399300131467363,
+      "RMSE_original_mixed": 0.2904991113813348,
+      "RMSE_harmonized": 0.3028640207760688,
+      "prior_MAE_same_holdout": 0.18000900156070251,
+      "cells_lower_absolute_error_after_harmonization": 185,
+      "cells_higher_absolute_error_after_harmonization": 132,
+      "positive_gain_means_harmonization_better": true
+    }
+  ],
+  "dataset_LODO_macro_descriptive": {
+    "random_forest": {
+      "datasets": 12,
+      "unweighted_mean_MAE_original": 0.20908484562427967,
+      "unweighted_mean_MAE_harmonized": 0.27883717240300687,
+      "unweighted_mean_MAE_gain": -0.06975232677872721,
+      "datasets_harmonization_better": 5,
+      "datasets_harmonization_worse": 7,
+      "two_cell_UL_PUR_included": true
+    },
+    "extra_trees": {
+      "datasets": 12,
+      "unweighted_mean_MAE_original": 0.20814730816213847,
+      "unweighted_mean_MAE_harmonized": 0.2769726241528053,
+      "unweighted_mean_MAE_gain": -0.06882531599066687,
+      "datasets_harmonization_better": 2,
+      "datasets_harmonization_worse": 10,
+      "two_cell_UL_PUR_included": true
+    }
+  },
+  "heldout_labels_used_only_for_final_scoring": true,
+  "same_training_targets_and_split_membership": true,
+  "not_a_causal_identification_of_external_failure": true,
+  "not_comparable_as_prospective_external_improvement": true,
+  "source_target_endpoint_equivalence_certified": false,
+  "models_fit_only_to_original_training_fold": true,
+  "original_training_table_modified": false,
+  "prior_frozen_NCA_models_and_predictions_unchanged": true,
+  "frozen_NCA_prediction_sha256": "cf34a8085d57924f1e6f7e9377b2707092452e0c383b680d82d4e5a27a588757",
+  "input_sha256": {
+    "data/05_model_ready/aging/expanded_aging_features_with_batterylife.csv": "8bc5296425fbb0735faceb56fe1cf52c6d0292bec2e361be8870fc1626aa5c7c",
+    "external_validation/scripts/stage16a_isu_exploratory_transfer.py": "537b148602a6c191b1964ee93cd4fee697156772ce43f61d6803808078e29e61",
+    "external_validation/reports/stage17ad_preinference_locked_recipe_and_fade.json": "ac0c6b064b67c2da1675362a316bd478daec7408545b541432307b49b8deb755",
+    "external_validation/reports/stage17ae_nca_preoutcome_model_lock_report.json": "99b028f134e41239174efbd849511caae603048e1917706b7edfcdb172011193",
+    "external_validation/reports/stage17ae_nca_30cell_PREOUTCOME_dual_sign_predictions.csv": "cf34a8085d57924f1e6f7e9377b2707092452e0c383b680d82d4e5a27a588757"
+  },
+  "prism_updated": false
+}

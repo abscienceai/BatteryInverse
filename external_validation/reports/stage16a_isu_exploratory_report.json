@@ -1,0 +1,146 @@
+{
+  "experiment_type": "EXPLORATORY_TRANSFER_STRESS_TEST",
+  "not_final_external_validation": true,
+  "training_cells": 567,
+  "ISU_cells": 242,
+  "feature_family": "normalized_capacity_only",
+  "features": [
+    "cap_ratio_10_to_1",
+    "cap_ratio_50_to_1",
+    "cap_ratio_100_to_1",
+    "cap_mean_first_100_norm",
+    "cap_std_first_100_norm",
+    "cap_slope_first_100_norm",
+    "cap_fade_fraction_1_to_100"
+  ],
+  "training_sha256": "8bc5296425fbb0735faceb56fe1cf52c6d0292bec2e361be8870fc1626aa5c7c",
+  "original_model_source_sha256": "1929b61d2be3609aa121bc3bc4f8774d86bb3cb9184d300b929a80034198e446",
+  "ISU_features_sha256": "5d4a53f5854e592ff06057a902c34680a189f40fdc3f070e9d1865846fbd5b58",
+  "ISU_candidate_targets_sha256": "b547c3a647e87b7f9ac5745630b8493ba81322a2aa3adabdb45fbef0a4c33dd0",
+  "chronology_gate_sha256": "064c82f807f5c4d7bf24adc43906fc30f74c7f2a3106adf2d55f5e205f2cf703",
+  "scikit_learn_version": "1.9.1",
+  "training_only_on_567_cells": true,
+  "external_training_or_tuning": false,
+  "newly_retrained_models_not_saved_checkpoints": true,
+  "RPT_protocol_approved": false,
+  "capacity_unit_and_DoD_compatibility_verified": false,
+  "endpoint_horizon_equivalence_verified": false,
+  "canonical_ERM_IRM_DANN_not_used": true,
+  "training_target": {
+    "median": 0.771166621688,
+    "min": 0.0218492716909,
+    "max": 1.00823102967
+  },
+  "ISU_candidate_target_medians": {
+    "C5": 0.46948172499999996,
+    "C2": 0.390295645
+  },
+  "ISU_outside_training_full_feature_range_any": 67,
+  "feature_distribution_diagnostics": {
+    "cap_ratio_10_to_1": {
+      "training_median": 1.0,
+      "ISU_median": 0.997343454663385,
+      "ISU_outside_training_5th_95th": 104,
+      "ISU_outside_training_min_max": 52
+    },
+    "cap_ratio_50_to_1": {
+      "training_median": 0.997188378631,
+      "ISU_median": 0.9821442782104037,
+      "ISU_outside_training_5th_95th": 72,
+      "ISU_outside_training_min_max": 31
+    },
+    "cap_ratio_100_to_1": {
+      "training_median": 0.9892060636,
+      "ISU_median": 0.96904015765791,
+      "ISU_outside_training_5th_95th": 67,
+      "ISU_outside_training_min_max": 27
+    },
+    "cap_mean_first_100_norm": {
+      "training_median": 0.996042228212,
+      "ISU_median": 0.9834020530263816,
+      "ISU_outside_training_5th_95th": 77,
+      "ISU_outside_training_min_max": 33
+    },
+    "cap_std_first_100_norm": {
+      "training_median": 0.00355324280462,
+      "ISU_median": 0.012486819402929615,
+      "ISU_outside_training_5th_95th": 33,
+      "ISU_outside_training_min_max": 0
+    },
+    "cap_slope_first_100_norm": {
+      "training_median": -9.44896869626e-05,
+      "ISU_median": -0.0003435926197178133,
+      "ISU_outside_training_5th_95th": 39,
+      "ISU_outside_training_min_max": 6
+    },
+    "cap_fade_fraction_1_to_100": {
+      "training_median": 0.00354867267695,
+      "ISU_median": 0.03095984233810012,
+      "ISU_outside_training_5th_95th": 38,
+      "ISU_outside_training_min_max": 5
+    }
+  },
+  "scores": [
+    {
+      "target": "C5_PRIMARY_CANDIDATE",
+      "model": "training_median_prior",
+      "n": 242,
+      "mae": 0.28350808923603305,
+      "rmse": 0.30344057779414174,
+      "r2": -6.817517343749733,
+      "signed_bias_pred_minus_true": 0.283369011811967,
+      "pred_median": 0.771166621688
+    },
+    {
+      "target": "C5_PRIMARY_CANDIDATE",
+      "model": "random_forest",
+      "n": 242,
+      "mae": 0.3338793635660667,
+      "rmse": 0.36044115918082437,
+      "r2": -10.030375460611541,
+      "signed_bias_pred_minus_true": 0.31790573074818806,
+      "pred_median": 0.8381171186705647
+    },
+    {
+      "target": "C5_PRIMARY_CANDIDATE",
+      "model": "extra_trees",
+      "n": 242,
+      "mae": 0.3321547315000978,
+      "rmse": 0.3579448177173,
+      "r2": -9.87811631915487,
+      "signed_bias_pred_minus_true": 0.33200766301642587,
+      "pred_median": 0.8286337075659447
+    },
+    {
+      "target": "C2_SENSITIVITY",
+      "model": "training_median_prior",
+      "n": 242,
+      "mae": 0.36223107059966936,
+      "rmse": 0.3915449195816715,
+      "r2": -5.931226766557067,
+      "signed_bias_pred_minus_true": 0.36220029829957023,
+      "pred_median": 0.771166621688
+    },
+    {
+      "target": "C2_SENSITIVITY",
+      "model": "random_forest",
+      "n": 242,
+      "mae": 0.4039294465909499,
+      "rmse": 0.44088042000436783,
+      "r2": -7.7879695770444926,
+      "signed_bias_pred_minus_true": 0.39673701723579136,
+      "pred_median": 0.8381171186705647
+    },
+    {
+      "target": "C2_SENSITIVITY",
+      "model": "extra_trees",
+      "n": 242,
+      "mae": 0.4110207178224118,
+      "rmse": 0.44558621435677626,
+      "r2": -7.976569824981281,
+      "signed_bias_pred_minus_true": 0.41083894950402916,
+      "pred_median": 0.8286337075659447
+    }
+  ],
+  "interpretation": "Exploratory external transfer under unconfirmed endpoint equivalence. Do not report as finalized validation."
+}

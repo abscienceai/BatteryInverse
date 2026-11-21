@@ -128,3 +128,9 @@ See [`docs/REPRODUCIBILITY.md`](docs/REPRODUCIBILITY.md) for prerequisites, depe
 ## Citing and licensing
 
 Citation metadata are in `CITATION.cff`. The MIT license in `LICENSE` applies to **original project software only**; it does not grant rights to upstream datasets.
+
+## External measured-data validation release
+
+The submission-linked ISU-ILCC and Tongji/KIT NCA stress-test records, frozen predictions, observation-window diagnostics and later exploratory analyses are documented in [`docs/EXTERNAL_VALIDATION_RELEASE.md`](docs/EXTERNAL_VALIDATION_RELEASE.md).
+
+These are selected audit artifacts, not a redistribution of all upstream raw records or a claim of certified physical EOL.
