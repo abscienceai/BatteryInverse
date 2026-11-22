@@ -1,0 +1,32 @@
+{
+  "stage": "20C",
+  "source_record": "Zenodo 14934405 v2",
+  "benchmark_sha256": "8bc5296425fbb0735faceb56fe1cf52c6d0292bec2e361be8870fc1626aa5c7c",
+  "archives": {
+    "CALB": {
+      "archive": "CALB.zip",
+      "pkl_member_count": 27,
+      "benchmark_cells": 27,
+      "full_path_matches": 27,
+      "unique_basename_matches": 27,
+      "unique_source_name_matches": 27,
+      "cell_stem_matches": 27
+    },
+    "UL_PUR": {
+      "archive": "UL_PUR.zip",
+      "pkl_member_count": 2,
+      "benchmark_cells": 2,
+      "full_path_matches": 2,
+      "unique_basename_matches": 2,
+      "unique_source_name_matches": 2,
+      "cell_stem_matches": 2
+    }
+  },
+  "pickle_deserialization_performed": false,
+  "endpoint_measurements_verified": false,
+  "limitations": [
+    "Filename matching is not cell-content verification.",
+    "ZIP directory entries alone cannot establish endpoint equivalence.",
+    "No capacity trajectories were reconstructed."
+  ]
+}

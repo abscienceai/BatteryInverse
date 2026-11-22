@@ -1,0 +1,77 @@
+{
+  "stage": "20F",
+  "scope": "29 source-verified pilot cells, not the full 567-cell benchmark",
+  "benchmark_sha256": "8bc5296425fbb0735faceb56fe1cf52c6d0292bec2e361be8870fc1626aa5c7c",
+  "domains": {
+    "CALB": {
+      "cells": 27,
+      "last_observation_at_or_before100": 26,
+      "post100_observations_present": 1,
+      "last_cycles": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        208
+      ],
+      "q100_ratio_abs_error_no_future": {
+        "count": 26,
+        "mean": 0.00796029690384616,
+        "median": 0.00029180059150002435,
+        "maximum": 0.03970641674099995
+      },
+      "q100_ratio_abs_error_post100": {
+        "count": 1,
+        "mean": 0.08547566095600001,
+        "median": 0.08547566095600001,
+        "maximum": 0.08547566095600001
+      }
+    },
+    "UL_PUR": {
+      "cells": 2,
+      "last_observation_at_or_before100": 0,
+      "post100_observations_present": 2,
+      "last_cycles": [
+        164,
+        259
+      ],
+      "q100_ratio_abs_error_no_future": null,
+      "q100_ratio_abs_error_post100": {
+        "count": 2,
+        "mean": 0.0515062118215,
+        "median": 0.0515062118215,
+        "maximum": 0.07889513195499998
+      }
+    }
+  },
+  "all_pilot_cells": 29,
+  "no_post100_horizon_cells": 26,
+  "interpretation": [
+    "For cells with last observed cycle 100, the final-retention target falls within the feature-observation window.",
+    "Q100/Q1 comparison quantifies direct contemporaneous feature-target proximity, not predictive generalization.",
+    "Post-100 measurements alone do not establish protocol comparability or a prospectively valid model.",
+    "The remaining 538 benchmark cells are not covered by this pilot audit."
+  ]
+}

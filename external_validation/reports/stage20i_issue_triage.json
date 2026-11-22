@@ -1,0 +1,384 @@
+{
+  "stage": "20I",
+  "purpose": "Diagnose MICH reconstruction differences and XJTU decoder restrictions",
+  "mich_cells": 40,
+  "mich_target_mismatches": 14,
+  "mich_mismatches": [
+    {
+      "cell_id": "MICH_MCForm31_pouch_NMC_45C_0-100_1-1C_a",
+      "source_file": "MICH/MICH_MCForm31_pouch_NMC_45C_0-100_1-1C_a.pkl",
+      "target_rebuild_absdiff": 0.022591645353785092,
+      "valid_capacity_records": 511,
+      "last_observed_cycle": "511",
+      "cap_cycle100_absdiff": "0.0"
+    },
+    {
+      "cell_id": "MICH_MCForm35_pouch_NMC_45C_0-100_1-1C_e",
+      "source_file": "MICH/MICH_MCForm35_pouch_NMC_45C_0-100_1-1C_e.pkl",
+      "target_rebuild_absdiff": 0.02000000000038299,
+      "valid_capacity_records": 445,
+      "last_observed_cycle": "445",
+      "cap_cycle100_absdiff": "0.0"
+    },
+    {
+      "cell_id": "MICH_MCForm40_pouch_NMC_45C_0-100_1-1C_j",
+      "source_file": "MICH/MICH_MCForm40_pouch_NMC_45C_0-100_1-1C_j.pkl",
+      "target_rebuild_absdiff": 0.012345679012753075,
+      "valid_capacity_records": 539,
+      "last_observed_cycle": "539",
+      "cap_cycle100_absdiff": "0.0"
+    },
+    {
+      "cell_id": "MICH_MCForm34_pouch_NMC_45C_0-100_1-1C_d",
+      "source_file": "MICH/MICH_MCForm34_pouch_NMC_45C_0-100_1-1C_d.pkl",
+      "target_rebuild_absdiff": 0.010191082802186835,
+      "valid_capacity_records": 580,
+      "last_observed_cycle": "580",
+      "cap_cycle100_absdiff": "0.0"
+    },
+    {
+      "cell_id": "MICH_MCForm29_pouch_NMC_25C_0-100_1-1C_i",
+      "source_file": "MICH/MICH_MCForm29_pouch_NMC_25C_0-100_1-1C_i.pkl",
+      "target_rebuild_absdiff": 0.009549795361613461,
+      "valid_capacity_records": 552,
+      "last_observed_cycle": "552",
+      "cap_cycle100_absdiff": "0.0"
+    },
+    {
+      "cell_id": "MICH_BLForm14_pouch_NMC_25C_0-100_1-1C_d",
+      "source_file": "MICH/MICH_BLForm14_pouch_NMC_25C_0-100_1-1C_d.pkl",
+      "target_rebuild_absdiff": 0.009037505647956634,
+      "valid_capacity_records": 476,
+      "last_observed_cycle": "476",
+      "cap_cycle100_absdiff": "0.0"
+    },
+    {
+      "cell_id": "MICH_BLForm13_pouch_NMC_25C_0-100_1-1C_c",
+      "source_file": "MICH/MICH_BLForm13_pouch_NMC_25C_0-100_1-1C_c.pkl",
+      "target_rebuild_absdiff": 0.005855855855792791,
+      "valid_capacity_records": 437,
+      "last_observed_cycle": "437",
+      "cap_cycle100_absdiff": "0.0"
+    },
+    {
+      "cell_id": "MICH_BLForm12_pouch_NMC_25C_0-100_1-1C_b",
+      "source_file": "MICH/MICH_BLForm12_pouch_NMC_25C_0-100_1-1C_b.pkl",
+      "target_rebuild_absdiff": 0.004081632653476219,
+      "valid_capacity_records": 432,
+      "last_observed_cycle": "432",
+      "cap_cycle100_absdiff": "0.0"
+    },
+    {
+      "cell_id": "MICH_BLForm18_pouch_NMC_25C_0-100_1-1C_h",
+      "source_file": "MICH/MICH_BLForm18_pouch_NMC_25C_0-100_1-1C_h.pkl",
+      "target_rebuild_absdiff": 0.0036248300858658933,
+      "valid_capacity_records": 438,
+      "last_observed_cycle": "438",
+      "cap_cycle100_absdiff": "0.0"
+    },
+    {
+      "cell_id": "MICH_MCForm24_pouch_NMC_25C_0-100_1-1C_d",
+      "source_file": "MICH/MICH_MCForm24_pouch_NMC_25C_0-100_1-1C_d.pkl",
+      "target_rebuild_absdiff": 0.0031659882403450856,
+      "valid_capacity_records": 476,
+      "last_observed_cycle": "476",
+      "cap_cycle100_absdiff": "0.0"
+    },
+    {
+      "cell_id": "MICH_BLForm11_pouch_NMC_25C_0-100_1-1C_a",
+      "source_file": "MICH/MICH_BLForm11_pouch_NMC_25C_0-100_1-1C_a.pkl",
+      "target_rebuild_absdiff": 0.003153153152765764,
+      "valid_capacity_records": 425,
+      "last_observed_cycle": "425",
+      "cap_cycle100_absdiff": "0.0"
+    },
+    {
+      "cell_id": "MICH_MCForm21_pouch_NMC_25C_0-100_1-1C_a",
+      "source_file": "MICH/MICH_MCForm21_pouch_NMC_25C_0-100_1-1C_a.pkl",
+      "target_rebuild_absdiff": 0.0013483146070673024,
+      "valid_capacity_records": 476,
+      "last_observed_cycle": "476",
+      "cap_cycle100_absdiff": "0.0"
+    },
+    {
+      "cell_id": "MICH_BLForm3_pouch_NMC_45C_0-100_1-1C_c",
+      "source_file": "MICH/MICH_BLForm3_pouch_NMC_45C_0-100_1-1C_c.pkl",
+      "target_rebuild_absdiff": 0.0012722646307447016,
+      "valid_capacity_records": 512,
+      "last_observed_cycle": "512",
+      "cap_cycle100_absdiff": "0.0"
+    },
+    {
+      "cell_id": "MICH_MCForm33_pouch_NMC_45C_0-100_1-1C_c",
+      "source_file": "MICH/MICH_MCForm33_pouch_NMC_45C_0-100_1-1C_c.pkl",
+      "target_rebuild_absdiff": 0.0004257130694095279,
+      "valid_capacity_records": 501,
+      "last_observed_cycle": "501",
+      "cap_cycle100_absdiff": "0.0"
+    }
+  ],
+  "xjtu_cells": 23,
+  "xjtu_decoder_reasons": {
+    "SKIPPED_OVERSIZED_PICKLE": 8,
+    "BLOCKED_PICKLE_OPCODE_STACK_GLOBAL": 15
+  },
+  "xjtu_static_samples": [
+    {
+      "member": "XJTU/XJTU_2C_battery-1.pkl",
+      "uncompressed_bytes": 147335828,
+      "prefix_bytes_inspected": 1048576,
+      "parse_status": "OPERATION_LIMIT",
+      "opcodes": {
+        "BINFLOAT": 27684,
+        "MEMOIZE": 8345,
+        "BINGET": 5544,
+        "REDUCE": 2773,
+        "SHORT_BINBYTES": 2773,
+        "TUPLE2": 2773,
+        "MARK": 35,
+        "APPENDS": 30,
+        "SHORT_BINUNICODE": 15,
+        "EMPTY_LIST": 6,
+        "FRAME": 5,
+        "BININT1": 3,
+        "NONE": 3,
+        "EMPTY_DICT": 2,
+        "STACK_GLOBAL": 2
+      },
+      "object_related_opcodes": [
+        {
+          "opcode": "STACK_GLOBAL",
+          "position": 249456,
+          "argument": "None"
+        },
+        {
+          "opcode": "STACK_GLOBAL",
+          "position": 249474,
+          "argument": "None"
+        },
+        {
+          "opcode": "REDUCE",
+          "position": 249485,
+          "argument": "None"
+        },
+        {
+          "opcode": "BUILD",
+          "position": 249511,
+          "argument": "None"
+        },
+        {
+          "opcode": "REDUCE",
+          "position": 249525,
+          "argument": "None"
+        },
+        {
+          "opcode": "REDUCE",
+          "position": 249544,
+          "argument": "None"
+        },
+        {
+          "opcode": "REDUCE",
+          "position": 249563,
+          "argument": "None"
+        },
+        {
+          "opcode": "REDUCE",
+          "position": 249582,
+          "argument": "None"
+        },
+        {
+          "opcode": "REDUCE",
+          "position": 249601,
+          "argument": "None"
+        },
+        {
+          "opcode": "REDUCE",
+          "position": 249620,
+          "argument": "None"
+        },
+        {
+          "opcode": "REDUCE",
+          "position": 249639,
+          "argument": "None"
+        },
+        {
+          "opcode": "REDUCE",
+          "position": 249658,
+          "argument": "None"
+        }
+      ]
+    },
+    {
+      "member": "XJTU/XJTU_2C_battery-2.pkl",
+      "uncompressed_bytes": 153396022,
+      "prefix_bytes_inspected": 1048576,
+      "parse_status": "OPERATION_LIMIT",
+      "opcodes": {
+        "BINFLOAT": 27668,
+        "MEMOIZE": 8351,
+        "BINGET": 5548,
+        "REDUCE": 2775,
+        "SHORT_BINBYTES": 2775,
+        "TUPLE2": 2775,
+        "MARK": 35,
+        "APPENDS": 30,
+        "SHORT_BINUNICODE": 15,
+        "EMPTY_LIST": 6,
+        "FRAME": 5,
+        "BININT1": 3,
+        "NONE": 3,
+        "EMPTY_DICT": 2,
+        "STACK_GLOBAL": 2
+      },
+      "object_related_opcodes": [
+        {
+          "opcode": "STACK_GLOBAL",
+          "position": 249312,
+          "argument": "None"
+        },
+        {
+          "opcode": "STACK_GLOBAL",
+          "position": 249330,
+          "argument": "None"
+        },
+        {
+          "opcode": "REDUCE",
+          "position": 249341,
+          "argument": "None"
+        },
+        {
+          "opcode": "BUILD",
+          "position": 249367,
+          "argument": "None"
+        },
+        {
+          "opcode": "REDUCE",
+          "position": 249381,
+          "argument": "None"
+        },
+        {
+          "opcode": "REDUCE",
+          "position": 249400,
+          "argument": "None"
+        },
+        {
+          "opcode": "REDUCE",
+          "position": 249419,
+          "argument": "None"
+        },
+        {
+          "opcode": "REDUCE",
+          "position": 249438,
+          "argument": "None"
+        },
+        {
+          "opcode": "REDUCE",
+          "position": 249457,
+          "argument": "None"
+        },
+        {
+          "opcode": "REDUCE",
+          "position": 249476,
+          "argument": "None"
+        },
+        {
+          "opcode": "REDUCE",
+          "position": 249495,
+          "argument": "None"
+        },
+        {
+          "opcode": "REDUCE",
+          "position": 249514,
+          "argument": "None"
+        }
+      ]
+    },
+    {
+      "member": "XJTU/XJTU_2C_battery-3.pkl",
+      "uncompressed_bytes": 147505028,
+      "prefix_bytes_inspected": 1048576,
+      "parse_status": "OPERATION_LIMIT",
+      "opcodes": {
+        "BINFLOAT": 27572,
+        "MEMOIZE": 8387,
+        "BINGET": 5572,
+        "REDUCE": 2787,
+        "SHORT_BINBYTES": 2787,
+        "TUPLE2": 2787,
+        "MARK": 35,
+        "APPENDS": 30,
+        "SHORT_BINUNICODE": 15,
+        "EMPTY_LIST": 6,
+        "FRAME": 5,
+        "BININT1": 3,
+        "NONE": 3,
+        "EMPTY_DICT": 2,
+        "STACK_GLOBAL": 2
+      },
+      "object_related_opcodes": [
+        {
+          "opcode": "STACK_GLOBAL",
+          "position": 248448,
+          "argument": "None"
+        },
+        {
+          "opcode": "STACK_GLOBAL",
+          "position": 248466,
+          "argument": "None"
+        },
+        {
+          "opcode": "REDUCE",
+          "position": 248477,
+          "argument": "None"
+        },
+        {
+          "opcode": "BUILD",
+          "position": 248503,
+          "argument": "None"
+        },
+        {
+          "opcode": "REDUCE",
+          "position": 248517,
+          "argument": "None"
+        },
+        {
+          "opcode": "REDUCE",
+          "position": 248536,
+          "argument": "None"
+        },
+        {
+          "opcode": "REDUCE",
+          "position": 248555,
+          "argument": "None"
+        },
+        {
+          "opcode": "REDUCE",
+          "position": 248574,
+          "argument": "None"
+        },
+        {
+          "opcode": "REDUCE",
+          "position": 248593,
+          "argument": "None"
+        },
+        {
+          "opcode": "REDUCE",
+          "position": 248612,
+          "argument": "None"
+        },
+        {
+          "opcode": "REDUCE",
+          "position": 248631,
+          "argument": "None"
+        },
+        {
+          "opcode": "REDUCE",
+          "position": 248650,
+          "argument": "None"
+        }
+      ]
+    }
+  ],
+  "pickle_deserialization_performed": false,
+  "models_retrained": false
+}

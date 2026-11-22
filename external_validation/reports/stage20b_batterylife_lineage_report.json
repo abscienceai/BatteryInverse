@@ -1,0 +1,121 @@
+{
+  "stage": "20B",
+  "scope": "249 BatteryLife_selected benchmark cells; 318 BatteryML_main cells not yet audited for endpoint availability",
+  "benchmark_sha256": "8bc5296425fbb0735faceb56fe1cf52c6d0292bec2e361be8870fc1626aa5c7c",
+  "file_presence": {
+    "processed_summary": false,
+    "processed_trajectory": false,
+    "raw_archive_dir": false
+  },
+  "zip_archives": {},
+  "zip_errors": {},
+  "processed_summary_columns": [],
+  "processed_trajectory_columns": [],
+  "trajectory_rows_scanned": 0,
+  "trajectory_rows_matched_with_valid_capacity": 0,
+  "per_dataset": {
+    "CALB": {
+      "cells": 27,
+      "matched_processed_summary": 0,
+      "matched_zip_member": 0,
+      "with_observed_post100": 0,
+      "nearest_to100_after100": 0,
+      "exact_1_single_valid": 0,
+      "exact_100_single_valid": 0,
+      "exact_150_single_valid": 0,
+      "exact_200_single_valid": 0,
+      "exact_300_single_valid": 0
+    },
+    "HNEI": {
+      "cells": 14,
+      "matched_processed_summary": 0,
+      "matched_zip_member": 0,
+      "with_observed_post100": 0,
+      "nearest_to100_after100": 0,
+      "exact_1_single_valid": 0,
+      "exact_100_single_valid": 0,
+      "exact_150_single_valid": 0,
+      "exact_200_single_valid": 0,
+      "exact_300_single_valid": 0
+    },
+    "MICH": {
+      "cells": 40,
+      "matched_processed_summary": 0,
+      "matched_zip_member": 0,
+      "with_observed_post100": 0,
+      "nearest_to100_after100": 0,
+      "exact_1_single_valid": 0,
+      "exact_100_single_valid": 0,
+      "exact_150_single_valid": 0,
+      "exact_200_single_valid": 0,
+      "exact_300_single_valid": 0
+    },
+    "MICH_EXP": {
+      "cells": 18,
+      "matched_processed_summary": 0,
+      "matched_zip_member": 0,
+      "with_observed_post100": 0,
+      "nearest_to100_after100": 0,
+      "exact_1_single_valid": 0,
+      "exact_100_single_valid": 0,
+      "exact_150_single_valid": 0,
+      "exact_200_single_valid": 0,
+      "exact_300_single_valid": 0
+    },
+    "NA-ion": {
+      "cells": 64,
+      "matched_processed_summary": 0,
+      "matched_zip_member": 0,
+      "with_observed_post100": 0,
+      "nearest_to100_after100": 0,
+      "exact_1_single_valid": 0,
+      "exact_100_single_valid": 0,
+      "exact_150_single_valid": 0,
+      "exact_200_single_valid": 0,
+      "exact_300_single_valid": 0
+    },
+    "SNL": {
+      "cells": 61,
+      "matched_processed_summary": 0,
+      "matched_zip_member": 0,
+      "with_observed_post100": 0,
+      "nearest_to100_after100": 0,
+      "exact_1_single_valid": 0,
+      "exact_100_single_valid": 0,
+      "exact_150_single_valid": 0,
+      "exact_200_single_valid": 0,
+      "exact_300_single_valid": 0
+    },
+    "UL_PUR": {
+      "cells": 2,
+      "matched_processed_summary": 0,
+      "matched_zip_member": 0,
+      "with_observed_post100": 0,
+      "nearest_to100_after100": 0,
+      "exact_1_single_valid": 0,
+      "exact_100_single_valid": 0,
+      "exact_150_single_valid": 0,
+      "exact_200_single_valid": 0,
+      "exact_300_single_valid": 0
+    },
+    "XJTU": {
+      "cells": 23,
+      "matched_processed_summary": 0,
+      "matched_zip_member": 0,
+      "with_observed_post100": 0,
+      "nearest_to100_after100": 0,
+      "exact_1_single_valid": 0,
+      "exact_100_single_valid": 0,
+      "exact_150_single_valid": 0,
+      "exact_200_single_valid": 0,
+      "exact_300_single_valid": 0
+    }
+  },
+  "limitations": [
+    "Exact cycle presence does not prove physical endpoint equivalence.",
+    "ZIP member name matching does not verify pickle content.",
+    "No pickle files were deserialized.",
+    "No measurement was interpolated, imputed or synthesized.",
+    "No common-endpoint predictive experiment was performed."
+  ]
+}

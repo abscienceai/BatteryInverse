@@ -1,0 +1,42 @@
+{
+  "stage": "20E",
+  "input_sha256": "8bc5296425fbb0735faceb56fe1cf52c6d0292bec2e361be8870fc1626aa5c7c",
+  "archive_md5": {
+    "CALB": "86480187bf7ab3b447d8e7553b01cb59",
+    "UL_PUR": "7a5e4a3e7ecfbcd6c189d97c2379f50a"
+  },
+  "domains": {
+    "CALB": {
+      "cells": 27,
+      "primitive_only": 27,
+      "content_id_matches": 27,
+      "post100_observed": 1,
+      "nearest100_after100": 0,
+      "retention_rebuild_close_1e-6": 27,
+      "exact_1": 10,
+      "exact_100": 27,
+      "exact_150": 1,
+      "exact_200": 1,
+      "exact_300": 0
+    },
+    "UL_PUR": {
+      "cells": 2,
+      "primitive_only": 2,
+      "content_id_matches": 2,
+      "post100_observed": 2,
+      "nearest100_after100": 0,
+      "retention_rebuild_close_1e-6": 2,
+      "exact_1": 2,
+      "exact_100": 2,
+      "exact_150": 2,
+      "exact_200": 1,
+      "exact_300": 0
+    }
+  },
+  "constraints": [
+    "Only permitted primitive pickle opcodes were decoded.",
+    "No inferred cycle numbers were used.",
+    "Exact-cycle presence does not prove protocol equivalence.",
+    "No interpolation or model training was performed."
+  ]
+}

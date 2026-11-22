@@ -1,0 +1,51 @@
+{
+  "stage": "20L",
+  "pilot_cells": [
+    "XJTU_3C_battery-11",
+    "XJTU_2C_battery-1"
+  ],
+  "results": {
+    "XJTU_3C_battery-11": {
+      "status": "SUCCESS",
+      "static_gate": {
+        "static_operations": 10063878,
+        "stack_global_opcodes": 2
+      },
+      "measurement": {
+        "cell_id": "XJTU_3C_battery-11",
+        "source_identity_verified": true,
+        "cycle_records": 130,
+        "finite_capacity_records": 130,
+        "positive_capacity_records": 130,
+        "nonpositive_capacity_records": 0,
+        "invalid_cycle_records": 0,
+        "first_observed_cycle": 1,
+        "last_observed_cycle": 130,
+        "post100_positive_records": 30,
+        "exact_cycle100_positive": 1,
+        "exact_cycle200_positive": 0,
+        "exact_cycle300_positive": 0,
+        "target_reconstructed": 0.8934065934065933,
+        "benchmark_target": 0.893406593407,
+        "target_abs_difference": 4.0667469392019484e-13,
+        "target_match_1e6": true
+      }
+    },
+    "XJTU_2C_battery-1": {
+      "status": "BLOCKED_OR_FAILED",
+      "error_type": "ValueError",
+      "error": "Exceeded opcode limit"
+    }
+  },
+  "all_pilot_successful": false,
+  "pickle_restrictions": "Static opcode allowlist; controlled numeric scalar and dtype reconstruction only; no external NumPy callable resolution",
+  "resource_limits": {
+    "max_address_space_MiB": 2560,
+    "cpu_limit_seconds_per_worker": 240
+  },
+  "limitations": [
+    "Restricted unpickling reduces risk but is not a complete sandbox.",
+    "Only two XJTU cells were inspected.",
+    "No model training or benchmark modification occurred."
+  ]
+}

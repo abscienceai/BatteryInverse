@@ -1,0 +1,49 @@
+{
+  "stage": "20N",
+  "source_record": "Zenodo 14934405 v2",
+  "benchmark_sha256": "8bc5296425fbb0735faceb56fe1cf52c6d0292bec2e361be8870fc1626aa5c7c",
+  "xjtu_archive_md5": "b45b0df2be827f332528b28fbf2a5e37",
+  "xjtu_total_cells": 23,
+  "xjtu_verified_targets": 23,
+  "reused_pilots": 2,
+  "xjtu_groups": {
+    "2C": {
+      "cells": 8,
+      "source_target_matches": 8,
+      "positive_post100_cells": 8,
+      "without_positive_post100": 0,
+      "exact_cycle200_positive_cells": 8
+    },
+    "3C": {
+      "cells": 15,
+      "source_target_matches": 15,
+      "positive_post100_cells": 15,
+      "without_positive_post100": 0,
+      "exact_cycle200_positive_cells": 11
+    }
+  },
+  "overall_batterylife_summary": {
+    "status": "ALL_SOURCE_TARGETS_RECONSTRUCTED",
+    "batterylife_cells": 249,
+    "verified_previous_cells": 226,
+    "verified_xjtu_cells": 23,
+    "cells_with_positive_post100_observations": 220,
+    "cells_without_positive_post100_observations": 29,
+    "mich_target_formula_reconciled_cells": 40,
+    "interpretation": "This establishes source-target reconstruction and observed temporal coverage, not common physical endpoint equivalence."
+  },
+  "unresolved": [],
+  "pickle_controls": {
+    "opcode_budget": 120000000,
+    "memory_limit_GiB": 5,
+    "cpu_seconds": 720,
+    "workers_sequential": true,
+    "only_Stage20L_allowed_classes": true
+  },
+  "limitations": [
+    "Restricted unpickling is not a complete security sandbox.",
+    "Target reconstruction is not evidence of predictive accuracy.",
+    "Cycle indices alone do not establish physical comparability.",
+    "No battery model was trained or modified."
+  ]
+}

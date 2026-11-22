@@ -1,0 +1,103 @@
+{
+  "stage": "20D",
+  "unique_benchmark_cells": 29,
+  "unique_source_matches": 29,
+  "archives": {
+    "CALB": {
+      "benchmark_cells": 27,
+      "unique_source_matches": 27,
+      "archive_members": 27,
+      "md5_verified": true,
+      "sample_structure": [
+        {
+          "member": "CALB/CALB_0_B189.pkl",
+          "uncompressed_bytes": 1476644,
+          "status": "static_parse_complete",
+          "operations": 191744,
+          "recognized_keys": [
+            "cell_id",
+            "charge_capacity_in_Ah",
+            "charge_protocol",
+            "cycle_data",
+            "cycle_number",
+            "discharge_capacity_in_Ah",
+            "discharge_protocol",
+            "nominal_capacity_in_Ah"
+          ],
+          "global_references": [],
+          "stack_global_operations": 0
+        },
+        {
+          "member": "CALB/CALB_0_B187.pkl",
+          "uncompressed_bytes": 1481062,
+          "status": "static_parse_complete",
+          "operations": 192308,
+          "recognized_keys": [
+            "cell_id",
+            "charge_capacity_in_Ah",
+            "charge_protocol",
+            "cycle_data",
+            "cycle_number",
+            "discharge_capacity_in_Ah",
+            "discharge_protocol",
+            "nominal_capacity_in_Ah"
+          ],
+          "global_references": [],
+          "stack_global_operations": 0
+        }
+      ]
+    },
+    "UL_PUR": {
+      "benchmark_cells": 2,
+      "unique_source_matches": 2,
+      "archive_members": 2,
+      "md5_verified": true,
+      "sample_structure": [
+        {
+          "member": "UL_PUR/UL-PUR_N10-NA7_18650_NCA_23C_0-100_0.5-0.5C_g.pkl",
+          "uncompressed_bytes": 1793954,
+          "status": "static_parse_complete",
+          "operations": 204741,
+          "recognized_keys": [
+            "cell_id",
+            "charge_capacity_in_Ah",
+            "charge_protocol",
+            "cycle_data",
+            "cycle_number",
+            "discharge_capacity_in_Ah",
+            "discharge_protocol",
+            "nominal_capacity_in_Ah"
+          ],
+          "global_references": [],
+          "stack_global_operations": 0
+        },
+        {
+          "member": "UL_PUR/UL-PUR_N15-NA10_18650_NCA_23C_0-100_0.5-0.5C_j.pkl",
+          "uncompressed_bytes": 2835692,
+          "status": "static_parse_complete",
+          "operations": 323603,
+          "recognized_keys": [
+            "cell_id",
+            "charge_capacity_in_Ah",
+            "charge_protocol",
+            "cycle_data",
+            "cycle_number",
+            "discharge_capacity_in_Ah",
+            "discharge_protocol",
+            "nominal_capacity_in_Ah"
+          ],
+          "global_references": [],
+          "stack_global_operations": 0
+        }
+      ]
+    }
+  },
+  "pickle_deserialized": false,
+  "capacity_values_extracted": false,
+  "physical_endpoint_comparability_verified": false,
+  "limitations": [
+    "File identity is not measurement-content validation.",
+    "Static pickle inspection does not establish code safety.",
+    "No cycle measurements have yet been reconstructed."
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "stage": "20G",
+  "benchmark_sha256": "8bc5296425fbb0735faceb56fe1cf52c6d0292bec2e361be8870fc1626aa5c7c",
+  "source_record": "Zenodo 14934405 v2",
+  "audited_benchmark_cells": 220,
+  "domains": {
+    "HNEI": {
+      "benchmark_cells": 14,
+      "archive_pickle_members": 14,
+      "exact_member_matches": 14,
+      "unique_basename_matches": 14,
+      "source_name_matches": 14,
+      "unique_cell_stem_matches": 14
+    },
+    "MICH": {
+      "benchmark_cells": 40,
+      "archive_pickle_members": 40,
+      "exact_member_matches": 40,
+      "unique_basename_matches": 40,
+      "source_name_matches": 40,
+      "unique_cell_stem_matches": 40
+    },
+    "MICH_EXP": {
+      "benchmark_cells": 18,
+      "archive_pickle_members": 18,
+      "exact_member_matches": 18,
+      "unique_basename_matches": 18,
+      "source_name_matches": 18,
+      "unique_cell_stem_matches": 18
+    },
+    "NA-ion": {
+      "benchmark_cells": 64,
+      "archive_pickle_members": 64,
+      "exact_member_matches": 64,
+      "unique_basename_matches": 64,
+      "source_name_matches": 64,
+      "unique_cell_stem_matches": 64
+    },
+    "SNL": {
+      "benchmark_cells": 61,
+      "archive_pickle_members": 61,
+      "exact_member_matches": 61,
+      "unique_basename_matches": 61,
+      "source_name_matches": 61,
+      "unique_cell_stem_matches": 61
+    },
+    "XJTU": {
+      "benchmark_cells": 23,
+      "archive_pickle_members": 23,
+      "exact_member_matches": 23,
+      "unique_basename_matches": 23,
+      "source_name_matches": 23,
+      "unique_cell_stem_matches": 23
+    }
+  },
+  "unique_source_name_matches": 220,
+  "pickle_deserialization_performed": false,
+  "capacity_values_extracted": false,
+  "endpoint_comparability_established": false,
+  "limitations": [
+    "Filename matching is not content verification.",
+    "ZIP directory inspection does not establish measurement validity.",
+    "No common physical endpoint has been certified."
+  ]
+}

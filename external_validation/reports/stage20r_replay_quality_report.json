@@ -1,0 +1,251 @@
+{
+  "stage": "20R",
+  "status": "FOLD_AND_AGGREGATE_REPLAY_VERIFIED",
+  "benchmark_sha256": "8bc5296425fbb0735faceb56fe1cf52c6d0292bec2e361be8870fc1626aa5c7c",
+  "stage20o_flags_sha256": "8f1c55ac4012eaaba4c1e839fdea98b90046dadbdc96bd5c795b3d9b2f58f030",
+  "stage19_script_sha256": "380c4ec2f19c42b880a5988231e5921c36062b4c9ad7dd43ca2cc37e41ba2263",
+  "stage19_folds_sha256": "de1c9ce91d39f5d5529b4a7d3b1e7e4d9e0d1c52881f6431fa99fff43f5a4dcc",
+  "stage16a_recipe_sha256": "537b148602a6c191b1964ee93cd4fee697156772ce43f61d6803808078e29e61",
+  "sklearn_version": "1.8.0",
+  "model_recipe": "Stage19 original seven-feature 12-dataset LODO RF/ET pipeline, 700 trees, min_samples_leaf=2, random_state=42, n_jobs=1",
+  "historical_fold_checks": [
+    {
+      "domain": "CALB",
+      "model": "RF",
+      "test_n": 27,
+      "replayed_mae": 0.16972074700899945,
+      "archived_stage19_mae": 0.16972074700899945,
+      "absolute_mae_delta": 0.0,
+      "absolute_prior_delta": 0.0
+    },
+    {
+      "domain": "CALB",
+      "model": "ET",
+      "test_n": 27,
+      "replayed_mae": 0.1524532036387144,
+      "archived_stage19_mae": 0.1524532036387144,
+      "absolute_mae_delta": 0.0,
+      "absolute_prior_delta": 0.0
+    },
+    {
+      "domain": "CALCE",
+      "model": "RF",
+      "test_n": 13,
+      "replayed_mae": 0.16370525527765567,
+      "archived_stage19_mae": 0.16370525527765567,
+      "absolute_mae_delta": 0.0,
+      "absolute_prior_delta": 0.0
+    },
+    {
+      "domain": "CALCE",
+      "model": "ET",
+      "test_n": 13,
+      "replayed_mae": 0.16472376036967754,
+      "archived_stage19_mae": 0.16472376036967754,
+      "absolute_mae_delta": 0.0,
+      "absolute_prior_delta": 0.0
+    },
+    {
+      "domain": "HNEI",
+      "model": "RF",
+      "test_n": 14,
+      "replayed_mae": 0.3873874616331477,
+      "archived_stage19_mae": 0.3873874616331477,
+      "absolute_mae_delta": 0.0,
+      "absolute_prior_delta": 0.0
+    },
+    {
+      "domain": "HNEI",
+      "model": "ET",
+      "test_n": 14,
+      "replayed_mae": 0.3882900027705541,
+      "archived_stage19_mae": 0.3882900027705541,
+      "absolute_mae_delta": 0.0,
+      "absolute_prior_delta": 0.0
+    },
+    {
+      "domain": "HUST",
+      "model": "RF",
+      "test_n": 77,
+      "replayed_mae": 0.06737706159583993,
+      "archived_stage19_mae": 0.06737706159583993,
+      "absolute_mae_delta": 0.0,
+      "absolute_prior_delta": 0.0
+    },
+    {
+      "domain": "HUST",
+      "model": "ET",
+      "test_n": 77,
+      "replayed_mae": 0.02637910491519237,
+      "archived_stage19_mae": 0.02637910491519237,
+      "absolute_mae_delta": 0.0,
+      "absolute_prior_delta": 0.0
+    },
+    {
+      "domain": "MATR",
+      "model": "RF",
+      "test_n": 180,
+      "replayed_mae": 0.21822686236907174,
+      "archived_stage19_mae": 0.21822686236907174,
+      "absolute_mae_delta": 0.0,
+      "absolute_prior_delta": 0.0
+    },
+    {
+      "domain": "MATR",
+      "model": "ET",
+      "test_n": 180,
+      "replayed_mae": 0.18395779135602358,
+      "archived_stage19_mae": 0.18395779135602358,
+      "absolute_mae_delta": 0.0,
+      "absolute_prior_delta": 0.0
+    },
+    {
+      "domain": "MICH",
+      "model": "RF",
+      "test_n": 40,
+      "replayed_mae": 0.6352411639003525,
+      "archived_stage19_mae": 0.6352411639003525,
+      "absolute_mae_delta": 0.0,
+      "absolute_prior_delta": 0.0
+    },
+    {
+      "domain": "MICH",
+      "model": "ET",
+      "test_n": 40,
+      "replayed_mae": 0.6373748642865242,
+      "archived_stage19_mae": 0.6373748642865242,
+      "absolute_mae_delta": 0.0,
+      "absolute_prior_delta": 0.0
+    },
+    {
+      "domain": "MICH_EXP",
+      "model": "RF",
+      "test_n": 18,
+      "replayed_mae": 0.1228905776025672,
+      "archived_stage19_mae": 0.1228905776025672,
+      "absolute_mae_delta": 0.0,
+      "absolute_prior_delta": 0.0
+    },
+    {
+      "domain": "MICH_EXP",
+      "model": "ET",
+      "test_n": 18,
+      "replayed_mae": 0.10963136536668242,
+      "archived_stage19_mae": 0.10963136536668242,
+      "absolute_mae_delta": 0.0,
+      "absolute_prior_delta": 0.0
+    },
+    {
+      "domain": "NA-ion",
+      "model": "RF",
+      "test_n": 64,
+      "replayed_mae": 0.22096479701152,
+      "archived_stage19_mae": 0.22096479701152,
+      "absolute_mae_delta": 0.0,
+      "absolute_prior_delta": 0.0
+    },
+    {
+      "domain": "NA-ion",
+      "model": "ET",
+      "test_n": 64,
+      "replayed_mae": 0.26031567151594737,
+      "archived_stage19_mae": 0.26031567151594737,
+      "absolute_mae_delta": 0.0,
+      "absolute_prior_delta": 0.0
+    },
+    {
+      "domain": "RWTH",
+      "model": "RF",
+      "test_n": 48,
+      "replayed_mae": 0.1023205931849055,
+      "archived_stage19_mae": 0.1023205931849055,
+      "absolute_mae_delta": 0.0,
+      "absolute_prior_delta": 0.0
+    },
+    {
+      "domain": "RWTH",
+      "model": "ET",
+      "test_n": 48,
+      "replayed_mae": 0.11893942777248394,
+      "archived_stage19_mae": 0.11893942777248394,
+      "absolute_mae_delta": 0.0,
+      "absolute_prior_delta": 0.0
+    },
+    {
+      "domain": "SNL",
+      "model": "RF",
+      "test_n": 61,
+      "replayed_mae": 0.08901584065669611,
+      "archived_stage19_mae": 0.08901584065669611,
+      "absolute_mae_delta": 0.0,
+      "absolute_prior_delta": 0.0
+    },
+    {
+      "domain": "SNL",
+      "model": "ET",
+      "test_n": 61,
+      "replayed_mae": 0.11226649848951988,
+      "archived_stage19_mae": 0.11226649848951988,
+      "absolute_mae_delta": 0.0,
+      "absolute_prior_delta": 0.0
+    },
+    {
+      "domain": "UL_PUR",
+      "model": "RF",
+      "test_n": 2,
+      "replayed_mae": 0.11979713102245815,
+      "archived_stage19_mae": 0.11979713102245815,
+      "absolute_mae_delta": 0.0,
+      "absolute_prior_delta": 0.0
+    },
+    {
+      "domain": "UL_PUR",
+      "model": "ET",
+      "test_n": 2,
+      "replayed_mae": 0.14472097911389442,
+      "archived_stage19_mae": 0.14472097911389442,
+      "absolute_mae_delta": 0.0,
+      "absolute_prior_delta": 0.0
+    },
+    {
+      "domain": "XJTU",
+      "model": "RF",
+      "test_n": 23,
+      "replayed_mae": 0.212806809641968,
+      "archived_stage19_mae": 0.212806809641968,
+      "absolute_mae_delta": 0.0,
+      "absolute_prior_delta": 0.0
+    },
+    {
+      "domain": "XJTU",
+      "model": "ET",
+      "test_n": 23,
+      "replayed_mae": 0.1987150283504477,
+      "archived_stage19_mae": 0.1987150283504477,
+      "absolute_mae_delta": 0.0,
+      "absolute_prior_delta": 0.0
+    }
+  ],
+  "max_model_fold_mae_replay_delta": 0.0,
+  "max_prior_fold_mae_replay_delta": 0.0,
+  "cell_model_predictions": 1134,
+  "quality_flags": {
+    "no_post100": 29,
+    "sparse_post100": 1,
+    "mich_nonpositive": 14,
+    "union_two_flags": 43,
+    "union_three_flags": 44,
+    "batterylife_without_three_flags": 205,
+    "batteryml_not_source_audited": 318
+  },
+  "limitations": [
+    "Models were refitted from the historical recipe because archived per-cell predictions were unavailable.",
+    "All historical Stage19 fold and aggregate MAEs were verified before filtered scoring.",
+    "Training folds retain original flagged cells.",
+    "Filtering changes evaluation membership only, not the fitted models or train-median priors.",
+    "BatteryML_main cells were not source-quality-audited.",
+    "Filtered cells are not certified physically comparable.",
+    "CALB may contain only one evaluated cell after filtering.",
+    "All differences are descriptive; no causal or prospective claims are made."
+  ]
+}

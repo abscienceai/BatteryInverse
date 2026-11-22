@@ -1,0 +1,574 @@
+{
+  "stage": "20Q",
+  "benchmark_sha256": "8bc5296425fbb0735faceb56fe1cf52c6d0292bec2e361be8870fc1626aa5c7c",
+  "canonical_cells": 567,
+  "csv_files_scanned": 180,
+  "files_with_cell_and_prediction_columns": 13,
+  "files_with_benchmark_cell_matches": 0,
+  "maximum_unique_benchmark_cell_coverage": 0,
+  "candidate_files": [
+    {
+      "path": "external_validation/processed/stage15c5b_isu_242_absolute_candidate_features.csv",
+      "columns": [
+        "cell_id",
+        "cap_cycle_1",
+        "cap_cycle_10",
+        "cap_cycle_50",
+        "cap_cycle_100",
+        "cap_mean_first_100",
+        "cap_std_first_100",
+        "cap_slope_first_100",
+        "cap_fade_1_to_100",
+        "source_capacity_units",
+        "RPT_endpoint_confirmed",
+        "model_prediction"
+      ],
+      "prediction_columns": [
+        "model_prediction"
+      ],
+      "cell_column": "cell_id",
+      "domain_column": null,
+      "model_column": null,
+      "rows_scanned": 242,
+      "matched_rows": 0,
+      "unique_benchmark_cells": 0,
+      "unique_batterylife_cells": 0,
+      "ambiguous_cell_ids": 0,
+      "model_labels": {},
+      "scan_truncated": false
+    },
+    {
+      "path": "external_validation/processed/stage15c7_isu_paired_protocol_diagnostics.csv",
+      "columns": [
+        "cell_id",
+        "early_q1_source_units_unknown",
+        "early_q100_over_q1",
+        "terminal_c5_ratio_candidate",
+        "terminal_c2_ratio_candidate",
+        "c5_minus_c2_pp",
+        "c5_greater_than_c2",
+        "abs_difference_at_least_3pp",
+        "abs_difference_at_least_5pp",
+        "first_post100_rpt_chronological",
+        "baseline_rpt_before_input",
+        "terminal_rpt_after_final_block",
+        "rpt_target_finalized",
+        "external_model_prediction"
+      ],
+      "prediction_columns": [
+        "external_model_prediction"
+      ],
+      "cell_column": "cell_id",
+      "domain_column": null,
+      "model_column": null,
+      "rows_scanned": 242,
+      "matched_rows": 0,
+      "unique_benchmark_cells": 0,
+      "unique_batterylife_cells": 0,
+      "ambiguous_cell_ids": 0,
+      "model_labels": {},
+      "scan_truncated": false
+    },
+    {
+      "path": "external_validation/processed/stage16a_isu_exploratory_predictions.csv",
+      "columns": [
+        "cell_id",
+        "c5_reference_candidate_NOT_FINAL",
+        "c2_reference_candidate_NOT_FINAL",
+        "training_median_prior_prediction",
+        "random_forest_prediction",
+        "extra_trees_prediction"
+      ],
+      "prediction_columns": [
+        "training_median_prior_prediction",
+        "random_forest_prediction",
+        "extra_trees_prediction"
+      ],
+      "cell_column": "cell_id",
+      "domain_column": null,
+      "model_column": null,
+      "rows_scanned": 242,
+      "matched_rows": 0,
+      "unique_benchmark_cells": 0,
+      "unique_batterylife_cells": 0,
+      "ambiguous_cell_ids": 0,
+      "model_labels": {},
+      "scan_truncated": false
+    },
+    {
+      "path": "external_validation/processed/stage16b_isu_cellwise_error_diagnostics.csv",
+      "columns": [
+        "cell_id",
+        "protocol_group",
+        "outside_train_minmax_any",
+        "num_features_outside_train_minmax",
+        "outside_train_features",
+        "median_prior_prediction",
+        "random_forest_prediction",
+        "extra_trees_prediction",
+        "C5_candidate_NOT_FINAL",
+        "C5_median_prior_signed_error",
+        "C5_median_prior_abs_error",
+        "C5_random_forest_signed_error",
+        "C5_random_forest_abs_error",
+        "C5_extra_trees_signed_error",
+        "C5_extra_trees_abs_error",
+        "C2_candidate_NOT_FINAL",
+        "C2_median_prior_signed_error",
+        "C2_median_prior_abs_error",
+        "C2_random_forest_signed_error",
+        "C2_random_forest_abs_error",
+        "C2_extra_trees_signed_error",
+        "C2_extra_trees_abs_error"
+      ],
+      "prediction_columns": [
+        "median_prior_prediction",
+        "random_forest_prediction",
+        "extra_trees_prediction"
+      ],
+      "cell_column": "cell_id",
+      "domain_column": null,
+      "model_column": null,
+      "rows_scanned": 242,
+      "matched_rows": 0,
+      "unique_benchmark_cells": 0,
+      "unique_batterylife_cells": 0,
+      "ambiguous_cell_ids": 0,
+      "model_labels": {},
+      "scan_truncated": false
+    },
+    {
+      "path": "external_validation/processed/stage16c_isu_endpoint_horizon_paired.csv",
+      "columns": [
+        "cell_id",
+        "protocol_group",
+        "first_post100_c5_ratio_V7_NOT_FINAL",
+        "terminal_c5_ratio_B0_NOT_FINAL",
+        "first_minus_terminal_ratio",
+        "first_minus_terminal_percentage_points",
+        "first_post100_target_hours",
+        "v7_target_rpt_index",
+        "b0_first_post100_rpt_index",
+        "b0_last_recorded_rpt_index",
+        "rpt_index_gap_last_minus_first_post100",
+        "v7_index_matches_b0_first",
+        "v7_index_matches_v6_candidate",
+        "outside_training_feature_range_any",
+        "median_prior_pred",
+        "median_prior_abs_error_first_post100_DIAGNOSTIC",
+        "median_prior_abs_error_terminal",
+        "random_forest_pred",
+        "random_forest_abs_error_first_post100_DIAGNOSTIC",
+        "random_forest_abs_error_terminal",
+        "extra_trees_pred",
+        "extra_trees_abs_error_first_post100_DIAGNOSTIC",
+        "extra_trees_abs_error_terminal"
+      ],
+      "prediction_columns": [
+        "median_prior_pred",
+        "random_forest_pred",
+        "extra_trees_pred"
+      ],
+      "cell_column": "cell_id",
+      "domain_column": null,
+      "model_column": null,
+      "rows_scanned": 242,
+      "matched_rows": 0,
+      "unique_benchmark_cells": 0,
+      "unique_batterylife_cells": 0,
+      "ambiguous_cell_ids": 0,
+      "model_labels": {},
+      "scan_truncated": false
+    },
+    {
+      "path": "external_validation/processed/stage17j_cmu_exploratory_loocv_predictions.csv",
+      "columns": [
+        "cell_id",
+        "snapshot_first_n_missions",
+        "model",
+        "train_physical_cells",
+        "heldout_cell_not_in_train",
+        "y_true_PROVISIONAL",
+        "y_pred_OOF",
+        "error_pred_minus_true",
+        "absolute_error",
+        "not_confirmatory_external_validation"
+      ],
+      "prediction_columns": [
+        "y_pred_OOF",
+        "error_pred_minus_true"
+      ],
+      "cell_column": "cell_id",
+      "domain_column": null,
+      "model_column": "model",
+      "rows_scanned": 352,
+      "matched_rows": 0,
+      "unique_benchmark_cells": 0,
+      "unique_batterylife_cells": 0,
+      "ambiguous_cell_ids": 0,
+      "model_labels": {},
+      "scan_truncated": false
+    },
+    {
+      "path": "external_validation/processed/stage17k_cmu_k25_cell_influence_diagnostic.csv",
+      "columns": [
+        "cell_id",
+        "model",
+        "abs_error_mean",
+        "abs_error_ridge",
+        "delta_abs_error_ridge_minus_mean",
+        "y_true_PROVISIONAL",
+        "ridge_oof_prediction_replayed",
+        "no_confirmatory_claim"
+      ],
+      "prediction_columns": [
+        "ridge_oof_prediction_replayed"
+      ],
+      "cell_column": "cell_id",
+      "domain_column": null,
+      "model_column": "model",
+      "rows_scanned": 44,
+      "matched_rows": 0,
+      "unique_benchmark_cells": 0,
+      "unique_batterylife_cells": 0,
+      "ambiguous_cell_ids": 0,
+      "model_labels": {},
+      "scan_truncated": false
+    },
+    {
+      "path": "external_validation/processed/stage17l_cmu_protocol_blocked_oof_predictions.csv",
+      "columns": [
+        "split_scheme",
+        "heldout_group",
+        "cell_id",
+        "protocol_exact",
+        "protocol_family",
+        "model",
+        "train_physical_cells",
+        "heldout_physical_cells",
+        "y_true_PROVISIONAL",
+        "y_pred_OOF",
+        "absolute_error",
+        "not_confirmatory_validation"
+      ],
+      "prediction_columns": [
+        "y_pred_OOF"
+      ],
+      "cell_column": "cell_id",
+      "domain_column": null,
+      "model_column": "model",
+      "rows_scanned": 264,
+      "matched_rows": 0,
+      "unique_benchmark_cells": 0,
+      "unique_batterylife_cells": 0,
+      "ambiguous_cell_ids": 0,
+      "model_labels": {},
+      "scan_truncated": false
+    },
+    {
+      "path": "external_validation/processed/stage17m_cmu_family_cell_extrapolation_diagnostics.csv",
+      "columns": [
+        "cell_id",
+        "heldout_family",
+        "method",
+        "target_C5_retention_PROVISIONAL",
+        "frozen_prediction_replayed",
+        "frozen_prediction_absolute_error",
+        "train_fold_mean_prediction",
+        "prediction_outside_0_1",
+        "all_features_inside_training_minmax",
+        "largest_z_score_absolute",
+        "dominant_contribution_feature",
+        "dominant_contribution_value",
+        "dominant_feature_standardized_z",
+        "diagnostic_clip_prediction_NOT_VALIDATED",
+        "diagnostic_clip_absolute_error_NOT_VALIDATED",
+        "feature_contributions_json"
+      ],
+      "prediction_columns": [
+        "frozen_prediction_replayed",
+        "frozen_prediction_absolute_error",
+        "train_fold_mean_prediction",
+        "prediction_outside_0_1",
+        "diagnostic_clip_prediction_NOT_VALIDATED"
+      ],
+      "cell_column": "cell_id",
+      "domain_column": null,
+      "model_column": "method",
+      "rows_scanned": 88,
+      "matched_rows": 0,
+      "unique_benchmark_cells": 0,
+      "unique_batterylife_cells": 0,
+      "ambiguous_cell_ids": 0,
+      "model_labels": {},
+      "scan_truncated": false
+    },
+    {
+      "path": "external_validation/processed/stage17n_cmu_protocol_robustness_ablation_predictions.csv",
+      "columns": [
+        "scheme",
+        "heldout_group",
+        "cell_id",
+        "model",
+        "training_physical_cells",
+        "y_true_PROVISIONAL",
+        "y_pred",
+        "absolute_error",
+        "HF_train_population_std",
+        "HF_effective_scale",
+        "max_abs_test_HF_z",
+        "model_is_posthoc",
+        "target_finalized"
+      ],
+      "prediction_columns": [
+        "y_pred"
+      ],
+      "cell_column": "cell_id",
+      "domain_column": null,
+      "model_column": "model",
+      "rows_scanned": 352,
+      "matched_rows": 0,
+      "unique_benchmark_cells": 0,
+      "unique_batterylife_cells": 0,
+      "ambiguous_cell_ids": 0,
+      "model_labels": {},
+      "scan_truncated": false
+    },
+    {
+      "path": "external_validation/processed/stage17s_stage16a_isolated_replay_predictions.csv",
+      "columns": [
+        "cell_id",
+        "c5_reference_candidate_NOT_FINAL",
+        "c2_reference_candidate_NOT_FINAL",
+        "training_median_prior_prediction",
+        "random_forest_prediction",
+        "extra_trees_prediction"
+      ],
+      "prediction_columns": [
+        "training_median_prior_prediction",
+        "random_forest_prediction",
+        "extra_trees_prediction"
+      ],
+      "cell_column": "cell_id",
+      "domain_column": null,
+      "model_column": null,
+      "rows_scanned": 242,
+      "matched_rows": 0,
+      "unique_benchmark_cells": 0,
+      "unique_batterylife_cells": 0,
+      "ambiguous_cell_ids": 0,
+      "model_labels": {},
+      "scan_truncated": false
+    },
+    {
+      "path": "external_validation/reports/stage17ae_nca_30cell_PREOUTCOME_dual_sign_predictions.csv",
+      "columns": [
+        "cell_id",
+        "program",
+        "source_feature_status",
+        "training_median_prior_prediction",
+        "fade_positive_loss_BatteryLife_definition",
+        "fade_negative_signed_BatteryML_definition",
+        "random_forest_positive_loss_branch",
+        "random_forest_negative_signed_branch",
+        "extra_trees_positive_loss_branch",
+        "extra_trees_negative_signed_branch"
+      ],
+      "prediction_columns": [
+        "training_median_prior_prediction"
+      ],
+      "cell_column": "cell_id",
+      "domain_column": null,
+      "model_column": null,
+      "rows_scanned": 30,
+      "matched_rows": 0,
+      "unique_benchmark_cells": 0,
+      "unique_batterylife_cells": 0,
+      "ambiguous_cell_ids": 0,
+      "model_labels": {},
+      "scan_truncated": false
+    },
+    {
+      "path": "external_validation/reports/stage17ai_nca_nominal_floor_mechanistic_decomposition_30.csv",
+      "columns": [
+        "cell_id",
+        "program",
+        "last_instrument_cycle",
+        "first_cycle_Q1_mAh",
+        "last_Qmax_mAh",
+        "last_excess_above_2500mAh",
+        "observed_last_ratio_Qlast_over_Q1_NOT_EOL",
+        "published_window_lower_edge_over_Q1_DIAGNOSTIC_NOT_PREDICTION",
+        "residual_excess_over_Q1",
+        "training_median_prior",
+        "RF_positive_loss_frozen",
+        "ET_positive_loss_frozen",
+        "RF_negative_signed_frozen",
+        "ET_negative_signed_frozen",
+        "within25mAh_lower_window_edge",
+        "reference_floor_2500mAh_is_postoutcome_interpretation",
+        "actual_stopping_command_certified"
+      ],
+      "prediction_columns": [
+        "published_window_lower_edge_over_Q1_DIAGNOSTIC_NOT_PREDICTION"
+      ],
+      "cell_column": "cell_id",
+      "domain_column": null,
+      "model_column": null,
+      "rows_scanned": 30,
+      "matched_rows": 0,
+      "unique_benchmark_cells": 0,
+      "unique_batterylife_cells": 0,
+      "ambiguous_cell_ids": 0,
+      "model_labels": {},
+      "scan_truncated": false
+    }
+  ],
+  "relevant_script_output_hints": [
+    {
+      "path": "external_validation/scripts/stage17ak_sign_harmonization_ablation.py",
+      "matching_lines": [
+        {
+          "line": 45,
+          "text": "\"stage17ae_nca_30cell_PREOUTCOME_dual_sign_predictions.csv\""
+        },
+        {
+          "line": 133,
+          "text": "\"NCA_predictions_locked_before_terminal_outcome_review\""
+        },
+        {
+          "line": 140,
+          "text": "\"Frozen NCA predictions changed\","
+        },
+        {
+          "line": 213,
+          "text": "def score(y, prediction):"
+        },
+        {
+          "line": 216,
+          "text": "mean_absolute_error(y, prediction)"
+        },
+        {
+          "line": 220,
+          "text": "mean_squared_error(y, prediction)"
+        },
+        {
+          "line": 224,
+          "text": "float(r2_score(y, prediction))"
+        },
+        {
+          "line": 229,
+          "text": "np.mean(prediction - y)"
+        },
+        {
+          "line": 251,
+          "text": "writer.writerows(records)"
+        },
+        {
+          "line": 496,
+          "text": "prediction = np.asarray("
+        },
+        {
+          "line": 497,
+          "text": "model.predict("
+        },
+        {
+          "line": 506,
+          "text": "len(prediction) == test_n"
+        },
+        {
+          "line": 508,
+          "text": "prediction"
+        },
+        {
+          "line": 510,
+          "text": "\"Invalid fold predictions\","
+        },
+        {
+          "line": 515,
+          "text": "prediction,"
+        },
+        {
+          "line": 520,
+          "text": "prediction,"
+        },
+        {
+          "line": 702,
+          "text": "\"prior_frozen_NCA_models_and_predictions_unchanged\":"
+        },
+        {
+          "line": 705,
+          "text": "\"frozen_NCA_prediction_sha256\":"
+        },
+        {
+          "line": 783,
+          "text": "\"FROZEN_NCA_PREDICTIONS_UNCHANGED=YES\""
+        }
+      ],
+      "total_matching_lines": 19
+    },
+    {
+      "path": "external_validation/scripts/stage17an_aggregation_influence_audit.py",
+      "matching_lines": [
+        {
+          "line": 23,
+          "text": "PRED = R / \"stage17ae_nca_30cell_PREOUTCOME_dual_sign_predictions.csv\""
+        },
+        {
+          "line": 94,
+          "text": "writer.writerows(rows)"
+        },
+        {
+          "line": 136,
+          "text": "\"original_models_or_predictions_modified\""
+        },
+        {
+          "line": 143,
+          "text": "== report.get(\"NCA_predictions_sha256\"),"
+        },
+        {
+          "line": 144,
+          "text": "\"Frozen NCA prediction hash mismatch\""
+        },
+        {
+          "line": 533,
+          "text": "\"NCA_prediction_sha256\": hashfile(PRED),"
+        },
+        {
+          "line": 544,
+          "text": "\"new_external_predictions\": False,"
+        },
+        {
+          "line": 563,
+          "text": "- No new models or independent external predictions were made."
+        }
+      ],
+      "total_matching_lines": 8
+    },
+    {
+      "path": "external_validation/scripts/stage19_featureblock_swap.py",
+      "matching_lines": [
+        {
+          "line": 81,
+          "text": "orig_mae = float(np.abs(m.predict(Xte)-yte).mean())"
+        },
+        {
+          "line": 92,
+          "text": "swapped = m.predict(Xswapped).reshape(100,n)"
+        },
+        {
+          "line": 142,
+          "text": "df.to_csv(OUT[key],index=False,mode='x')"
+        }
+      ],
+      "total_matching_lines": 3
+    }
+  ],
+  "limitations": [
+    "The audit checks CSV cell identifiers and schemas.",
+    "A matching cell ID is not sufficient to validate a LODO prediction.",
+    "Matching model branch, fold, target and prior values must be verified before scoring.",
+    "Absence from the scanned files does not prove that predictions were never generated.",
+    "No models were fitted or predictions changed."
+  ]
+}

@@ -1,0 +1,2299 @@
+{
+  "stage": "20K",
+  "source_archive_md5_verified": true,
+  "benchmark_sha256_verified": true,
+  "cells": 23,
+  "total_uncompressed_MB": 2395.435,
+  "over_128MB": 8,
+  "previous_decoder_statuses": {
+    "SKIPPED_OVERSIZED_PICKLE": 8,
+    "BLOCKED_PICKLE_OPCODE_STACK_GLOBAL": 15
+  },
+  "details": [
+    {
+      "cell_id": "XJTU_2C_battery-1",
+      "source_file": "XJTU/XJTU_2C_battery-1.pkl",
+      "uncompressed_MB": 140.51,
+      "compressed_MB": 25.925,
+      "exceeds_previous_128MB_limit": 1,
+      "previous_decoder_status": "SKIPPED_OVERSIZED_PICKLE",
+      "operations_inspected": 100000,
+      "prefix_status": "OPERATION_LIMIT",
+      "stack_global_in_prefix": 2,
+      "reduce_in_prefix": 6922,
+      "static_structure": {
+        "prefix_bytes": 3145728,
+        "operations_inspected": 100000,
+        "prefix_status": "OPERATION_LIMIT",
+        "stop_seen": false,
+        "object_opcodes": {
+          "BUILD": 1,
+          "REDUCE": 6922,
+          "STACK_GLOBAL": 2
+        },
+        "referenced_global_context": [
+          {
+            "opcode": "STACK_GLOBAL",
+            "position": 249456,
+            "argument": null,
+            "recent_text_context": [
+              "charge_capacity_in_Ah",
+              "discharge_capacity_in_Ah",
+              "time_in_s",
+              "numpy.core.multiarray",
+              "scalar"
+            ]
+          },
+          {
+            "opcode": "STACK_GLOBAL",
+            "position": 249474,
+            "argument": null,
+            "recent_text_context": [
+              "time_in_s",
+              "numpy.core.multiarray",
+              "scalar",
+              "numpy",
+              "dtype"
+            ]
+          }
+        ],
+        "top_opcodes": [
+          [
+            "BINFLOAT",
+            44427
+          ],
+          [
+            "MEMOIZE",
+            20797
+          ],
+          [
+            "BINGET",
+            13844
+          ],
+          [
+            "REDUCE",
+            6922
+          ],
+          [
+            "SHORT_BINBYTES",
+            6921
+          ],
+          [
+            "TUPLE2",
+            6921
+          ],
+          [
+            "MARK",
+            58
+          ],
+          [
+            "APPENDS",
+            52
+          ],
+          [
+            "SHORT_BINUNICODE",
+            17
+          ],
+          [
+            "FRAME",
+            9
+          ],
+          [
+            "EMPTY_LIST",
+            9
+          ],
+          [
+            "NONE",
+            5
+          ]
+        ]
+      }
+    },
+    {
+      "cell_id": "XJTU_2C_battery-2",
+      "source_file": "XJTU/XJTU_2C_battery-2.pkl",
+      "uncompressed_MB": 146.29,
+      "compressed_MB": 27.011,
+      "exceeds_previous_128MB_limit": 1,
+      "previous_decoder_status": "SKIPPED_OVERSIZED_PICKLE",
+      "operations_inspected": 100000,
+      "prefix_status": "OPERATION_LIMIT",
+      "stack_global_in_prefix": 2,
+      "reduce_in_prefix": 6918,
+      "static_structure": {
+        "prefix_bytes": 3145728,
+        "operations_inspected": 100000,
+        "prefix_status": "OPERATION_LIMIT",
+        "stop_seen": false,
+        "object_opcodes": {
+          "BUILD": 1,
+          "REDUCE": 6918,
+          "STACK_GLOBAL": 2
+        },
+        "referenced_global_context": [
+          {
+            "opcode": "STACK_GLOBAL",
+            "position": 249312,
+            "argument": null,
+            "recent_text_context": [
+              "charge_capacity_in_Ah",
+              "discharge_capacity_in_Ah",
+              "time_in_s",
+              "numpy.core.multiarray",
+              "scalar"
+            ]
+          },
+          {
+            "opcode": "STACK_GLOBAL",
+            "position": 249330,
+            "argument": null,
+            "recent_text_context": [
+              "time_in_s",
+              "numpy.core.multiarray",
+              "scalar",
+              "numpy",
+              "dtype"
+            ]
+          }
+        ],
+        "top_opcodes": [
+          [
+            "BINFLOAT",
+            44459
+          ],
+          [
+            "MEMOIZE",
+            20785
+          ],
+          [
+            "BINGET",
+            13836
+          ],
+          [
+            "REDUCE",
+            6918
+          ],
+          [
+            "SHORT_BINBYTES",
+            6917
+          ],
+          [
+            "TUPLE2",
+            6917
+          ],
+          [
+            "MARK",
+            58
+          ],
+          [
+            "APPENDS",
+            52
+          ],
+          [
+            "SHORT_BINUNICODE",
+            17
+          ],
+          [
+            "FRAME",
+            9
+          ],
+          [
+            "EMPTY_LIST",
+            9
+          ],
+          [
+            "NONE",
+            5
+          ]
+        ]
+      }
+    },
+    {
+      "cell_id": "XJTU_2C_battery-3",
+      "source_file": "XJTU/XJTU_2C_battery-3.pkl",
+      "uncompressed_MB": 140.672,
+      "compressed_MB": 25.887,
+      "exceeds_previous_128MB_limit": 1,
+      "previous_decoder_status": "SKIPPED_OVERSIZED_PICKLE",
+      "operations_inspected": 100000,
+      "prefix_status": "OPERATION_LIMIT",
+      "stack_global_in_prefix": 2,
+      "reduce_in_prefix": 6894,
+      "static_structure": {
+        "prefix_bytes": 3145728,
+        "operations_inspected": 100000,
+        "prefix_status": "OPERATION_LIMIT",
+        "stop_seen": false,
+        "object_opcodes": {
+          "BUILD": 1,
+          "REDUCE": 6894,
+          "STACK_GLOBAL": 2
+        },
+        "referenced_global_context": [
+          {
+            "opcode": "STACK_GLOBAL",
+            "position": 248448,
+            "argument": null,
+            "recent_text_context": [
+              "charge_capacity_in_Ah",
+              "discharge_capacity_in_Ah",
+              "time_in_s",
+              "numpy.core.multiarray",
+              "scalar"
+            ]
+          },
+          {
+            "opcode": "STACK_GLOBAL",
+            "position": 248466,
+            "argument": null,
+            "recent_text_context": [
+              "time_in_s",
+              "numpy.core.multiarray",
+              "scalar",
+              "numpy",
+              "dtype"
+            ]
+          }
+        ],
+        "top_opcodes": [
+          [
+            "BINFLOAT",
+            44651
+          ],
+          [
+            "MEMOIZE",
+            20713
+          ],
+          [
+            "BINGET",
+            13788
+          ],
+          [
+            "REDUCE",
+            6894
+          ],
+          [
+            "SHORT_BINBYTES",
+            6893
+          ],
+          [
+            "TUPLE2",
+            6893
+          ],
+          [
+            "MARK",
+            58
+          ],
+          [
+            "APPENDS",
+            52
+          ],
+          [
+            "SHORT_BINUNICODE",
+            17
+          ],
+          [
+            "FRAME",
+            9
+          ],
+          [
+            "EMPTY_LIST",
+            9
+          ],
+          [
+            "NONE",
+            5
+          ]
+        ]
+      }
+    },
+    {
+      "cell_id": "XJTU_2C_battery-4",
+      "source_file": "XJTU/XJTU_2C_battery-4.pkl",
+      "uncompressed_MB": 143.223,
+      "compressed_MB": 26.167,
+      "exceeds_previous_128MB_limit": 1,
+      "previous_decoder_status": "SKIPPED_OVERSIZED_PICKLE",
+      "operations_inspected": 100000,
+      "prefix_status": "OPERATION_LIMIT",
+      "stack_global_in_prefix": 2,
+      "reduce_in_prefix": 6937,
+      "static_structure": {
+        "prefix_bytes": 3145728,
+        "operations_inspected": 100000,
+        "prefix_status": "OPERATION_LIMIT",
+        "stop_seen": false,
+        "object_opcodes": {
+          "BUILD": 1,
+          "REDUCE": 6937,
+          "STACK_GLOBAL": 2
+        },
+        "referenced_global_context": [
+          {
+            "opcode": "STACK_GLOBAL",
+            "position": 249996,
+            "argument": null,
+            "recent_text_context": [
+              "charge_capacity_in_Ah",
+              "discharge_capacity_in_Ah",
+              "time_in_s",
+              "numpy.core.multiarray",
+              "scalar"
+            ]
+          },
+          {
+            "opcode": "STACK_GLOBAL",
+            "position": 250014,
+            "argument": null,
+            "recent_text_context": [
+              "time_in_s",
+              "numpy.core.multiarray",
+              "scalar",
+              "numpy",
+              "dtype"
+            ]
+          }
+        ],
+        "top_opcodes": [
+          [
+            "BINFLOAT",
+            44309
+          ],
+          [
+            "MEMOIZE",
+            20842
+          ],
+          [
+            "BINGET",
+            13874
+          ],
+          [
+            "REDUCE",
+            6937
+          ],
+          [
+            "SHORT_BINBYTES",
+            6936
+          ],
+          [
+            "TUPLE2",
+            6936
+          ],
+          [
+            "MARK",
+            57
+          ],
+          [
+            "APPENDS",
+            51
+          ],
+          [
+            "SHORT_BINUNICODE",
+            17
+          ],
+          [
+            "FRAME",
+            9
+          ],
+          [
+            "EMPTY_LIST",
+            9
+          ],
+          [
+            "NONE",
+            5
+          ]
+        ]
+      }
+    },
+    {
+      "cell_id": "XJTU_2C_battery-5",
+      "source_file": "XJTU/XJTU_2C_battery-5.pkl",
+      "uncompressed_MB": 145.915,
+      "compressed_MB": 26.71,
+      "exceeds_previous_128MB_limit": 1,
+      "previous_decoder_status": "SKIPPED_OVERSIZED_PICKLE",
+      "operations_inspected": 100000,
+      "prefix_status": "OPERATION_LIMIT",
+      "stack_global_in_prefix": 2,
+      "reduce_in_prefix": 6960,
+      "static_structure": {
+        "prefix_bytes": 3145728,
+        "operations_inspected": 100000,
+        "prefix_status": "OPERATION_LIMIT",
+        "stop_seen": false,
+        "object_opcodes": {
+          "BUILD": 1,
+          "REDUCE": 6960,
+          "STACK_GLOBAL": 2
+        },
+        "referenced_global_context": [
+          {
+            "opcode": "STACK_GLOBAL",
+            "position": 250824,
+            "argument": null,
+            "recent_text_context": [
+              "charge_capacity_in_Ah",
+              "discharge_capacity_in_Ah",
+              "time_in_s",
+              "numpy.core.multiarray",
+              "scalar"
+            ]
+          },
+          {
+            "opcode": "STACK_GLOBAL",
+            "position": 250842,
+            "argument": null,
+            "recent_text_context": [
+              "time_in_s",
+              "numpy.core.multiarray",
+              "scalar",
+              "numpy",
+              "dtype"
+            ]
+          }
+        ],
+        "top_opcodes": [
+          [
+            "BINFLOAT",
+            44125
+          ],
+          [
+            "MEMOIZE",
+            20911
+          ],
+          [
+            "BINGET",
+            13920
+          ],
+          [
+            "REDUCE",
+            6960
+          ],
+          [
+            "SHORT_BINBYTES",
+            6959
+          ],
+          [
+            "TUPLE2",
+            6959
+          ],
+          [
+            "MARK",
+            57
+          ],
+          [
+            "APPENDS",
+            51
+          ],
+          [
+            "SHORT_BINUNICODE",
+            17
+          ],
+          [
+            "FRAME",
+            9
+          ],
+          [
+            "EMPTY_LIST",
+            9
+          ],
+          [
+            "NONE",
+            5
+          ]
+        ]
+      }
+    },
+    {
+      "cell_id": "XJTU_2C_battery-6",
+      "source_file": "XJTU/XJTU_2C_battery-6.pkl",
+      "uncompressed_MB": 147.199,
+      "compressed_MB": 26.997,
+      "exceeds_previous_128MB_limit": 1,
+      "previous_decoder_status": "SKIPPED_OVERSIZED_PICKLE",
+      "operations_inspected": 100000,
+      "prefix_status": "OPERATION_LIMIT",
+      "stack_global_in_prefix": 2,
+      "reduce_in_prefix": 6913,
+      "static_structure": {
+        "prefix_bytes": 3145728,
+        "operations_inspected": 100000,
+        "prefix_status": "OPERATION_LIMIT",
+        "stop_seen": false,
+        "object_opcodes": {
+          "BUILD": 1,
+          "REDUCE": 6913,
+          "STACK_GLOBAL": 2
+        },
+        "referenced_global_context": [
+          {
+            "opcode": "STACK_GLOBAL",
+            "position": 249132,
+            "argument": null,
+            "recent_text_context": [
+              "charge_capacity_in_Ah",
+              "discharge_capacity_in_Ah",
+              "time_in_s",
+              "numpy.core.multiarray",
+              "scalar"
+            ]
+          },
+          {
+            "opcode": "STACK_GLOBAL",
+            "position": 249150,
+            "argument": null,
+            "recent_text_context": [
+              "time_in_s",
+              "numpy.core.multiarray",
+              "scalar",
+              "numpy",
+              "dtype"
+            ]
+          }
+        ],
+        "top_opcodes": [
+          [
+            "BINFLOAT",
+            44499
+          ],
+          [
+            "MEMOIZE",
+            20770
+          ],
+          [
+            "BINGET",
+            13826
+          ],
+          [
+            "REDUCE",
+            6913
+          ],
+          [
+            "SHORT_BINBYTES",
+            6912
+          ],
+          [
+            "TUPLE2",
+            6912
+          ],
+          [
+            "MARK",
+            58
+          ],
+          [
+            "APPENDS",
+            52
+          ],
+          [
+            "SHORT_BINUNICODE",
+            17
+          ],
+          [
+            "FRAME",
+            9
+          ],
+          [
+            "EMPTY_LIST",
+            9
+          ],
+          [
+            "NONE",
+            5
+          ]
+        ]
+      }
+    },
+    {
+      "cell_id": "XJTU_2C_battery-7",
+      "source_file": "XJTU/XJTU_2C_battery-7.pkl",
+      "uncompressed_MB": 145.578,
+      "compressed_MB": 26.513,
+      "exceeds_previous_128MB_limit": 1,
+      "previous_decoder_status": "SKIPPED_OVERSIZED_PICKLE",
+      "operations_inspected": 100000,
+      "prefix_status": "OPERATION_LIMIT",
+      "stack_global_in_prefix": 2,
+      "reduce_in_prefix": 7007,
+      "static_structure": {
+        "prefix_bytes": 3145728,
+        "operations_inspected": 100000,
+        "prefix_status": "OPERATION_LIMIT",
+        "stop_seen": false,
+        "object_opcodes": {
+          "BUILD": 1,
+          "REDUCE": 7007,
+          "STACK_GLOBAL": 2
+        },
+        "referenced_global_context": [
+          {
+            "opcode": "STACK_GLOBAL",
+            "position": 252524,
+            "argument": null,
+            "recent_text_context": [
+              "charge_capacity_in_Ah",
+              "discharge_capacity_in_Ah",
+              "time_in_s",
+              "numpy.core.multiarray",
+              "scalar"
+            ]
+          },
+          {
+            "opcode": "STACK_GLOBAL",
+            "position": 252542,
+            "argument": null,
+            "recent_text_context": [
+              "time_in_s",
+              "numpy.core.multiarray",
+              "scalar",
+              "numpy",
+              "dtype"
+            ]
+          }
+        ],
+        "top_opcodes": [
+          [
+            "BINFLOAT",
+            43741
+          ],
+          [
+            "MEMOIZE",
+            21052
+          ],
+          [
+            "BINGET",
+            14014
+          ],
+          [
+            "REDUCE",
+            7007
+          ],
+          [
+            "SHORT_BINBYTES",
+            7006
+          ],
+          [
+            "TUPLE2",
+            7006
+          ],
+          [
+            "MARK",
+            61
+          ],
+          [
+            "APPENDS",
+            55
+          ],
+          [
+            "SHORT_BINUNICODE",
+            17
+          ],
+          [
+            "FRAME",
+            9
+          ],
+          [
+            "EMPTY_LIST",
+            9
+          ],
+          [
+            "NONE",
+            5
+          ]
+        ]
+      }
+    },
+    {
+      "cell_id": "XJTU_2C_battery-8",
+      "source_file": "XJTU/XJTU_2C_battery-8.pkl",
+      "uncompressed_MB": 152.767,
+      "compressed_MB": 27.98,
+      "exceeds_previous_128MB_limit": 1,
+      "previous_decoder_status": "SKIPPED_OVERSIZED_PICKLE",
+      "operations_inspected": 100000,
+      "prefix_status": "OPERATION_LIMIT",
+      "stack_global_in_prefix": 2,
+      "reduce_in_prefix": 6879,
+      "static_structure": {
+        "prefix_bytes": 3145728,
+        "operations_inspected": 100000,
+        "prefix_status": "OPERATION_LIMIT",
+        "stop_seen": false,
+        "object_opcodes": {
+          "BUILD": 1,
+          "REDUCE": 6879,
+          "STACK_GLOBAL": 2
+        },
+        "referenced_global_context": [
+          {
+            "opcode": "STACK_GLOBAL",
+            "position": 247908,
+            "argument": null,
+            "recent_text_context": [
+              "charge_capacity_in_Ah",
+              "discharge_capacity_in_Ah",
+              "time_in_s",
+              "numpy.core.multiarray",
+              "scalar"
+            ]
+          },
+          {
+            "opcode": "STACK_GLOBAL",
+            "position": 247926,
+            "argument": null,
+            "recent_text_context": [
+              "time_in_s",
+              "numpy.core.multiarray",
+              "scalar",
+              "numpy",
+              "dtype"
+            ]
+          }
+        ],
+        "top_opcodes": [
+          [
+            "BINFLOAT",
+            44771
+          ],
+          [
+            "MEMOIZE",
+            20668
+          ],
+          [
+            "BINGET",
+            13758
+          ],
+          [
+            "REDUCE",
+            6879
+          ],
+          [
+            "SHORT_BINBYTES",
+            6878
+          ],
+          [
+            "TUPLE2",
+            6878
+          ],
+          [
+            "MARK",
+            58
+          ],
+          [
+            "APPENDS",
+            52
+          ],
+          [
+            "SHORT_BINUNICODE",
+            17
+          ],
+          [
+            "FRAME",
+            9
+          ],
+          [
+            "EMPTY_LIST",
+            9
+          ],
+          [
+            "NONE",
+            5
+          ]
+        ]
+      }
+    },
+    {
+      "cell_id": "XJTU_3C_battery-1",
+      "source_file": "XJTU/XJTU_3C_battery-1.pkl",
+      "uncompressed_MB": 97.029,
+      "compressed_MB": 18.3,
+      "exceeds_previous_128MB_limit": 0,
+      "previous_decoder_status": "BLOCKED_PICKLE_OPCODE_STACK_GLOBAL",
+      "operations_inspected": 100000,
+      "prefix_status": "OPERATION_LIMIT",
+      "stack_global_in_prefix": 2,
+      "reduce_in_prefix": 6286,
+      "static_structure": {
+        "prefix_bytes": 3145728,
+        "operations_inspected": 100000,
+        "prefix_status": "OPERATION_LIMIT",
+        "stop_seen": false,
+        "object_opcodes": {
+          "BUILD": 1,
+          "REDUCE": 6286,
+          "STACK_GLOBAL": 2
+        },
+        "referenced_global_context": [
+          {
+            "opcode": "STACK_GLOBAL",
+            "position": 226560,
+            "argument": null,
+            "recent_text_context": [
+              "charge_capacity_in_Ah",
+              "discharge_capacity_in_Ah",
+              "time_in_s",
+              "numpy.core.multiarray",
+              "scalar"
+            ]
+          },
+          {
+            "opcode": "STACK_GLOBAL",
+            "position": 226578,
+            "argument": null,
+            "recent_text_context": [
+              "time_in_s",
+              "numpy.core.multiarray",
+              "scalar",
+              "numpy",
+              "dtype"
+            ]
+          }
+        ],
+        "top_opcodes": [
+          [
+            "BINFLOAT",
+            49494
+          ],
+          [
+            "MEMOIZE",
+            18890
+          ],
+          [
+            "BINGET",
+            12573
+          ],
+          [
+            "REDUCE",
+            6286
+          ],
+          [
+            "SHORT_BINBYTES",
+            6285
+          ],
+          [
+            "TUPLE2",
+            6285
+          ],
+          [
+            "MARK",
+            67
+          ],
+          [
+            "APPENDS",
+            61
+          ],
+          [
+            "SHORT_BINUNICODE",
+            17
+          ],
+          [
+            "EMPTY_LIST",
+            10
+          ],
+          [
+            "FRAME",
+            9
+          ],
+          [
+            "NONE",
+            5
+          ]
+        ]
+      }
+    },
+    {
+      "cell_id": "XJTU_3C_battery-10",
+      "source_file": "XJTU/XJTU_3C_battery-10.pkl",
+      "uncompressed_MB": 55.151,
+      "compressed_MB": 10.088,
+      "exceeds_previous_128MB_limit": 0,
+      "previous_decoder_status": "BLOCKED_PICKLE_OPCODE_STACK_GLOBAL",
+      "operations_inspected": 100000,
+      "prefix_status": "OPERATION_LIMIT",
+      "stack_global_in_prefix": 2,
+      "reduce_in_prefix": 6961,
+      "static_structure": {
+        "prefix_bytes": 3145728,
+        "operations_inspected": 100000,
+        "prefix_status": "OPERATION_LIMIT",
+        "stop_seen": false,
+        "object_opcodes": {
+          "BUILD": 1,
+          "REDUCE": 6961,
+          "STACK_GLOBAL": 2
+        },
+        "referenced_global_context": [
+          {
+            "opcode": "STACK_GLOBAL",
+            "position": 250861,
+            "argument": null,
+            "recent_text_context": [
+              "charge_capacity_in_Ah",
+              "discharge_capacity_in_Ah",
+              "time_in_s",
+              "numpy.core.multiarray",
+              "scalar"
+            ]
+          },
+          {
+            "opcode": "STACK_GLOBAL",
+            "position": 250879,
+            "argument": null,
+            "recent_text_context": [
+              "time_in_s",
+              "numpy.core.multiarray",
+              "scalar",
+              "numpy",
+              "dtype"
+            ]
+          }
+        ],
+        "top_opcodes": [
+          [
+            "BINFLOAT",
+            44117
+          ],
+          [
+            "MEMOIZE",
+            20914
+          ],
+          [
+            "BINGET",
+            13922
+          ],
+          [
+            "REDUCE",
+            6961
+          ],
+          [
+            "SHORT_BINBYTES",
+            6960
+          ],
+          [
+            "TUPLE2",
+            6960
+          ],
+          [
+            "MARK",
+            57
+          ],
+          [
+            "APPENDS",
+            51
+          ],
+          [
+            "SHORT_BINUNICODE",
+            17
+          ],
+          [
+            "FRAME",
+            9
+          ],
+          [
+            "EMPTY_LIST",
+            9
+          ],
+          [
+            "NONE",
+            5
+          ]
+        ]
+      }
+    },
+    {
+      "cell_id": "XJTU_3C_battery-11",
+      "source_file": "XJTU/XJTU_3C_battery-11.pkl",
+      "uncompressed_MB": 43.952,
+      "compressed_MB": 8.024,
+      "exceeds_previous_128MB_limit": 0,
+      "previous_decoder_status": "BLOCKED_PICKLE_OPCODE_STACK_GLOBAL",
+      "operations_inspected": 100000,
+      "prefix_status": "OPERATION_LIMIT",
+      "stack_global_in_prefix": 2,
+      "reduce_in_prefix": 6959,
+      "static_structure": {
+        "prefix_bytes": 3145728,
+        "operations_inspected": 100000,
+        "prefix_status": "OPERATION_LIMIT",
+        "stop_seen": false,
+        "object_opcodes": {
+          "BUILD": 1,
+          "REDUCE": 6959,
+          "STACK_GLOBAL": 2
+        },
+        "referenced_global_context": [
+          {
+            "opcode": "STACK_GLOBAL",
+            "position": 250789,
+            "argument": null,
+            "recent_text_context": [
+              "charge_capacity_in_Ah",
+              "discharge_capacity_in_Ah",
+              "time_in_s",
+              "numpy.core.multiarray",
+              "scalar"
+            ]
+          },
+          {
+            "opcode": "STACK_GLOBAL",
+            "position": 250807,
+            "argument": null,
+            "recent_text_context": [
+              "time_in_s",
+              "numpy.core.multiarray",
+              "scalar",
+              "numpy",
+              "dtype"
+            ]
+          }
+        ],
+        "top_opcodes": [
+          [
+            "BINFLOAT",
+            44133
+          ],
+          [
+            "MEMOIZE",
+            20908
+          ],
+          [
+            "BINGET",
+            13918
+          ],
+          [
+            "REDUCE",
+            6959
+          ],
+          [
+            "SHORT_BINBYTES",
+            6958
+          ],
+          [
+            "TUPLE2",
+            6958
+          ],
+          [
+            "MARK",
+            57
+          ],
+          [
+            "APPENDS",
+            51
+          ],
+          [
+            "SHORT_BINUNICODE",
+            17
+          ],
+          [
+            "FRAME",
+            9
+          ],
+          [
+            "EMPTY_LIST",
+            9
+          ],
+          [
+            "NONE",
+            5
+          ]
+        ]
+      }
+    },
+    {
+      "cell_id": "XJTU_3C_battery-12",
+      "source_file": "XJTU/XJTU_3C_battery-12.pkl",
+      "uncompressed_MB": 69.995,
+      "compressed_MB": 13.058,
+      "exceeds_previous_128MB_limit": 0,
+      "previous_decoder_status": "BLOCKED_PICKLE_OPCODE_STACK_GLOBAL",
+      "operations_inspected": 100000,
+      "prefix_status": "OPERATION_LIMIT",
+      "stack_global_in_prefix": 2,
+      "reduce_in_prefix": 6719,
+      "static_structure": {
+        "prefix_bytes": 3145728,
+        "operations_inspected": 100000,
+        "prefix_status": "OPERATION_LIMIT",
+        "stop_seen": false,
+        "object_opcodes": {
+          "BUILD": 1,
+          "REDUCE": 6719,
+          "STACK_GLOBAL": 2
+        },
+        "referenced_global_context": [
+          {
+            "opcode": "STACK_GLOBAL",
+            "position": 242149,
+            "argument": null,
+            "recent_text_context": [
+              "charge_capacity_in_Ah",
+              "discharge_capacity_in_Ah",
+              "time_in_s",
+              "numpy.core.multiarray",
+              "scalar"
+            ]
+          },
+          {
+            "opcode": "STACK_GLOBAL",
+            "position": 242167,
+            "argument": null,
+            "recent_text_context": [
+              "time_in_s",
+              "numpy.core.multiarray",
+              "scalar",
+              "numpy",
+              "dtype"
+            ]
+          }
+        ],
+        "top_opcodes": [
+          [
+            "BINFLOAT",
+            46047
+          ],
+          [
+            "MEMOIZE",
+            20188
+          ],
+          [
+            "BINGET",
+            13438
+          ],
+          [
+            "REDUCE",
+            6719
+          ],
+          [
+            "SHORT_BINBYTES",
+            6718
+          ],
+          [
+            "TUPLE2",
+            6718
+          ],
+          [
+            "MARK",
+            60
+          ],
+          [
+            "APPENDS",
+            54
+          ],
+          [
+            "SHORT_BINUNICODE",
+            17
+          ],
+          [
+            "FRAME",
+            9
+          ],
+          [
+            "EMPTY_LIST",
+            9
+          ],
+          [
+            "NONE",
+            5
+          ]
+        ]
+      }
+    },
+    {
+      "cell_id": "XJTU_3C_battery-13",
+      "source_file": "XJTU/XJTU_3C_battery-13.pkl",
+      "uncompressed_MB": 75.191,
+      "compressed_MB": 13.867,
+      "exceeds_previous_128MB_limit": 0,
+      "previous_decoder_status": "BLOCKED_PICKLE_OPCODE_STACK_GLOBAL",
+      "operations_inspected": 100000,
+      "prefix_status": "OPERATION_LIMIT",
+      "stack_global_in_prefix": 2,
+      "reduce_in_prefix": 6549,
+      "static_structure": {
+        "prefix_bytes": 3145728,
+        "operations_inspected": 100000,
+        "prefix_status": "OPERATION_LIMIT",
+        "stop_seen": false,
+        "object_opcodes": {
+          "BUILD": 1,
+          "REDUCE": 6549,
+          "STACK_GLOBAL": 2
+        },
+        "referenced_global_context": [
+          {
+            "opcode": "STACK_GLOBAL",
+            "position": 236029,
+            "argument": null,
+            "recent_text_context": [
+              "charge_capacity_in_Ah",
+              "discharge_capacity_in_Ah",
+              "time_in_s",
+              "numpy.core.multiarray",
+              "scalar"
+            ]
+          },
+          {
+            "opcode": "STACK_GLOBAL",
+            "position": 236047,
+            "argument": null,
+            "recent_text_context": [
+              "time_in_s",
+              "numpy.core.multiarray",
+              "scalar",
+              "numpy",
+              "dtype"
+            ]
+          }
+        ],
+        "top_opcodes": [
+          [
+            "BINFLOAT",
+            47398
+          ],
+          [
+            "MEMOIZE",
+            19679
+          ],
+          [
+            "BINGET",
+            13099
+          ],
+          [
+            "REDUCE",
+            6549
+          ],
+          [
+            "SHORT_BINBYTES",
+            6548
+          ],
+          [
+            "TUPLE2",
+            6548
+          ],
+          [
+            "MARK",
+            63
+          ],
+          [
+            "APPENDS",
+            57
+          ],
+          [
+            "SHORT_BINUNICODE",
+            17
+          ],
+          [
+            "EMPTY_LIST",
+            10
+          ],
+          [
+            "FRAME",
+            9
+          ],
+          [
+            "NONE",
+            5
+          ]
+        ]
+      }
+    },
+    {
+      "cell_id": "XJTU_3C_battery-14",
+      "source_file": "XJTU/XJTU_3C_battery-14.pkl",
+      "uncompressed_MB": 48.984,
+      "compressed_MB": 9.006,
+      "exceeds_previous_128MB_limit": 0,
+      "previous_decoder_status": "BLOCKED_PICKLE_OPCODE_STACK_GLOBAL",
+      "operations_inspected": 100000,
+      "prefix_status": "OPERATION_LIMIT",
+      "stack_global_in_prefix": 2,
+      "reduce_in_prefix": 6904,
+      "static_structure": {
+        "prefix_bytes": 3145728,
+        "operations_inspected": 100000,
+        "prefix_status": "OPERATION_LIMIT",
+        "stop_seen": false,
+        "object_opcodes": {
+          "BUILD": 1,
+          "REDUCE": 6904,
+          "STACK_GLOBAL": 2
+        },
+        "referenced_global_context": [
+          {
+            "opcode": "STACK_GLOBAL",
+            "position": 248809,
+            "argument": null,
+            "recent_text_context": [
+              "charge_capacity_in_Ah",
+              "discharge_capacity_in_Ah",
+              "time_in_s",
+              "numpy.core.multiarray",
+              "scalar"
+            ]
+          },
+          {
+            "opcode": "STACK_GLOBAL",
+            "position": 248827,
+            "argument": null,
+            "recent_text_context": [
+              "time_in_s",
+              "numpy.core.multiarray",
+              "scalar",
+              "numpy",
+              "dtype"
+            ]
+          }
+        ],
+        "top_opcodes": [
+          [
+            "BINFLOAT",
+            44571
+          ],
+          [
+            "MEMOIZE",
+            20743
+          ],
+          [
+            "BINGET",
+            13808
+          ],
+          [
+            "REDUCE",
+            6904
+          ],
+          [
+            "SHORT_BINBYTES",
+            6903
+          ],
+          [
+            "TUPLE2",
+            6903
+          ],
+          [
+            "MARK",
+            58
+          ],
+          [
+            "APPENDS",
+            52
+          ],
+          [
+            "SHORT_BINUNICODE",
+            17
+          ],
+          [
+            "FRAME",
+            9
+          ],
+          [
+            "EMPTY_LIST",
+            9
+          ],
+          [
+            "NONE",
+            5
+          ]
+        ]
+      }
+    },
+    {
+      "cell_id": "XJTU_3C_battery-15",
+      "source_file": "XJTU/XJTU_3C_battery-15.pkl",
+      "uncompressed_MB": 55.745,
+      "compressed_MB": 10.27,
+      "exceeds_previous_128MB_limit": 0,
+      "previous_decoder_status": "BLOCKED_PICKLE_OPCODE_STACK_GLOBAL",
+      "operations_inspected": 100000,
+      "prefix_status": "OPERATION_LIMIT",
+      "stack_global_in_prefix": 2,
+      "reduce_in_prefix": 6911,
+      "static_structure": {
+        "prefix_bytes": 3145728,
+        "operations_inspected": 100000,
+        "prefix_status": "OPERATION_LIMIT",
+        "stop_seen": false,
+        "object_opcodes": {
+          "BUILD": 1,
+          "REDUCE": 6911,
+          "STACK_GLOBAL": 2
+        },
+        "referenced_global_context": [
+          {
+            "opcode": "STACK_GLOBAL",
+            "position": 249061,
+            "argument": null,
+            "recent_text_context": [
+              "charge_capacity_in_Ah",
+              "discharge_capacity_in_Ah",
+              "time_in_s",
+              "numpy.core.multiarray",
+              "scalar"
+            ]
+          },
+          {
+            "opcode": "STACK_GLOBAL",
+            "position": 249079,
+            "argument": null,
+            "recent_text_context": [
+              "time_in_s",
+              "numpy.core.multiarray",
+              "scalar",
+              "numpy",
+              "dtype"
+            ]
+          }
+        ],
+        "top_opcodes": [
+          [
+            "BINFLOAT",
+            44515
+          ],
+          [
+            "MEMOIZE",
+            20764
+          ],
+          [
+            "BINGET",
+            13822
+          ],
+          [
+            "REDUCE",
+            6911
+          ],
+          [
+            "SHORT_BINBYTES",
+            6910
+          ],
+          [
+            "TUPLE2",
+            6910
+          ],
+          [
+            "MARK",
+            58
+          ],
+          [
+            "APPENDS",
+            52
+          ],
+          [
+            "SHORT_BINUNICODE",
+            17
+          ],
+          [
+            "FRAME",
+            9
+          ],
+          [
+            "EMPTY_LIST",
+            9
+          ],
+          [
+            "NONE",
+            5
+          ]
+        ]
+      }
+    },
+    {
+      "cell_id": "XJTU_3C_battery-2",
+      "source_file": "XJTU/XJTU_3C_battery-2.pkl",
+      "uncompressed_MB": 97.593,
+      "compressed_MB": 18.26,
+      "exceeds_previous_128MB_limit": 0,
+      "previous_decoder_status": "BLOCKED_PICKLE_OPCODE_STACK_GLOBAL",
+      "operations_inspected": 100000,
+      "prefix_status": "OPERATION_LIMIT",
+      "stack_global_in_prefix": 2,
+      "reduce_in_prefix": 6504,
+      "static_structure": {
+        "prefix_bytes": 3145728,
+        "operations_inspected": 100000,
+        "prefix_status": "OPERATION_LIMIT",
+        "stop_seen": false,
+        "object_opcodes": {
+          "BUILD": 1,
+          "REDUCE": 6504,
+          "STACK_GLOBAL": 2
+        },
+        "referenced_global_context": [
+          {
+            "opcode": "STACK_GLOBAL",
+            "position": 234408,
+            "argument": null,
+            "recent_text_context": [
+              "charge_capacity_in_Ah",
+              "discharge_capacity_in_Ah",
+              "time_in_s",
+              "numpy.core.multiarray",
+              "scalar"
+            ]
+          },
+          {
+            "opcode": "STACK_GLOBAL",
+            "position": 234426,
+            "argument": null,
+            "recent_text_context": [
+              "time_in_s",
+              "numpy.core.multiarray",
+              "scalar",
+              "numpy",
+              "dtype"
+            ]
+          }
+        ],
+        "top_opcodes": [
+          [
+            "BINFLOAT",
+            47756
+          ],
+          [
+            "MEMOIZE",
+            19544
+          ],
+          [
+            "BINGET",
+            13009
+          ],
+          [
+            "REDUCE",
+            6504
+          ],
+          [
+            "SHORT_BINBYTES",
+            6503
+          ],
+          [
+            "TUPLE2",
+            6503
+          ],
+          [
+            "MARK",
+            64
+          ],
+          [
+            "APPENDS",
+            58
+          ],
+          [
+            "SHORT_BINUNICODE",
+            17
+          ],
+          [
+            "EMPTY_LIST",
+            10
+          ],
+          [
+            "FRAME",
+            9
+          ],
+          [
+            "NONE",
+            5
+          ]
+        ]
+      }
+    },
+    {
+      "cell_id": "XJTU_3C_battery-3",
+      "source_file": "XJTU/XJTU_3C_battery-3.pkl",
+      "uncompressed_MB": 94.121,
+      "compressed_MB": 17.655,
+      "exceeds_previous_128MB_limit": 0,
+      "previous_decoder_status": "BLOCKED_PICKLE_OPCODE_STACK_GLOBAL",
+      "operations_inspected": 100000,
+      "prefix_status": "OPERATION_LIMIT",
+      "stack_global_in_prefix": 2,
+      "reduce_in_prefix": 6394,
+      "static_structure": {
+        "prefix_bytes": 3145728,
+        "operations_inspected": 100000,
+        "prefix_status": "OPERATION_LIMIT",
+        "stop_seen": false,
+        "object_opcodes": {
+          "BUILD": 1,
+          "REDUCE": 6394,
+          "STACK_GLOBAL": 2
+        },
+        "referenced_global_context": [
+          {
+            "opcode": "STACK_GLOBAL",
+            "position": 220476,
+            "argument": null,
+            "recent_text_context": [
+              "charge_capacity_in_Ah",
+              "discharge_capacity_in_Ah",
+              "time_in_s",
+              "numpy.core.multiarray",
+              "scalar"
+            ]
+          },
+          {
+            "opcode": "STACK_GLOBAL",
+            "position": 220494,
+            "argument": null,
+            "recent_text_context": [
+              "time_in_s",
+              "numpy.core.multiarray",
+              "scalar",
+              "numpy",
+              "dtype"
+            ]
+          }
+        ],
+        "top_opcodes": [
+          [
+            "BINFLOAT",
+            48620
+          ],
+          [
+            "MEMOIZE",
+            19215
+          ],
+          [
+            "BINGET",
+            12792
+          ],
+          [
+            "REDUCE",
+            6394
+          ],
+          [
+            "SHORT_BINBYTES",
+            6394
+          ],
+          [
+            "TUPLE2",
+            6393
+          ],
+          [
+            "MARK",
+            69
+          ],
+          [
+            "APPENDS",
+            63
+          ],
+          [
+            "SHORT_BINUNICODE",
+            17
+          ],
+          [
+            "EMPTY_LIST",
+            11
+          ],
+          [
+            "FRAME",
+            9
+          ],
+          [
+            "NONE",
+            5
+          ]
+        ]
+      }
+    },
+    {
+      "cell_id": "XJTU_3C_battery-4",
+      "source_file": "XJTU/XJTU_3C_battery-4.pkl",
+      "uncompressed_MB": 104.39,
+      "compressed_MB": 19.869,
+      "exceeds_previous_128MB_limit": 0,
+      "previous_decoder_status": "BLOCKED_PICKLE_OPCODE_STACK_GLOBAL",
+      "operations_inspected": 100000,
+      "prefix_status": "OPERATION_LIMIT",
+      "stack_global_in_prefix": 2,
+      "reduce_in_prefix": 6356,
+      "static_structure": {
+        "prefix_bytes": 3145728,
+        "operations_inspected": 100000,
+        "prefix_status": "OPERATION_LIMIT",
+        "stop_seen": false,
+        "object_opcodes": {
+          "BUILD": 1,
+          "REDUCE": 6356,
+          "STACK_GLOBAL": 2
+        },
+        "referenced_global_context": [
+          {
+            "opcode": "STACK_GLOBAL",
+            "position": 222204,
+            "argument": null,
+            "recent_text_context": [
+              "charge_capacity_in_Ah",
+              "discharge_capacity_in_Ah",
+              "time_in_s",
+              "numpy.core.multiarray",
+              "scalar"
+            ]
+          },
+          {
+            "opcode": "STACK_GLOBAL",
+            "position": 222222,
+            "argument": null,
+            "recent_text_context": [
+              "time_in_s",
+              "numpy.core.multiarray",
+              "scalar",
+              "numpy",
+              "dtype"
+            ]
+          }
+        ],
+        "top_opcodes": [
+          [
+            "BINFLOAT",
+            48924
+          ],
+          [
+            "MEMOIZE",
+            19101
+          ],
+          [
+            "BINGET",
+            12716
+          ],
+          [
+            "REDUCE",
+            6356
+          ],
+          [
+            "SHORT_BINBYTES",
+            6356
+          ],
+          [
+            "TUPLE2",
+            6355
+          ],
+          [
+            "MARK",
+            69
+          ],
+          [
+            "APPENDS",
+            63
+          ],
+          [
+            "SHORT_BINUNICODE",
+            17
+          ],
+          [
+            "EMPTY_LIST",
+            11
+          ],
+          [
+            "FRAME",
+            9
+          ],
+          [
+            "NONE",
+            5
+          ]
+        ]
+      }
+    },
+    {
+      "cell_id": "XJTU_3C_battery-5",
+      "source_file": "XJTU/XJTU_3C_battery-5.pkl",
+      "uncompressed_MB": 96.957,
+      "compressed_MB": 18.391,
+      "exceeds_previous_128MB_limit": 0,
+      "previous_decoder_status": "BLOCKED_PICKLE_OPCODE_STACK_GLOBAL",
+      "operations_inspected": 100000,
+      "prefix_status": "OPERATION_LIMIT",
+      "stack_global_in_prefix": 2,
+      "reduce_in_prefix": 6297,
+      "static_structure": {
+        "prefix_bytes": 3145728,
+        "operations_inspected": 100000,
+        "prefix_status": "OPERATION_LIMIT",
+        "stop_seen": false,
+        "object_opcodes": {
+          "BUILD": 1,
+          "REDUCE": 6297,
+          "STACK_GLOBAL": 2
+        },
+        "referenced_global_context": [
+          {
+            "opcode": "STACK_GLOBAL",
+            "position": 226956,
+            "argument": null,
+            "recent_text_context": [
+              "charge_capacity_in_Ah",
+              "discharge_capacity_in_Ah",
+              "time_in_s",
+              "numpy.core.multiarray",
+              "scalar"
+            ]
+          },
+          {
+            "opcode": "STACK_GLOBAL",
+            "position": 226974,
+            "argument": null,
+            "recent_text_context": [
+              "time_in_s",
+              "numpy.core.multiarray",
+              "scalar",
+              "numpy",
+              "dtype"
+            ]
+          }
+        ],
+        "top_opcodes": [
+          [
+            "BINFLOAT",
+            49406
+          ],
+          [
+            "MEMOIZE",
+            18923
+          ],
+          [
+            "BINGET",
+            12595
+          ],
+          [
+            "REDUCE",
+            6297
+          ],
+          [
+            "SHORT_BINBYTES",
+            6296
+          ],
+          [
+            "TUPLE2",
+            6296
+          ],
+          [
+            "MARK",
+            67
+          ],
+          [
+            "APPENDS",
+            61
+          ],
+          [
+            "SHORT_BINUNICODE",
+            17
+          ],
+          [
+            "EMPTY_LIST",
+            10
+          ],
+          [
+            "FRAME",
+            9
+          ],
+          [
+            "NONE",
+            5
+          ]
+        ]
+      }
+    },
+    {
+      "cell_id": "XJTU_3C_battery-6",
+      "source_file": "XJTU/XJTU_3C_battery-6.pkl",
+      "uncompressed_MB": 106.253,
+      "compressed_MB": 19.971,
+      "exceeds_previous_128MB_limit": 0,
+      "previous_decoder_status": "BLOCKED_PICKLE_OPCODE_STACK_GLOBAL",
+      "operations_inspected": 100000,
+      "prefix_status": "OPERATION_LIMIT",
+      "stack_global_in_prefix": 2,
+      "reduce_in_prefix": 6357,
+      "static_structure": {
+        "prefix_bytes": 3145728,
+        "operations_inspected": 100000,
+        "prefix_status": "OPERATION_LIMIT",
+        "stop_seen": false,
+        "object_opcodes": {
+          "BUILD": 1,
+          "REDUCE": 6357,
+          "STACK_GLOBAL": 2
+        },
+        "referenced_global_context": [
+          {
+            "opcode": "STACK_GLOBAL",
+            "position": 229116,
+            "argument": null,
+            "recent_text_context": [
+              "charge_capacity_in_Ah",
+              "discharge_capacity_in_Ah",
+              "time_in_s",
+              "numpy.core.multiarray",
+              "scalar"
+            ]
+          },
+          {
+            "opcode": "STACK_GLOBAL",
+            "position": 229134,
+            "argument": null,
+            "recent_text_context": [
+              "time_in_s",
+              "numpy.core.multiarray",
+              "scalar",
+              "numpy",
+              "dtype"
+            ]
+          }
+        ],
+        "top_opcodes": [
+          [
+            "BINFLOAT",
+            48928
+          ],
+          [
+            "MEMOIZE",
+            19103
+          ],
+          [
+            "BINGET",
+            12715
+          ],
+          [
+            "REDUCE",
+            6357
+          ],
+          [
+            "SHORT_BINBYTES",
+            6356
+          ],
+          [
+            "TUPLE2",
+            6356
+          ],
+          [
+            "MARK",
+            66
+          ],
+          [
+            "APPENDS",
+            60
+          ],
+          [
+            "SHORT_BINUNICODE",
+            17
+          ],
+          [
+            "EMPTY_LIST",
+            10
+          ],
+          [
+            "FRAME",
+            9
+          ],
+          [
+            "NONE",
+            5
+          ]
+        ]
+      }
+    },
+    {
+      "cell_id": "XJTU_3C_battery-7",
+      "source_file": "XJTU/XJTU_3C_battery-7.pkl",
+      "uncompressed_MB": 104.562,
+      "compressed_MB": 19.478,
+      "exceeds_previous_128MB_limit": 0,
+      "previous_decoder_status": "BLOCKED_PICKLE_OPCODE_STACK_GLOBAL",
+      "operations_inspected": 100000,
+      "prefix_status": "OPERATION_LIMIT",
+      "stack_global_in_prefix": 2,
+      "reduce_in_prefix": 6336,
+      "static_structure": {
+        "prefix_bytes": 3145728,
+        "operations_inspected": 100000,
+        "prefix_status": "OPERATION_LIMIT",
+        "stop_seen": false,
+        "object_opcodes": {
+          "BUILD": 1,
+          "REDUCE": 6336,
+          "STACK_GLOBAL": 2
+        },
+        "referenced_global_context": [
+          {
+            "opcode": "STACK_GLOBAL",
+            "position": 222636,
+            "argument": null,
+            "recent_text_context": [
+              "charge_capacity_in_Ah",
+              "discharge_capacity_in_Ah",
+              "time_in_s",
+              "numpy.core.multiarray",
+              "scalar"
+            ]
+          },
+          {
+            "opcode": "STACK_GLOBAL",
+            "position": 222654,
+            "argument": null,
+            "recent_text_context": [
+              "time_in_s",
+              "numpy.core.multiarray",
+              "scalar",
+              "numpy",
+              "dtype"
+            ]
+          }
+        ],
+        "top_opcodes": [
+          [
+            "BINFLOAT",
+            49088
+          ],
+          [
+            "MEMOIZE",
+            19040
+          ],
+          [
+            "BINGET",
+            12674
+          ],
+          [
+            "REDUCE",
+            6336
+          ],
+          [
+            "SHORT_BINBYTES",
+            6335
+          ],
+          [
+            "TUPLE2",
+            6335
+          ],
+          [
+            "MARK",
+            69
+          ],
+          [
+            "APPENDS",
+            63
+          ],
+          [
+            "SHORT_BINUNICODE",
+            17
+          ],
+          [
+            "EMPTY_LIST",
+            11
+          ],
+          [
+            "FRAME",
+            9
+          ],
+          [
+            "NONE",
+            5
+          ]
+        ]
+      }
+    },
+    {
+      "cell_id": "XJTU_3C_battery-8",
+      "source_file": "XJTU/XJTU_3C_battery-8.pkl",
+      "uncompressed_MB": 89.179,
+      "compressed_MB": 16.804,
+      "exceeds_previous_128MB_limit": 0,
+      "previous_decoder_status": "BLOCKED_PICKLE_OPCODE_STACK_GLOBAL",
+      "operations_inspected": 100000,
+      "prefix_status": "OPERATION_LIMIT",
+      "stack_global_in_prefix": 2,
+      "reduce_in_prefix": 6463,
+      "static_structure": {
+        "prefix_bytes": 3145728,
+        "operations_inspected": 100000,
+        "prefix_status": "OPERATION_LIMIT",
+        "stop_seen": false,
+        "object_opcodes": {
+          "BUILD": 1,
+          "REDUCE": 6463,
+          "STACK_GLOBAL": 2
+        },
+        "referenced_global_context": [
+          {
+            "opcode": "STACK_GLOBAL",
+            "position": 232932,
+            "argument": null,
+            "recent_text_context": [
+              "charge_capacity_in_Ah",
+              "discharge_capacity_in_Ah",
+              "time_in_s",
+              "numpy.core.multiarray",
+              "scalar"
+            ]
+          },
+          {
+            "opcode": "STACK_GLOBAL",
+            "position": 232950,
+            "argument": null,
+            "recent_text_context": [
+              "time_in_s",
+              "numpy.core.multiarray",
+              "scalar",
+              "numpy",
+              "dtype"
+            ]
+          }
+        ],
+        "top_opcodes": [
+          [
+            "BINFLOAT",
+            48082
+          ],
+          [
+            "MEMOIZE",
+            19421
+          ],
+          [
+            "BINGET",
+            12927
+          ],
+          [
+            "REDUCE",
+            6463
+          ],
+          [
+            "SHORT_BINBYTES",
+            6462
+          ],
+          [
+            "TUPLE2",
+            6462
+          ],
+          [
+            "MARK",
+            65
+          ],
+          [
+            "APPENDS",
+            59
+          ],
+          [
+            "SHORT_BINUNICODE",
+            17
+          ],
+          [
+            "EMPTY_LIST",
+            10
+          ],
+          [
+            "FRAME",
+            9
+          ],
+          [
+            "NONE",
+            5
+          ]
+        ]
+      }
+    },
+    {
+      "cell_id": "XJTU_3C_battery-9",
+      "source_file": "XJTU/XJTU_3C_battery-9.pkl",
+      "uncompressed_MB": 94.178,
+      "compressed_MB": 17.285,
+      "exceeds_previous_128MB_limit": 0,
+      "previous_decoder_status": "BLOCKED_PICKLE_OPCODE_STACK_GLOBAL",
+      "operations_inspected": 100000,
+      "prefix_status": "OPERATION_LIMIT",
+      "stack_global_in_prefix": 2,
+      "reduce_in_prefix": 6601,
+      "static_structure": {
+        "prefix_bytes": 3145728,
+        "operations_inspected": 100000,
+        "prefix_status": "OPERATION_LIMIT",
+        "stop_seen": false,
+        "object_opcodes": {
+          "BUILD": 1,
+          "REDUCE": 6601,
+          "STACK_GLOBAL": 2
+        },
+        "referenced_global_context": [
+          {
+            "opcode": "STACK_GLOBAL",
+            "position": 237900,
+            "argument": null,
+            "recent_text_context": [
+              "charge_capacity_in_Ah",
+              "discharge_capacity_in_Ah",
+              "time_in_s",
+              "numpy.core.multiarray",
+              "scalar"
+            ]
+          },
+          {
+            "opcode": "STACK_GLOBAL",
+            "position": 237918,
+            "argument": null,
+            "recent_text_context": [
+              "time_in_s",
+              "numpy.core.multiarray",
+              "scalar",
+              "numpy",
+              "dtype"
+            ]
+          }
+        ],
+        "top_opcodes": [
+          [
+            "BINFLOAT",
+            46982
+          ],
+          [
+            "MEMOIZE",
+            19835
+          ],
+          [
+            "BINGET",
+            13203
+          ],
+          [
+            "REDUCE",
+            6601
+          ],
+          [
+            "SHORT_BINBYTES",
+            6600
+          ],
+          [
+            "TUPLE2",
+            6600
+          ],
+          [
+            "MARK",
+            63
+          ],
+          [
+            "APPENDS",
+            57
+          ],
+          [
+            "SHORT_BINUNICODE",
+            17
+          ],
+          [
+            "EMPTY_LIST",
+            10
+          ],
+          [
+            "FRAME",
+            9
+          ],
+          [
+            "NONE",
+            5
+          ]
+        ]
+      }
+    }
+  ],
+  "limitations": [
+    "Only the first 3 MiB per pickle was statically inspected.",
+    "Operation limit may stop inspection earlier.",
+    "Global contexts are hints, not a complete symbolic stack evaluation.",
+    "Static inspection does not establish that a pickle is safe to execute.",
+    "No pickle object was deserialized.",
+    "No capacity data were modified or reconstructed."
+  ]
+}

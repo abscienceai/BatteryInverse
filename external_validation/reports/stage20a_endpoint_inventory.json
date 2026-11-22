@@ -1,0 +1,28 @@
+{
+  "analysis": "Stage20A physical endpoint inventory",
+  "benchmark_sha256": "8bc5296425fbb0735faceb56fe1cf52c6d0292bec2e361be8870fc1626aa5c7c",
+  "rows": 567,
+  "columns": 38,
+  "datasets": 12,
+  "source_hints_present": 249,
+  "search_roots": [
+    "data",
+    "external_validation",
+    "reports/data_audits"
+  ],
+  "files_examined": 490,
+  "candidate_files": 69,
+  "candidate_rows_saved": 69,
+  "scan_truncated": false,
+  "candidate_list_truncated": false,
+  "script_candidates": 108,
+  "header_probes": 69,
+  "next_gate": "SOURCE_LINEAGE_AND_ENDPOINT_NOT_YET_VERIFIED",
+  "limitations": [
+    "File names and headers do not prove cell-level lineage.",
+    "The final-retention field is not a standardized endpoint.",
+    "First-100 features are not post-100 targets.",
+    "No target interpolation or synthetic target is used.",
+    "Only directories within the project were scanned."
+  ]
+}

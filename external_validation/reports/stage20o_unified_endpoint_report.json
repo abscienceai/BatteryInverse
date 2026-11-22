@@ -1,0 +1,117 @@
+{
+  "stage": "20O",
+  "benchmark_sha256": "8bc5296425fbb0735faceb56fe1cf52c6d0292bec2e361be8870fc1626aa5c7c",
+  "scope": "249 BatteryLife cells, not 567 full-benchmark cells",
+  "verified_source_targets": 249,
+  "no_positive_post100": 29,
+  "one_or_two_positive_post100": 1,
+  "at_least_three_positive_post100": 219,
+  "mich_nonpositive_endpoint_flags": 14,
+  "union_of_two_tested_flags": 43,
+  "without_these_two_flags": 206,
+  "q100_target_gap_no_future": {
+    "count": 29,
+    "mean": 0.008016566756103455,
+    "median": 0.00048114118999997846,
+    "maximum": 0.03970641674099995
+  },
+  "mich_positive_only_sensitivity": {
+    "count": 14,
+    "mean": 0.007617390033900536,
+    "median": 0.004968744254458618,
+    "maximum": 0.022591645353793696
+  },
+  "by_domain": {
+    "CALB": {
+      "cells": 27,
+      "no_positive_post100": 26,
+      "one_or_two_positive_post100": 0,
+      "at_least_three_positive_post100": 1,
+      "exact_cycle100_single_positive": 27,
+      "q100_target_gap_no_future": {
+        "count": 26,
+        "mean": 0.00796029690384616,
+        "median": 0.00029180059150002435,
+        "maximum": 0.03970641674099995
+      },
+      "mich_nonpositive_endpoint_flags": 0
+    },
+    "HNEI": {
+      "cells": 14,
+      "no_positive_post100": 0,
+      "one_or_two_positive_post100": 0,
+      "at_least_three_positive_post100": 14,
+      "exact_cycle100_single_positive": 14,
+      "q100_target_gap_no_future": null,
+      "mich_nonpositive_endpoint_flags": 0
+    },
+    "MICH": {
+      "cells": 40,
+      "no_positive_post100": 0,
+      "one_or_two_positive_post100": 0,
+      "at_least_three_positive_post100": 40,
+      "exact_cycle100_single_positive": 40,
+      "q100_target_gap_no_future": null,
+      "mich_nonpositive_endpoint_flags": 14
+    },
+    "MICH_EXP": {
+      "cells": 18,
+      "no_positive_post100": 0,
+      "one_or_two_positive_post100": 0,
+      "at_least_three_positive_post100": 18,
+      "exact_cycle100_single_positive": 18,
+      "q100_target_gap_no_future": null,
+      "mich_nonpositive_endpoint_flags": 0
+    },
+    "NA-ion": {
+      "cells": 64,
+      "no_positive_post100": 3,
+      "one_or_two_positive_post100": 1,
+      "at_least_three_positive_post100": 60,
+      "exact_cycle100_single_positive": 62,
+      "q100_target_gap_no_future": {
+        "count": 3,
+        "mean": 0.008504238809000012,
+        "median": 0.006137705094000023,
+        "maximum": 0.01742234281700006
+      },
+      "mich_nonpositive_endpoint_flags": 0
+    },
+    "SNL": {
+      "cells": 61,
+      "no_positive_post100": 0,
+      "one_or_two_positive_post100": 0,
+      "at_least_three_positive_post100": 61,
+      "exact_cycle100_single_positive": 61,
+      "q100_target_gap_no_future": null,
+      "mich_nonpositive_endpoint_flags": 0
+    },
+    "UL_PUR": {
+      "cells": 2,
+      "no_positive_post100": 0,
+      "one_or_two_positive_post100": 0,
+      "at_least_three_positive_post100": 2,
+      "exact_cycle100_single_positive": 2,
+      "q100_target_gap_no_future": null,
+      "mich_nonpositive_endpoint_flags": 0
+    },
+    "XJTU": {
+      "cells": 23,
+      "no_positive_post100": 0,
+      "one_or_two_positive_post100": 0,
+      "at_least_three_positive_post100": 23,
+      "exact_cycle100_single_positive": 23,
+      "q100_target_gap_no_future": null,
+      "mich_nonpositive_endpoint_flags": 0
+    }
+  },
+  "limitations": [
+    "Post-100 positive counts are an observation-coverage proxy.",
+    "Three post-100 positive records do not prove harmonized physical endpoints.",
+    "The final-three target window was not independently time-audited for every cell.",
+    "The nonpositive endpoint flag was specifically established for MICH.",
+    "Exact-cycle-100 presence is not proof of all feature extraction timestamps.",
+    "The 318 BatteryML_main cells remain outside this source audit.",
+    "No model was retrained and no original benchmark was modified."
+  ]
+}

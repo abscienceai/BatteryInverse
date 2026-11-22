@@ -1,0 +1,268 @@
+{
+  "stage": "20H",
+  "benchmark_sha256": "8bc5296425fbb0735faceb56fe1cf52c6d0292bec2e361be8870fc1626aa5c7c",
+  "scope": "249 BatteryLife_selected cells, eight datasets; 318 BatteryML_main cells not included",
+  "pilot_replay": "29 of 29 Stage20E cells matched",
+  "per_dataset": {
+    "CALB": {
+      "benchmark_cells": 27,
+      "decoded_primitives": 27,
+      "content_ids_matched": 27,
+      "valid_capacity_cells": 27,
+      "no_post100_observation": 26,
+      "with_post100_observation": 1,
+      "target_rebuild_within_1e_6": 27,
+      "nearest100_after100": 0,
+      "q100_target_gap_median_no_future": 0.00029180059150002435,
+      "exact_cycle_1": 10,
+      "exact_cycle_100": 27,
+      "exact_cycle_150": 1,
+      "exact_cycle_200": 1,
+      "exact_cycle_300": 0,
+      "blocked_or_unreadable": 0
+    },
+    "HNEI": {
+      "benchmark_cells": 14,
+      "decoded_primitives": 14,
+      "content_ids_matched": 14,
+      "valid_capacity_cells": 14,
+      "no_post100_observation": 0,
+      "with_post100_observation": 14,
+      "target_rebuild_within_1e_6": 14,
+      "nearest100_after100": 0,
+      "q100_target_gap_median_no_future": null,
+      "exact_cycle_1": 14,
+      "exact_cycle_100": 14,
+      "exact_cycle_150": 14,
+      "exact_cycle_200": 14,
+      "exact_cycle_300": 14,
+      "blocked_or_unreadable": 0
+    },
+    "MICH": {
+      "benchmark_cells": 40,
+      "decoded_primitives": 40,
+      "content_ids_matched": 40,
+      "valid_capacity_cells": 40,
+      "no_post100_observation": 0,
+      "with_post100_observation": 40,
+      "target_rebuild_within_1e_6": 26,
+      "nearest100_after100": 0,
+      "q100_target_gap_median_no_future": null,
+      "exact_cycle_1": 40,
+      "exact_cycle_100": 40,
+      "exact_cycle_150": 40,
+      "exact_cycle_200": 40,
+      "exact_cycle_300": 40,
+      "blocked_or_unreadable": 0
+    },
+    "MICH_EXP": {
+      "benchmark_cells": 18,
+      "decoded_primitives": 18,
+      "content_ids_matched": 18,
+      "valid_capacity_cells": 18,
+      "no_post100_observation": 0,
+      "with_post100_observation": 18,
+      "target_rebuild_within_1e_6": 18,
+      "nearest100_after100": 0,
+      "q100_target_gap_median_no_future": null,
+      "exact_cycle_1": 18,
+      "exact_cycle_100": 18,
+      "exact_cycle_150": 17,
+      "exact_cycle_200": 13,
+      "exact_cycle_300": 10,
+      "blocked_or_unreadable": 0
+    },
+    "NA-ion": {
+      "benchmark_cells": 64,
+      "decoded_primitives": 64,
+      "content_ids_matched": 64,
+      "valid_capacity_cells": 64,
+      "no_post100_observation": 3,
+      "with_post100_observation": 61,
+      "target_rebuild_within_1e_6": 64,
+      "nearest100_after100": 0,
+      "q100_target_gap_median_no_future": 0.006137705094000023,
+      "exact_cycle_1": 64,
+      "exact_cycle_100": 62,
+      "exact_cycle_150": 47,
+      "exact_cycle_200": 40,
+      "exact_cycle_300": 0,
+      "blocked_or_unreadable": 0
+    },
+    "SNL": {
+      "benchmark_cells": 61,
+      "decoded_primitives": 61,
+      "content_ids_matched": 61,
+      "valid_capacity_cells": 61,
+      "no_post100_observation": 0,
+      "with_post100_observation": 61,
+      "target_rebuild_within_1e_6": 61,
+      "nearest100_after100": 0,
+      "q100_target_gap_median_no_future": null,
+      "exact_cycle_1": 61,
+      "exact_cycle_100": 61,
+      "exact_cycle_150": 61,
+      "exact_cycle_200": 61,
+      "exact_cycle_300": 61,
+      "blocked_or_unreadable": 0
+    },
+    "UL_PUR": {
+      "benchmark_cells": 2,
+      "decoded_primitives": 2,
+      "content_ids_matched": 2,
+      "valid_capacity_cells": 2,
+      "no_post100_observation": 0,
+      "with_post100_observation": 2,
+      "target_rebuild_within_1e_6": 2,
+      "nearest100_after100": 0,
+      "q100_target_gap_median_no_future": null,
+      "exact_cycle_1": 2,
+      "exact_cycle_100": 2,
+      "exact_cycle_150": 2,
+      "exact_cycle_200": 1,
+      "exact_cycle_300": 0,
+      "blocked_or_unreadable": 0
+    },
+    "XJTU": {
+      "benchmark_cells": 23,
+      "decoded_primitives": 0,
+      "content_ids_matched": 0,
+      "valid_capacity_cells": 0,
+      "no_post100_observation": 0,
+      "with_post100_observation": 0,
+      "target_rebuild_within_1e_6": 0,
+      "nearest100_after100": 0,
+      "q100_target_gap_median_no_future": null,
+      "exact_cycle_1": 0,
+      "exact_cycle_100": 0,
+      "exact_cycle_150": 0,
+      "exact_cycle_200": 0,
+      "exact_cycle_300": 0,
+      "blocked_or_unreadable": 23
+    }
+  },
+  "unreadable_details": [
+    {
+      "dataset": "XJTU",
+      "cell_id": "XJTU_2C_battery-1",
+      "reason": "SKIPPED_OVERSIZED_PICKLE"
+    },
+    {
+      "dataset": "XJTU",
+      "cell_id": "XJTU_2C_battery-2",
+      "reason": "SKIPPED_OVERSIZED_PICKLE"
+    },
+    {
+      "dataset": "XJTU",
+      "cell_id": "XJTU_2C_battery-3",
+      "reason": "SKIPPED_OVERSIZED_PICKLE"
+    },
+    {
+      "dataset": "XJTU",
+      "cell_id": "XJTU_2C_battery-4",
+      "reason": "SKIPPED_OVERSIZED_PICKLE"
+    },
+    {
+      "dataset": "XJTU",
+      "cell_id": "XJTU_2C_battery-5",
+      "reason": "SKIPPED_OVERSIZED_PICKLE"
+    },
+    {
+      "dataset": "XJTU",
+      "cell_id": "XJTU_2C_battery-6",
+      "reason": "SKIPPED_OVERSIZED_PICKLE"
+    },
+    {
+      "dataset": "XJTU",
+      "cell_id": "XJTU_2C_battery-7",
+      "reason": "SKIPPED_OVERSIZED_PICKLE"
+    },
+    {
+      "dataset": "XJTU",
+      "cell_id": "XJTU_2C_battery-8",
+      "reason": "SKIPPED_OVERSIZED_PICKLE"
+    },
+    {
+      "dataset": "XJTU",
+      "cell_id": "XJTU_3C_battery-1",
+      "reason": "BLOCKED_PICKLE_OPCODE_STACK_GLOBAL"
+    },
+    {
+      "dataset": "XJTU",
+      "cell_id": "XJTU_3C_battery-10",
+      "reason": "BLOCKED_PICKLE_OPCODE_STACK_GLOBAL"
+    },
+    {
+      "dataset": "XJTU",
+      "cell_id": "XJTU_3C_battery-11",
+      "reason": "BLOCKED_PICKLE_OPCODE_STACK_GLOBAL"
+    },
+    {
+      "dataset": "XJTU",
+      "cell_id": "XJTU_3C_battery-12",
+      "reason": "BLOCKED_PICKLE_OPCODE_STACK_GLOBAL"
+    },
+    {
+      "dataset": "XJTU",
+      "cell_id": "XJTU_3C_battery-13",
+      "reason": "BLOCKED_PICKLE_OPCODE_STACK_GLOBAL"
+    },
+    {
+      "dataset": "XJTU",
+      "cell_id": "XJTU_3C_battery-14",
+      "reason": "BLOCKED_PICKLE_OPCODE_STACK_GLOBAL"
+    },
+    {
+      "dataset": "XJTU",
+      "cell_id": "XJTU_3C_battery-15",
+      "reason": "BLOCKED_PICKLE_OPCODE_STACK_GLOBAL"
+    },
+    {
+      "dataset": "XJTU",
+      "cell_id": "XJTU_3C_battery-2",
+      "reason": "BLOCKED_PICKLE_OPCODE_STACK_GLOBAL"
+    },
+    {
+      "dataset": "XJTU",
+      "cell_id": "XJTU_3C_battery-3",
+      "reason": "BLOCKED_PICKLE_OPCODE_STACK_GLOBAL"
+    },
+    {
+      "dataset": "XJTU",
+      "cell_id": "XJTU_3C_battery-4",
+      "reason": "BLOCKED_PICKLE_OPCODE_STACK_GLOBAL"
+    },
+    {
+      "dataset": "XJTU",
+      "cell_id": "XJTU_3C_battery-5",
+      "reason": "BLOCKED_PICKLE_OPCODE_STACK_GLOBAL"
+    },
+    {
+      "dataset": "XJTU",
+      "cell_id": "XJTU_3C_battery-6",
+      "reason": "BLOCKED_PICKLE_OPCODE_STACK_GLOBAL"
+    },
+    {
+      "dataset": "XJTU",
+      "cell_id": "XJTU_3C_battery-7",
+      "reason": "BLOCKED_PICKLE_OPCODE_STACK_GLOBAL"
+    },
+    {
+      "dataset": "XJTU",
+      "cell_id": "XJTU_3C_battery-8",
+      "reason": "BLOCKED_PICKLE_OPCODE_STACK_GLOBAL"
+    },
+    {
+      "dataset": "XJTU",
+      "cell_id": "XJTU_3C_battery-9",
+      "reason": "BLOCKED_PICKLE_OPCODE_STACK_GLOBAL"
+    }
+  ],
+  "limitations": [
+    "No post-100 observations means no demonstrated post-100 target horizon.",
+    "A common cycle index does not establish physical endpoint equivalence.",
+    "Restricted primitive pickle decoding was used.",
+    "No missing capacities were imputed.",
+    "No predictive models were trained."
+  ]
+}

@@ -1,0 +1,109 @@
+script_path,score,source_terms
+external_validation/scripts/stage20a_endpoint_inventory.py,12,source_file | read_pickle | read_csv | read_hdf | read_parquet | rpt | cycle | batteryml | batterylife | raw_data | source_data | .pkl | .mat | final_capacity_retention
+external_validation/scripts/stage17q_external_inference_readiness.py,8,source_file | rpt | cycle | batteryml | batterylife | .pkl | final_capacity_retention
+external_validation/scripts/stage15c3_model_external_gate.py,7,source_file | rpt | cycle | batterylife | final_capacity_retention
+external_validation/scripts/stage15b4b_endpoint_readiness.py,6,source_file | read_csv | rpt | cycle | .pkl | final_capacity_retention
+external_validation/scripts/stage17f1_cmu_segment_failure_diagnosis.py,6,source_file | rpt | cycle
+scripts/build_expanded_aging_features_with_batterylife.py,6,source_file | read_csv | cycle | batteryml | batterylife | final_capacity_retention
+external_validation/scripts/stage15b5_target_contract.py,5,rpt | cycle | raw_data | .pkl | final_capacity_retention
+external_validation/scripts/stage15c0_source_contract.py,5,rpt | cycle | batteryml | batterylife | final_capacity_retention
+external_validation/scripts/stage15c4_isu_feature_witness.py,5,source_file | cycle | batterylife | final_capacity_retention
+external_validation/scripts/stage17ac_nca_provisional_features.py,5,rpt | cycle | batteryml | batterylife
+external_validation/scripts/stage17p_cmu_evidence_seal.py,5,read_csv | rpt | cycle | batteryml | batterylife | final_capacity_retention
+scripts/build_batterylife_selected_summary.py,5,source_file | cycle | batterylife | .pkl
+external_validation/scripts/stage12_semantic_recovery.py,4,rpt | cycle | batterylife
+external_validation/scripts/stage15c5_isu_raw_feature_reconciliation.py,4,rpt | cycle | batterylife
+external_validation/scripts/stage15c5b_stream_reconcile.py,4,rpt | cycle | batterylife | .mat
+external_validation/scripts/stage15c6_isu_15_features_and_rpt_sensitivity.py,4,rpt | cycle | batterylife
+external_validation/scripts/stage15c7_isu_protocol_gate.py,4,rpt | cycle | batterylife
+external_validation/scripts/stage16b_isu_diagnostic.py,4,source_file | read_csv | batterylife | final_capacity_retention
+external_validation/scripts/stage6_capacity_provenance.py,4,rpt | cycle | batterylife | final_capacity_retention
+external_validation/scripts/stage8_data_readiness.py,4,rpt | cycle | batterylife | .pkl | .mat | final_capacity_retention
+external_validation/scripts/audit_external_schemas.py,3,rpt | cycle
+external_validation/scripts/audit_measurement_semantics.py,3,rpt | cycle
+external_validation/scripts/source_inventory.py,3,source_file | .mat
+external_validation/scripts/stage10_preflight.py,3,rpt | cycle
+external_validation/scripts/stage11_early_features.py,3,rpt | cycle | final_capacity_retention
+external_validation/scripts/stage13_integrity_gate.py,3,rpt | cycle
+external_validation/scripts/stage14_rpt_chronology.py,3,rpt | cycle
+external_validation/scripts/stage15a_v5_alignment.py,3,rpt | cycle
+external_validation/scripts/stage15a_v6_prospective_rpt.py,3,rpt | cycle
+external_validation/scripts/stage15a_v7_cohorts.py,3,rpt | cycle
+external_validation/scripts/stage15b1_cmu_physical_qc.py,3,rpt | cycle
+external_validation/scripts/stage15b2a_cmu_profile_gate.py,3,rpt | cycle | source_data
+external_validation/scripts/stage15b2b_cmu_special_boundaries.py,3,rpt | cycle
+external_validation/scripts/stage15b3a_cmu_subtests.py,3,rpt | cycle
+external_validation/scripts/stage15b3b_cmu_provenance.py,3,rpt | cycle
+external_validation/scripts/stage15b4a_capacity_trajectory_audit.py,3,rpt | cycle | source_data
+external_validation/scripts/stage15c1_origin_and_formula.py,3,read_csv | cycle | batteryml | batterylife | final_capacity_retention
+external_validation/scripts/stage16a_isu_exploratory_transfer.py,3,read_csv | rpt | batterylife | final_capacity_retention
+external_validation/scripts/stage16c_isu_horizon.py,3,read_csv | rpt | batterylife
+external_validation/scripts/stage16d_isu_horizon_freeze.py,3,read_csv | rpt | batterylife
+external_validation/scripts/stage17a_cmu_mission_boundary_gate.py,3,rpt | cycle
+external_validation/scripts/stage17ad_freeze_recipe_and_fade_audit.py,3,cycle | batteryml | batterylife | final_capacity_retention
+external_validation/scripts/stage17ae_nca_preoutcome_frozen_inference.py,3,read_csv | cycle | batteryml | batterylife | final_capacity_retention
+external_validation/scripts/stage17b_cmu_mission_rpt_alignment.py,3,rpt | cycle
+external_validation/scripts/stage17c_cmu_counter_rpt_audit.pre_column_fix.py,3,rpt | cycle
+external_validation/scripts/stage17c_cmu_counter_rpt_audit.py,3,rpt | cycle
+external_validation/scripts/stage17d_cmu_early_telemetry_registry.py,3,rpt | cycle
+external_validation/scripts/stage17e_cmu_rpt_protocol_evidence.py,3,rpt | cycle
+external_validation/scripts/stage17f_cmu_c5_segment_consistency.py,3,rpt | cycle
+external_validation/scripts/stage17g_cmu_rpt_reassemble.py,3,rpt | cycle
+external_validation/scripts/stage17r_isu_existing_predictions_audit.py,3,read_csv | rpt | batterylife | final_capacity_retention
+external_validation/scripts/stage17t_external_target_shift.py,3,rpt | batterylife | final_capacity_retention
+external_validation/scripts/stage17u_endpoint_contract.py,3,rpt | batterylife | final_capacity_retention
+external_validation/scripts/stage17u_endpoint_contract_v2.py,3,rpt | batterylife | final_capacity_retention
+external_validation/scripts/stage17w_original_target_contract.py,3,rpt | batterylife
+external_validation/scripts/stage17x_endpoint_root_audit.py,3,cycle | batteryml | batterylife | final_capacity_retention
+external_validation/scripts/stage17x_v2.py,3,cycle | batteryml | batterylife | final_capacity_retention
+external_validation/scripts/stage9_source_coverage.py,3,rpt | cycle
+scripts/expanded_cross_source_transfer_analysis.py,3,read_csv | cycle | batteryml | batterylife | final_capacity_retention
+scripts/expanded_transfer_gap_feature_family_analysis.py,3,read_csv | cycle | batteryml | batterylife | final_capacity_retention
+external_validation/scripts/stage15a_isu_full_chronology.py,2,rpt
+external_validation/scripts/stage15a_v2_isu_full_chronology.py,2,rpt
+external_validation/scripts/stage15a_v3_diagnostic.py,2,rpt
+external_validation/scripts/stage15a_v4_events.py,2,rpt
+external_validation/scripts/stage15b0_readiness.py,2,rpt
+external_validation/scripts/stage17aa_nca_preinference_gate.py,2,read_csv | cycle | batterylife
+external_validation/scripts/stage17ab_nca_feature_contract.py,2,read_csv | cycle | batterylife | final_capacity_retention
+external_validation/scripts/stage17af_nca_locked_external_scoring.py,2,cycle | batterylife
+external_validation/scripts/stage17ak_sign_harmonization_ablation.py,2,read_csv | batteryml | batterylife | final_capacity_retention
+external_validation/scripts/stage17al_sixfeature_redundancy_control.py,2,read_csv | batteryml | batterylife | final_capacity_retention
+external_validation/scripts/stage17am_lock_and_synthesis.py,2,batteryml | batterylife
+external_validation/scripts/stage17am_lock_and_synthesis_v2.py,2,batteryml | batterylife
+external_validation/scripts/stage17an_aggregation_influence_audit.py,2,batteryml | batterylife
+external_validation/scripts/stage17h_cmu_early_rpt_target_audit.py,2,rpt
+external_validation/scripts/stage17i_cmu_multihorizon_leakage_gate.py,2,read_csv | rpt
+external_validation/scripts/stage17j_cmu_exploratory_loocv.py,2,rpt
+external_validation/scripts/stage17k_cmu_null_influence.py,2,rpt
+external_validation/scripts/stage17l_cmu_protocol_holdout.py,2,rpt
+external_validation/scripts/stage17m_cmu_family_collapse_forensics.py,2,rpt
+external_validation/scripts/stage17n_cmu_robustness_counterfactual.py,2,rpt
+external_validation/scripts/stage17v_label_lineage.py,2,read_csv | cycle | batterylife | final_capacity_retention
+external_validation/scripts/stage17z_nca_raw_cycle_screen.py,2,cycle | batterylife
+external_validation/scripts/stage18_harmonization_separability_audit.py,2,read_csv | batteryml | batterylife | source_data
+external_validation/scripts/stage7_download_sources.py,2,rpt | .mat
+scripts/batteryinverse_gtci_conformal_active_v0.py,2,read_csv | cycle | batterylife | final_capacity_retention
+scripts/batteryinverse_gtci_v2_fold_safe.py,2,read_csv | cycle | batterylife | final_capacity_retention
+scripts/batteryinverse_net_confoundadam_v1_stability.py,2,read_csv | cycle | batterylife | final_capacity_retention
+scripts/canonical_domain_generalization_baselines_v2_stable.py,2,read_csv | cycle | batterylife | source_data | final_capacity_retention
+scripts/expanded_dataset_separability_analysis.py,2,read_csv | cycle | batterylife
+scripts/expanded_deconfounded_transfer_analysis.py,2,read_csv | cycle | batterylife | final_capacity_retention
+scripts/expanded_explicit_prior_baseline_analysis.py,2,read_csv | cycle | batterylife | final_capacity_retention
+scripts/expanded_model_family_robustness.py,2,read_csv | cycle | batterylife | final_capacity_retention
+scripts/expanded_negative_control_shuffle_analysis.py,2,read_csv | cycle | batterylife | final_capacity_retention
+scripts/expanded_random_split_vs_lodo_inflation.py,2,read_csv | cycle | batterylife | final_capacity_retention
+external_validation/scripts/stage17ag_nca_stopping_horizon_audit.py,1,read_csv | cycle
+external_validation/scripts/stage17ah_nca_absolute_termination_audit.py,1,read_csv | cycle
+external_validation/scripts/stage17ai_nca_nominal_floor_decomposition.py,1,cycle | source_data
+external_validation/scripts/stage17aj_nca_endpoint_visual_evidence.py,1,cycle
+external_validation/scripts/stage17aj_plotonly_v2.py,1,cycle
+external_validation/scripts/stage17s_replay.py,1,read_csv | batterylife | final_capacity_retention
+external_validation/scripts/stage17s_replay_v2.py,1,read_csv | batterylife | final_capacity_retention
+external_validation/scripts/stage17s_replay_v3.py,1,read_csv | batterylife | final_capacity_retention
+external_validation/scripts/stage17y_tongji_nca_inventory.py,1,batterylife
+external_validation/scripts/stage19_featureblock_swap.py,1,read_csv | batterylife | final_capacity_retention
+scripts/verify_repository.py,1,read_csv | batterylife | final_capacity_retention
+external_validation/scripts/download_pilot.py,0,.mat
+scripts/cross_domain_moleculenet_esol_audit_v1.py,0,read_csv
+scripts/expanded_deconfounded_bootstrap_summary.py,0,read_csv

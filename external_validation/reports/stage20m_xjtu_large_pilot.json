@@ -1,0 +1,36 @@
+{
+  "stage": "20M",
+  "cell": "XJTU_2C_battery-1",
+  "benchmark_verified": true,
+  "archive_verified": true,
+  "result": {
+    "status": "SUCCESS",
+    "static_gate": {
+      "static_operations": 32171901,
+      "stack_global_opcodes": 2
+    },
+    "measurement": {
+      "cell_id": "XJTU_2C_battery-1",
+      "source_identity_verified": true,
+      "cycle_records": 389,
+      "finite_capacity_records": 389,
+      "positive_capacity_records": 389,
+      "nonpositive_capacity_records": 0,
+      "invalid_cycle_records": 0,
+      "first_observed_cycle": 1,
+      "last_observed_cycle": 389,
+      "post100_positive_records": 289,
+      "exact_cycle100_positive": 1,
+      "exact_cycle200_positive": 1,
+      "exact_cycle300_positive": 1,
+      "target_reconstructed": 0.8748002131060202,
+      "benchmark_target": 0.874800213106,
+      "target_abs_difference": 2.020605904817785e-14,
+      "target_match_1e6": true
+    },
+    "opcode_limit": 120000000,
+    "memory_limit_gib": 5
+  },
+  "models_retrained": false,
+  "benchmark_modified": false
+}
