@@ -1,0 +1,18 @@
+{
+  "stage": "21C",
+  "status": "PAIRED_DOMAIN_AUDIT_VERIFIED",
+  "stage21b_prediction_sha256": "1dd4f9a46f313ae3dbf4aef2e2a70c3d34eb093451073467433865a146cb0418",
+  "stage20r_prediction_sha256": "bd39e7daeb46e1a4330ea8b86b94b4d6e19d7f3f60aae58869316bd562aacaab",
+  "historical_cell_replay_max_prediction_drift": 0.0,
+  "historical_cell_replay_max_target_drift": 0.0,
+  "domain_diagnostic_rows": 80,
+  "summary_rows": 8,
+  "methodological_limits": [
+    "Source-family label is known at evaluation time.",
+    "Models are not refitted in this Stage21C audit.",
+    "Domain-wise rank correlation requires adequate variation and at least five cells.",
+    "Centered MAE is retrospective because it uses held-out target means.",
+    "Any restoration of accuracy is a controlled performance association, not an identified causal effect.",
+    "The audited 205-cell BatteryLife cohort is not a physically standardized benchmark."
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "stage": "21A",
+  "benchmark_sha256": "8bc5296425fbb0735faceb56fe1cf52c6d0292bec2e361be8870fc1626aa5c7c",
+  "model_features": [
+    "cap_ratio_10_to_1",
+    "cap_ratio_50_to_1",
+    "cap_ratio_100_to_1",
+    "cap_mean_first_100_norm",
+    "cap_std_first_100_norm",
+    "cap_slope_first_100_norm",
+    "cap_fade_fraction_1_to_100"
+  ],
+  "fade_column": "cap_fade_1_to_100_norm",
+  "max_formula_error": 5.810035178660522e-12,
+  "ratio_checks": {
+    "cap_cycle_100_norm": 0.0,
+    "cap_ratio_100_to_1": 0.0
+  },
+  "nonambiguous_cells": 560,
+  "family_recovered": 560,
+  "ratio_near_one_cells": 7,
+  "interpretation": "Feature algebra and training-only source-family prior; no model trained. Known-family assumption; not unseen-family generalization or causal evidence."
+}

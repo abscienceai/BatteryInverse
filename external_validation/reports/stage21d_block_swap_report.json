@@ -1,0 +1,24 @@
+{
+  "stage": "21D",
+  "status": "MATCHED_BLOCK_SWAP_VERIFIED",
+  "prediction_sha256": "1dd4f9a46f313ae3dbf4aef2e2a70c3d34eb093451073467433865a146cb0418",
+  "stage21b_summary_sha256": "b2b20529fa405c4f082043e38433c68940487f03d0b6185eb70a9bade8a91941",
+  "seed": 20261122,
+  "permutations_per_domain": 100,
+  "scope": "Within-domain complete-feature-block swap via mathematically equivalent prediction reassignment for fixed row-wise estimators",
+  "summary_rows": 40,
+  "domain_rows": 400,
+  "draw_rows": 4000,
+  "limitations": [
+    "No model was fitted or altered in Stage21D.",
+    "Target outcomes remain fixed.",
+    "Permutation indices are shared across variants and models within each domain and evaluation policy.",
+    "Quality-filtered cohorts are permuted only among retained evaluation cells.",
+    "Prediction reassignment is equivalent to full-block feature permutation for fixed row-wise inference.",
+    "Family-only prediction invariance is a negative control.",
+    "Repeated permutations are not independent physical experiments.",
+    "Permutation percentiles are not population confidence intervals.",
+    "The procedure tests within-domain cell-prediction alignment, not causal feature importance or prospective transfer.",
+    "Small evaluation domains have limited permutation resolution."
+  ]
+}

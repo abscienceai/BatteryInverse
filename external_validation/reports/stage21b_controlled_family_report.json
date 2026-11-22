@@ -1,0 +1,211 @@
+{
+  "stage": "21B",
+  "status": "CONTROLLED_REPRESENTATION_LODO_COMPLETE",
+  "benchmark_sha256": "8bc5296425fbb0735faceb56fe1cf52c6d0292bec2e361be8870fc1626aa5c7c",
+  "quality_flags_sha256": "8f1c55ac4012eaaba4c1e839fdea98b90046dadbdc96bd5c795b3d9b2f58f030",
+  "historical_script_sha256": "380c4ec2f19c42b880a5988231e5921c36062b4c9ad7dd43ca2cc37e41ba2263",
+  "sklearn_version": "1.8.0",
+  "actual_fade_feature": "cap_fade_fraction_1_to_100",
+  "actual_fade_formula_max_abs_error": 5.810035178660522e-12,
+  "feature_variants": {
+    "original7": [
+      "cap_ratio_10_to_1",
+      "cap_ratio_50_to_1",
+      "cap_ratio_100_to_1",
+      "cap_mean_first_100_norm",
+      "cap_std_first_100_norm",
+      "cap_slope_first_100_norm",
+      "cap_fade_fraction_1_to_100"
+    ],
+    "harmonized7": [
+      "cap_ratio_10_to_1",
+      "cap_ratio_50_to_1",
+      "cap_ratio_100_to_1",
+      "cap_mean_first_100_norm",
+      "cap_std_first_100_norm",
+      "cap_slope_first_100_norm",
+      "cap_fade_fraction_1_to_100"
+    ],
+    "no_fade6": [
+      "cap_ratio_10_to_1",
+      "cap_ratio_50_to_1",
+      "cap_ratio_100_to_1",
+      "cap_mean_first_100_norm",
+      "cap_std_first_100_norm",
+      "cap_slope_first_100_norm"
+    ],
+    "harmonized7_plus_family": [
+      "cap_ratio_10_to_1",
+      "cap_ratio_50_to_1",
+      "cap_ratio_100_to_1",
+      "cap_mean_first_100_norm",
+      "cap_std_first_100_norm",
+      "cap_slope_first_100_norm",
+      "cap_fade_fraction_1_to_100",
+      "source_family_binary_EXPLICIT"
+    ],
+    "family_only": [
+      "source_family_binary_EXPLICIT"
+    ]
+  },
+  "historical_replay_checks": [
+    {
+      "domain": "CALB",
+      "model": "RF",
+      "model_mae_difference": 0.0,
+      "prior_mae_difference": 0.0
+    },
+    {
+      "domain": "CALB",
+      "model": "ET",
+      "model_mae_difference": 0.0,
+      "prior_mae_difference": 0.0
+    },
+    {
+      "domain": "CALCE",
+      "model": "RF",
+      "model_mae_difference": 0.0,
+      "prior_mae_difference": 0.0
+    },
+    {
+      "domain": "CALCE",
+      "model": "ET",
+      "model_mae_difference": 0.0,
+      "prior_mae_difference": 0.0
+    },
+    {
+      "domain": "HNEI",
+      "model": "RF",
+      "model_mae_difference": 0.0,
+      "prior_mae_difference": 0.0
+    },
+    {
+      "domain": "HNEI",
+      "model": "ET",
+      "model_mae_difference": 0.0,
+      "prior_mae_difference": 0.0
+    },
+    {
+      "domain": "HUST",
+      "model": "RF",
+      "model_mae_difference": 0.0,
+      "prior_mae_difference": 0.0
+    },
+    {
+      "domain": "HUST",
+      "model": "ET",
+      "model_mae_difference": 0.0,
+      "prior_mae_difference": 0.0
+    },
+    {
+      "domain": "MATR",
+      "model": "RF",
+      "model_mae_difference": 0.0,
+      "prior_mae_difference": 0.0
+    },
+    {
+      "domain": "MATR",
+      "model": "ET",
+      "model_mae_difference": 0.0,
+      "prior_mae_difference": 0.0
+    },
+    {
+      "domain": "MICH",
+      "model": "RF",
+      "model_mae_difference": 0.0,
+      "prior_mae_difference": 0.0
+    },
+    {
+      "domain": "MICH",
+      "model": "ET",
+      "model_mae_difference": 0.0,
+      "prior_mae_difference": 0.0
+    },
+    {
+      "domain": "MICH_EXP",
+      "model": "RF",
+      "model_mae_difference": 0.0,
+      "prior_mae_difference": 0.0
+    },
+    {
+      "domain": "MICH_EXP",
+      "model": "ET",
+      "model_mae_difference": 0.0,
+      "prior_mae_difference": 0.0
+    },
+    {
+      "domain": "NA-ion",
+      "model": "RF",
+      "model_mae_difference": 0.0,
+      "prior_mae_difference": 0.0
+    },
+    {
+      "domain": "NA-ion",
+      "model": "ET",
+      "model_mae_difference": 0.0,
+      "prior_mae_difference": 0.0
+    },
+    {
+      "domain": "RWTH",
+      "model": "RF",
+      "model_mae_difference": 0.0,
+      "prior_mae_difference": 0.0
+    },
+    {
+      "domain": "RWTH",
+      "model": "ET",
+      "model_mae_difference": 0.0,
+      "prior_mae_difference": 0.0
+    },
+    {
+      "domain": "SNL",
+      "model": "RF",
+      "model_mae_difference": 0.0,
+      "prior_mae_difference": 0.0
+    },
+    {
+      "domain": "SNL",
+      "model": "ET",
+      "model_mae_difference": 0.0,
+      "prior_mae_difference": 0.0
+    },
+    {
+      "domain": "UL_PUR",
+      "model": "RF",
+      "model_mae_difference": 0.0,
+      "prior_mae_difference": 0.0
+    },
+    {
+      "domain": "UL_PUR",
+      "model": "ET",
+      "model_mae_difference": 0.0,
+      "prior_mae_difference": 0.0
+    },
+    {
+      "domain": "XJTU",
+      "model": "RF",
+      "model_mae_difference": 0.0,
+      "prior_mae_difference": 0.0
+    },
+    {
+      "domain": "XJTU",
+      "model": "ET",
+      "model_mae_difference": 0.0,
+      "prior_mae_difference": 0.0
+    }
+  ],
+  "max_historical_model_mae_difference": 0.0,
+  "max_historical_prior_mae_difference": 0.0,
+  "prediction_rows": 5670,
+  "limitations": [
+    "Five representation controls were evaluated using matched 12-dataset LODO folds.",
+    "The actual original model fade column was audited.",
+    "Source-family labels were known for the held-out datasets.",
+    "No held-out target was used to construct the two training-only median priors.",
+    "All models were fitted under the historical recipe.",
+    "Quality filtering changed scoring membership, not model training.",
+    "Centered MAE uses held-out outcome means and is retrospective only.",
+    "Spearman is undefined or omitted for very small or constant-prediction domains.",
+    "The observed changes do not alone prove causal reliance on a processing artifact."
+  ]
+}
